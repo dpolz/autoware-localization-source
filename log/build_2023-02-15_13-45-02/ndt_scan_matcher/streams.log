@@ -1,0 +1,156 @@
+[0.041s] Invoking command in '/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/ndt_scan_matcher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ndt_scan_matcher
+[0.113s] -- The C compiler identification is GNU 11.3.0
+[0.186s] -- The CXX compiler identification is GNU 11.3.0
+[0.195s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.452s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.455s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.732s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.824s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.087s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.098s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.114s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.603s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.607s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.724s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.667s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.668s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.668s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.990s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.006s] -- Checking for module 'eigen3'
+[4.017s] --   Found eigen3, version 3.4.0
+[4.041s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.041s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.066s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.112s] -- Checking for module 'libusb-1.0'
+[4.123s] --   Found libusb-1.0, version 1.0.25
+[4.148s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.150s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.150s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.195s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.195s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.195s] ** WARNING ** io features related to pcap will be disabled
+[4.196s] ** WARNING ** io features related to png will be disabled
+[4.235s] -- Looking for pthread.h
+[4.298s] -- Looking for pthread.h - found
+[4.298s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.366s] -- Found Threads: TRUE  
+[4.368s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[4.376s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[4.540s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[4.540s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[4.543s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[4.555s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.574s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[4.585s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[4.669s] -- Found X11: /usr/include   
+[4.670s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.739s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.739s] -- Looking for gethostbyname
+[4.804s] -- Looking for gethostbyname - found
+[4.804s] -- Looking for connect
+[4.867s] -- Looking for connect - found
+[4.867s] -- Looking for remove
+[4.929s] -- Looking for remove - found
+[4.929s] -- Looking for shmat
+[4.992s] -- Looking for shmat - found
+[4.992s] -- Looking for IceConnectionNumber in ICE
+[5.052s] -- Looking for IceConnectionNumber in ICE - found
+[5.125s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[5.128s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[5.131s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[5.133s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[5.149s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[5.154s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[5.159s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[5.164s] -- Found utf8cpp: /usr/include/utf8cpp  
+[5.197s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.213s] -- Checking for module 'flann'
+[5.224s] --   Found flann, version 1.9.1
+[5.260s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.260s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.627s] -- looking for PCL_COMMON
+[5.628s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.629s] -- looking for PCL_OCTREE
+[5.629s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.630s] -- looking for PCL_IO
+[5.630s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.631s] -- looking for PCL_KDTREE
+[5.632s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.632s] -- looking for PCL_SEARCH
+[5.633s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.633s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.634s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.634s] -- looking for PCL_FILTERS
+[5.635s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.635s] -- looking for PCL_2D
+[5.635s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.636s] -- looking for PCL_FEATURES
+[5.636s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.637s] -- looking for PCL_REGISTRATION
+[5.638s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.639s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_registration;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  
+[7.603s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.604s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/localization/ndt_scan_matcher/include
+[7.604s] -- Configured cppcheck exclude dirs and/or files: 
+[7.609s] -- Configuring done
+[7.729s] -- Generating done
+[7.733s] -- Build files have been written to: /autoware/build/ndt_scan_matcher
+[7.760s] Invoked command in '/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/ndt_scan_matcher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ndt_scan_matcher
+[7.761s] Invoking command in '/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/ndt_scan_matcher -- -j64 -l64
+[7.824s] [ 22%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/debug.cpp.o
+[7.824s] [ 22%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/ndt_scan_matcher_node.cpp.o
+[7.826s] [ 33%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/pose_array_interpolator.cpp.o
+[7.827s] [ 55%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/util_func.cpp.o
+[7.828s] [ 55%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/map_module.cpp.o
+[7.828s] [ 66%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/ndt_scan_matcher_core.cpp.o
+[7.828s] [ 88%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/tf2_listener_module.cpp.o
+[7.829s] [ 88%] Building CXX object CMakeFiles/ndt_scan_matcher.dir/src/pose_initialization_module.cpp.o
+[43.237s] [100%] Linking CXX executable ndt_scan_matcher
+[43.979s] [100%] Built target ndt_scan_matcher
+[43.991s] Invoked command in '/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/ndt_scan_matcher -- -j64 -l64
+[44.034s] Invoking command in '/autoware/build/ndt_scan_matcher': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/ndt_scan_matcher
+[44.045s] -- Install configuration: "Release"
+[44.046s] -- Execute custom install script
+[44.047s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/debug.hpp
+[44.055s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/map_module.hpp
+[44.065s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/matrix_type.hpp
+[44.077s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/ndt_scan_matcher_core.hpp
+[44.091s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/particle.hpp
+[44.100s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/pose_array_interpolator.hpp
+[44.107s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/pose_initialization_module.hpp
+[44.114s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/tf2_listener_module.hpp
+[44.147s] -- Symlinking: /autoware/install/ndt_scan_matcher/include/ndt_scan_matcher/util_func.hpp
+[44.148s] -- Symlinking: /autoware/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher
+[44.148s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/launch/ndt_scan_matcher.launch.xml
+[44.148s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/config/ndt_scan_matcher.param.yaml
+[44.155s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ndt_scan_matcher
+[44.171s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ndt_scan_matcher
+[44.216s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/ament_prefix_path.sh
+[44.216s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/ament_prefix_path.dsv
+[44.216s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/path.sh
+[44.216s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/environment/path.dsv
+[44.216s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.bash
+[44.219s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.sh
+[44.226s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.zsh
+[44.233s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/local_setup.dsv
+[44.239s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/package.dsv
+[44.249s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ament_index/resource_index/packages/ndt_scan_matcher
+[44.258s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.265s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.273s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ndt_scan_matcherConfig.cmake
+[44.284s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/cmake/ndt_scan_matcherConfig-version.cmake
+[44.297s] -- Symlinking: /autoware/install/ndt_scan_matcher/share/ndt_scan_matcher/package.xml
+[44.319s] Invoked command in '/autoware/build/ndt_scan_matcher' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_localization_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/ndt_omp:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_localization_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/ndt_omp/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/ndt_scan_matcher

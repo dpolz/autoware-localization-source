@@ -1,0 +1,1 @@
+/autoware/build/shape_estimation/ament_cmake_core/shape_estimationConfig-version.cmake

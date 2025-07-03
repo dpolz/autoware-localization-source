@@ -1,0 +1,90 @@
+[0.098s] Invoking command in '/autoware/build/ekf_localizer': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/kalman_filter/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/ekf_localizer -- -j64 -l64
+[0.127s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.127s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.385s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.645s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.201s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.202s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.371s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.591s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.690s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.799s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.905s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.047s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.051s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.052s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/localization/ekf_localizer/include
+[9.052s] -- Configured cppcheck exclude dirs and/or files: 
+[9.053s] -- Added test 'lint_cmake' to check CMake code style
+[9.053s] -- Added test 'xmllint' to check XML markup files
+[9.060s] -- Configuring done
+[9.298s] -- Generating done
+[9.301s] -- Build files have been written to: /autoware/build/ekf_localizer
+[9.334s] Consolidate compiler generated dependencies of target gtest_main
+[9.334s] Consolidate compiler generated dependencies of target gtest
+[9.345s] [ 10%] Built target gtest_main
+[9.347s] [ 20%] Built target gtest
+[9.348s] Consolidate compiler generated dependencies of target ekf_localizer_lib
+[9.368s] [ 25%] Building CXX object CMakeFiles/ekf_localizer_lib.dir/src/ekf_localizer.cpp.o
+[34.346s] [ 30%] Linking CXX shared library libekf_localizer_lib.so
+[34.601s] [ 50%] Built target ekf_localizer_lib
+[34.615s] Consolidate compiler generated dependencies of target test_state_transition
+[34.615s] Consolidate compiler generated dependencies of target test_mahalanobis
+[34.616s] Consolidate compiler generated dependencies of target test_numeric
+[34.617s] Consolidate compiler generated dependencies of target test_measurement
+[34.624s] Consolidate compiler generated dependencies of target ekf_localizer
+[34.628s] [ 55%] Linking CXX executable test_state_transition
+[34.630s] [ 65%] Linking CXX executable test_mahalanobis
+[34.630s] [ 65%] Linking CXX executable test_measurement
+[34.630s] [ 70%] Linking CXX executable test_numeric
+[34.644s] [ 75%] Building CXX object CMakeFiles/ekf_localizer.dir/src/ekf_localizer_node.cpp.o
+[34.814s] [ 80%] Built target test_measurement
+[34.816s] [ 85%] Built target test_state_transition
+[34.822s] [ 90%] Built target test_mahalanobis
+[35.533s] [ 95%] Built target test_numeric
+[40.623s] [100%] Linking CXX executable ekf_localizer
+[40.875s] [100%] Built target ekf_localizer
+[40.883s] Invoked command in '/autoware/build/ekf_localizer' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/kalman_filter/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/ekf_localizer -- -j64 -l64
+[40.912s] Invoking command in '/autoware/build/ekf_localizer': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/kalman_filter/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/ekf_localizer
+[40.917s] -- Install configuration: "Release"
+[40.918s] -- Execute custom install script
+[40.918s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/covariance.hpp
+[40.918s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/ekf_localizer.hpp
+[40.918s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/hyper_parameters.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/mahalanobis.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/matrix_types.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/measurement.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/numeric.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/state_index.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/state_transition.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/include/ekf_localizer/warning.hpp
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/library_path.sh
+[40.919s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/library_path.dsv
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/lib/libekf_localizer_lib.so
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/lib/ekf_localizer/ekf_localizer
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/launch/ekf_localizer.launch.xml
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ament_index/resource_index/package_run_dependencies/ekf_localizer
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ament_index/resource_index/parent_prefix_path/ekf_localizer
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/ament_prefix_path.sh
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/ament_prefix_path.dsv
+[40.920s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/path.sh
+[40.921s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/environment/path.dsv
+[40.921s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/local_setup.bash
+[40.921s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/local_setup.sh
+[40.921s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/local_setup.zsh
+[40.921s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/local_setup.dsv
+[40.921s] -- Symlinking: /autoware/install/ekf_localizer/share/ekf_localizer/package.dsv
+[40.927s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ament_index/resource_index/packages/ekf_localizer
+[40.927s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.927s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.927s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/cmake/ament_cmake_export_libraries-extras.cmake
+[40.928s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/cmake/ekf_localizerConfig.cmake
+[40.928s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/cmake/ekf_localizerConfig-version.cmake
+[40.928s] -- Up-to-date symlink: /autoware/install/ekf_localizer/share/ekf_localizer/package.xml
+[40.935s] Invoked command in '/autoware/build/ekf_localizer' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/kalman_filter:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/kalman_filter/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/ekf_localizer

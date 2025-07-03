@@ -1,0 +1,1 @@
+/autoware/build/tier4_system_msgs/rosidl_cmake/srv/ChangeAutowareControl_Request.msg

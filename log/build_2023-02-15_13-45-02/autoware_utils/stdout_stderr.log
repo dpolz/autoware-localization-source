@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/autoware_utils
+[  8%] Building CXX object CMakeFiles/autoware_utils.dir/src/autoware_utils.cpp.o
+[ 16%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 25%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 33%] Linking CXX shared library libautoware_utils.so
+[ 33%] Built target autoware_utils
+[ 41%] Linking CXX static library libgtest_main.a
+[ 41%] Built target gtest_main
+[ 50%] Linking CXX static library libgtest.a
+[ 50%] Built target gtest
+[ 58%] Building CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_constants.cpp.o
+[ 66%] Building CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_unit_conversion.cpp.o
+[ 75%] Building CXX object CMakeFiles/test_autoware_utils.dir/test/src/test_autoware_utils.cpp.o
+[ 83%] Building CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_range.cpp.o
+[ 91%] Building CXX object CMakeFiles/test_autoware_utils.dir/test/src/math/test_normalization.cpp.o
+[100%] Linking CXX executable test_autoware_utils
+[100%] Built target test_autoware_utils
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/autoware_utils/include/autoware_utils/autoware_utils.hpp
+-- Symlinking: /autoware/install/autoware_utils/include/autoware_utils/math/constants.hpp
+-- Symlinking: /autoware/install/autoware_utils/include/autoware_utils/math/normalization.hpp
+-- Symlinking: /autoware/install/autoware_utils/include/autoware_utils/math/range.hpp
+-- Symlinking: /autoware/install/autoware_utils/include/autoware_utils/math/unit_conversion.hpp
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/library_path.sh
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/library_path.dsv
+-- Symlinking: /autoware/install/autoware_utils/lib/libautoware_utils.so
+-- Symlinking: /autoware/install/autoware_utils/share/ament_index/resource_index/package_run_dependencies/autoware_utils
+-- Symlinking: /autoware/install/autoware_utils/share/ament_index/resource_index/parent_prefix_path/autoware_utils
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/path.sh
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/environment/path.dsv
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/local_setup.bash
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/local_setup.sh
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/local_setup.zsh
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/local_setup.dsv
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/package.dsv
+-- Symlinking: /autoware/install/autoware_utils/share/ament_index/resource_index/packages/autoware_utils
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/cmake/autoware_utilsConfig.cmake
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/cmake/autoware_utilsConfig-version.cmake
+-- Symlinking: /autoware/install/autoware_utils/share/autoware_utils/package.xml

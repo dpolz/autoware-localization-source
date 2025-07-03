@@ -1,0 +1,1 @@
+/autoware/build/tier4_rtc_msgs/rosidl_cmake/srv/AutoModeWithModule_Request.msg

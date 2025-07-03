@@ -1,0 +1,75 @@
+[0.063s] Invoking command in '/autoware/build/mrm_comfortable_stop_operator': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/mrm_comfortable_stop_operator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/mrm_comfortable_stop_operator
+[0.128s] -- The C compiler identification is GNU 11.3.0
+[0.181s] -- The CXX compiler identification is GNU 11.3.0
+[0.190s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.350s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.755s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.761s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.045s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.048s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.144s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.180s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.831s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.854s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/system/mrm_comfortable_stop_operator/include
+[1.854s] -- Configured cppcheck exclude dirs and/or files: 
+[1.855s] -- Added test 'lint_cmake' to check CMake code style
+[1.855s] -- Added test 'xmllint' to check XML markup files
+[1.859s] -- Configuring done
+[1.877s] -- Generating done
+[1.879s] -- Build files have been written to: /autoware/build/mrm_comfortable_stop_operator
+[1.888s] Invoked command in '/autoware/build/mrm_comfortable_stop_operator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/mrm_comfortable_stop_operator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/mrm_comfortable_stop_operator
+[1.890s] Invoking command in '/autoware/build/mrm_comfortable_stop_operator': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/mrm_comfortable_stop_operator -- -j64 -l64
+[1.933s] [ 25%] Building CXX object CMakeFiles/mrm_comfortable_stop_operator.dir/rclcpp_components/node_main_mrm_comfortable_stop_operator.cpp.o
+[1.935s] [ 50%] Building CXX object CMakeFiles/mrm_comfortable_stop_operator_component.dir/src/mrm_comfortable_stop_operator/mrm_comfortable_stop_operator_core.cpp.o
+[5.179s] [ 75%] Linking CXX executable mrm_comfortable_stop_operator
+[5.265s] [ 75%] Built target mrm_comfortable_stop_operator
+[9.386s] [100%] Linking CXX shared library libmrm_comfortable_stop_operator_component.so
+[9.510s] [100%] Built target mrm_comfortable_stop_operator_component
+[9.519s] Invoked command in '/autoware/build/mrm_comfortable_stop_operator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/mrm_comfortable_stop_operator -- -j64 -l64
+[9.545s] Invoking command in '/autoware/build/mrm_comfortable_stop_operator': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/mrm_comfortable_stop_operator
+[9.555s] -- Install configuration: "Release"
+[9.556s] -- Execute custom install script
+[9.557s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/lib/mrm_comfortable_stop_operator/mrm_comfortable_stop_operator
+[9.565s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/include/mrm_comfortable_stop_operator/mrm_comfortable_stop_operator_core.hpp
+[9.576s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/library_path.sh
+[9.584s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/library_path.dsv
+[9.594s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/lib/libmrm_comfortable_stop_operator_component.so
+[9.602s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/launch/mrm_comfortable_stop_operator.launch.py
+[9.612s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/config/mrm_comfortable_stop_operator.param.yaml
+[9.620s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/ament_index/resource_index/package_run_dependencies/mrm_comfortable_stop_operator
+[9.627s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/ament_index/resource_index/parent_prefix_path/mrm_comfortable_stop_operator
+[9.634s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/ament_prefix_path.sh
+[9.640s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/ament_prefix_path.dsv
+[9.648s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/path.sh
+[9.666s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/environment/path.dsv
+[9.667s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/local_setup.bash
+[9.710s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/local_setup.sh
+[9.711s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/local_setup.zsh
+[9.711s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/local_setup.dsv
+[9.712s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/package.dsv
+[9.712s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/ament_index/resource_index/packages/mrm_comfortable_stop_operator
+[9.713s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/ament_index/resource_index/rclcpp_components/mrm_comfortable_stop_operator
+[9.714s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.721s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.727s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/cmake/ament_cmake_export_libraries-extras.cmake
+[9.733s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/cmake/mrm_comfortable_stop_operatorConfig.cmake
+[9.739s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/cmake/mrm_comfortable_stop_operatorConfig-version.cmake
+[9.746s] -- Symlinking: /autoware/install/mrm_comfortable_stop_operator/share/mrm_comfortable_stop_operator/package.xml
+[9.766s] Invoked command in '/autoware/build/mrm_comfortable_stop_operator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/mrm_comfortable_stop_operator

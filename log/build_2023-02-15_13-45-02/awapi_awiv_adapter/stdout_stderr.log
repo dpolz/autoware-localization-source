@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/external/tier4_ad_api_adaptor/awapi_awiv_adapter/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/awapi_awiv_adapter
+[  9%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_awiv_adapter_node.cpp.o
+[ 18%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_lane_change_state_publisher.cpp.o
+[ 27%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_vehicle_state_publisher.cpp.o
+[ 36%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_v2x_aggregator.cpp.o
+[ 45%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_awiv_adapter_core.cpp.o
+[ 54%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_autoware_util.cpp.o
+[ 63%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_max_velocity_publisher.cpp.o
+[ 72%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_stop_reason_aggregator.cpp.o
+[ 81%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_obstacle_avoidance_state_publisher.cpp.o
+[ 90%] Building CXX object CMakeFiles/awapi_awiv_adapter.dir/src/awapi_autoware_state_publisher.cpp.o
+[100%] Linking CXX executable awapi_awiv_adapter
+[100%] Built target awapi_awiv_adapter
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_autoware_state_publisher.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_autoware_util.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_awiv_adapter_core.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_lane_change_state_publisher.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_max_velocity_publisher.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_obstacle_avoidance_state_publisher.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_stop_reason_aggregator.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_v2x_aggregator.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/awapi_vehicle_state_publisher.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/include/awapi_awiv_adapter/diagnostics_filter.hpp
+-- Symlinking: /autoware/install/awapi_awiv_adapter/lib/awapi_awiv_adapter/awapi_awiv_adapter
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/launch/awapi_awiv_adapter.launch.xml
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/launch/awapi_relay_container.launch.py
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/ament_index/resource_index/package_run_dependencies/awapi_awiv_adapter
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/ament_index/resource_index/parent_prefix_path/awapi_awiv_adapter
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/environment/path.sh
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/environment/path.dsv
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/local_setup.bash
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/local_setup.sh
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/local_setup.zsh
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/local_setup.dsv
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/package.dsv
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/ament_index/resource_index/packages/awapi_awiv_adapter
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/cmake/awapi_awiv_adapterConfig.cmake
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/cmake/awapi_awiv_adapterConfig-version.cmake
+-- Symlinking: /autoware/install/awapi_awiv_adapter/share/awapi_awiv_adapter/package.xml

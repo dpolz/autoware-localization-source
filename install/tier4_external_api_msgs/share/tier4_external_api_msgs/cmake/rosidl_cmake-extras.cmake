@@ -1,0 +1,1 @@
+/autoware/build/tier4_external_api_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

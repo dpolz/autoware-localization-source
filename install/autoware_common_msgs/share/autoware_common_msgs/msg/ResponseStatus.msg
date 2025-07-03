@@ -1,0 +1,1 @@
+/autoware/src/core/autoware_msgs/autoware_common_msgs/msg/ResponseStatus.msg

@@ -1,0 +1,58 @@
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMemoryAllocatorConfig.h:32,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePrerequisites.h:315,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:37,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAlignedAllocator.h:108:73: warning: extra ‘;’ [-Wpedantic]
+  108 |         AlignedAllocator(const AlignedAllocator<U, Alignment>& other) {};
+      |                                                                         ^
+      |                                                                         -
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h: In member function ‘Ogre::Radian Ogre::VectorBase<2, float>::angleTo(const Vector2&) const’:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:770:16: warning: implicitly-declared ‘constexpr Ogre::Radian::Radian(const Ogre::Radian&)’ is deprecated [-Wdeprecated-copy]
+  770 |         return angle;
+      |                ^~~~~
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:38,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMath.h:70:17: note: because ‘Ogre::Radian’ has user-provided ‘Ogre::Radian& Ogre::Radian::operator=(const Ogre::Radian&)’
+   70 |         Radian& operator = ( const Radian& r ) { mRad = r.mRad; return *this; }
+      |                 ^~~~~~~~
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h: In member function ‘Ogre::Quaternion Ogre::VectorBase<3, float>::getRotationTo(const Vector3&, const Vector3&) const’:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:835:32: warning: implicitly-declared ‘constexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)’ is deprecated [-Wdeprecated-copy]
+  835 |             return Quaternion::IDENTITY;
+      |                                ^~~~~~~~
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28: note: because ‘Ogre::Quaternion’ has user-provided ‘Ogre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)’
+  176 |         inline Quaternion& operator= (const Quaternion& rkQ)
+      |                            ^~~~~~~~
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:853:16: warning: implicitly-declared ‘constexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)’ is deprecated [-Wdeprecated-copy]
+  853 |         return q;
+      |                ^
+In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39,
+                 from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+                 from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28: note: because ‘Ogre::Quaternion’ has user-provided ‘Ogre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)’
+  176 |         inline Quaternion& operator= (const Quaternion& rkQ)
+      |                            ^~~~~~~~

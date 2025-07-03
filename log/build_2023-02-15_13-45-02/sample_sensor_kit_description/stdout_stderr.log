@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/sample_sensor_kit_description
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensor_kit.xacro
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensors.xacro
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensor_kit_calibration.yaml
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensors_calibration.yaml
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/sample_sensor_kit_description
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/sample_sensor_kit_description
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.sh
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.dsv
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.bash
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.sh
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.zsh
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.dsv
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.dsv
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/packages/sample_sensor_kit_description
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig.cmake
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig-version.cmake
+-- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.xml

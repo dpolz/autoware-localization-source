@@ -1,0 +1,1 @@
+/autoware/build/tier4_control_msgs/rosidl_generator_py/tier4_control_msgs/msg/_gate_mode_s.c

@@ -1,0 +1,145 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/costmap_generator/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/costmap_generator
+[  6%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 12%] Building CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/object_map_utils.cpp.o
+[ 25%] Building CXX object CMakeFiles/costmap_generator.dir/rclcpp_components/node_main_costmap_generator.cpp.o
+[ 25%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 37%] Building CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o
+[ 37%] Building CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o
+[ 43%] Linking CXX static library libgtest_main.a
+[ 43%] Built target gtest_main
+[ 50%] Linking CXX executable costmap_generator
+[ 50%] Built target costmap_generator
+[ 56%] Linking CXX shared library libcostmap_generator_lib.so
+[ 56%] Built target costmap_generator_lib
+[ 62%] Building CXX object CMakeFiles/costmap_generator_node.dir/nodes/costmap_generator/costmap_generator_node.cpp.o
+[ 68%] Linking CXX static library libgtest.a
+[ 68%] Built target gtest
+[ 75%] Building CXX object CMakeFiles/test_points_to_costmap.dir/test/test_points_to_costmap.cpp.o
+[ 81%] Building CXX object CMakeFiles/test_objects_to_costmap.dir/test/test_objects_to_costmap.cpp.o
+[ 87%] Linking CXX executable test_objects_to_costmap
+[ 87%] Built target test_objects_to_costmap
+[ 93%] Linking CXX executable test_points_to_costmap
+[ 93%] Built target test_points_to_costmap
+[100%] Linking CXX shared library libcostmap_generator_node.so
+[100%] Built target costmap_generator_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/costmap_generator/lib/costmap_generator/costmap_generator
+-- Symlinking: /autoware/install/costmap_generator/include/costmap_generator/costmap_generator.hpp
+-- Symlinking: /autoware/install/costmap_generator/include/costmap_generator/object_map_utils.hpp
+-- Symlinking: /autoware/install/costmap_generator/include/costmap_generator/objects_to_costmap.hpp
+-- Symlinking: /autoware/install/costmap_generator/include/costmap_generator/points_to_costmap.hpp
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/library_path.sh
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/library_path.dsv
+-- Symlinking: /autoware/install/costmap_generator/lib/libcostmap_generator_lib.so
+-- Symlinking: /autoware/install/costmap_generator/lib/libcostmap_generator_node.so
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/launch/costmap_generator.launch.xml
+-- Symlinking: /autoware/install/costmap_generator/share/ament_index/resource_index/package_run_dependencies/costmap_generator
+-- Symlinking: /autoware/install/costmap_generator/share/ament_index/resource_index/parent_prefix_path/costmap_generator
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/path.sh
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/environment/path.dsv
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/local_setup.bash
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/local_setup.sh
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/local_setup.zsh
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/local_setup.dsv
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/package.dsv
+-- Symlinking: /autoware/install/costmap_generator/share/ament_index/resource_index/packages/costmap_generator
+-- Symlinking: /autoware/install/costmap_generator/share/ament_index/resource_index/rclcpp_components/costmap_generator
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig.cmake
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig-version.cmake
+-- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/package.xml

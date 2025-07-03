@@ -1,0 +1,68 @@
+[0.085s] Invoking command in '/autoware/build/geo_pos_conv': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/sensing/geo_pos_conv -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/geo_pos_conv
+[0.221s] -- The C compiler identification is GNU 11.3.0
+[0.367s] -- The CXX compiler identification is GNU 11.3.0
+[0.391s] -- Detecting C compiler ABI info
+[0.682s] -- Detecting C compiler ABI info - done
+[0.682s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.682s] -- Detecting C compile features
+[0.682s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.821s] -- Detecting CXX compiler ABI info - done
+[0.821s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.822s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.825s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.210s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.779s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.813s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.839s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.027s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.032s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.225s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.283s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.721s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.750s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/sensing/geo_pos_conv/include
+[2.750s] -- Configured cppcheck exclude dirs and/or files: 
+[2.751s] -- Added test 'lint_cmake' to check CMake code style
+[2.752s] -- Added test 'xmllint' to check XML markup files
+[2.758s] -- Configuring done
+[2.773s] -- Generating done
+[2.776s] -- Build files have been written to: /autoware/build/geo_pos_conv
+[2.788s] Invoked command in '/autoware/build/geo_pos_conv' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/sensing/geo_pos_conv -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/geo_pos_conv
+[2.790s] Invoking command in '/autoware/build/geo_pos_conv': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/geo_pos_conv -- -j64 -l64
+[2.934s] [ 50%] Building CXX object CMakeFiles/geo_pos_conv.dir/src/geo_pos_conv.cpp.o
+[3.405s] [100%] Linking CXX shared library libgeo_pos_conv.so
+[3.521s] [100%] Built target geo_pos_conv
+[3.537s] Invoked command in '/autoware/build/geo_pos_conv' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/geo_pos_conv -- -j64 -l64
+[3.565s] Invoking command in '/autoware/build/geo_pos_conv': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/geo_pos_conv
+[3.572s] -- Install configuration: "Release"
+[3.572s] -- Execute custom install script
+[3.573s] -- Symlinking: /autoware/install/geo_pos_conv/include/geo_pos_conv/geo_pos_conv.hpp
+[3.586s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/library_path.sh
+[3.595s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/library_path.dsv
+[3.605s] -- Symlinking: /autoware/install/geo_pos_conv/lib/libgeo_pos_conv.so
+[3.616s] -- Symlinking: /autoware/install/geo_pos_conv/share/ament_index/resource_index/package_run_dependencies/geo_pos_conv
+[3.627s] -- Symlinking: /autoware/install/geo_pos_conv/share/ament_index/resource_index/parent_prefix_path/geo_pos_conv
+[3.639s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/ament_prefix_path.sh
+[3.659s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/ament_prefix_path.dsv
+[3.708s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/path.sh
+[3.708s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/environment/path.dsv
+[3.708s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.bash
+[3.708s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.sh
+[3.718s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.zsh
+[3.729s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/local_setup.dsv
+[3.741s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/package.dsv
+[3.754s] -- Symlinking: /autoware/install/geo_pos_conv/share/ament_index/resource_index/packages/geo_pos_conv
+[3.767s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.778s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.790s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/ament_cmake_export_libraries-extras.cmake
+[3.801s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/geo_pos_convConfig.cmake
+[3.821s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/cmake/geo_pos_convConfig-version.cmake
+[3.833s] -- Symlinking: /autoware/install/geo_pos_conv/share/geo_pos_conv/package.xml
+[3.857s] Invoked command in '/autoware/build/geo_pos_conv' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/geo_pos_conv

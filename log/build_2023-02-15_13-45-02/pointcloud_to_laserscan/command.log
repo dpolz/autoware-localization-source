@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pointcloud_to_laserscan
+Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pointcloud_to_laserscan
+Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/pointcloud_to_laserscan -- -j64 -l64
+Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/pointcloud_to_laserscan -- -j64 -l64
+Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/pointcloud_to_laserscan
+Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/pointcloud_to_laserscan

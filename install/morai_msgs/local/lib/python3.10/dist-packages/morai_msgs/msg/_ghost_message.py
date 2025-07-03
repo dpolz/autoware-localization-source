@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_generator_py/morai_msgs/msg/_ghost_message.py

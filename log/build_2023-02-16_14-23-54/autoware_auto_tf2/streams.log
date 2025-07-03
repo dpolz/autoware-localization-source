@@ -1,0 +1,54 @@
+[0.048s] Invoking command in '/autoware/build/autoware_auto_tf2': AMENT_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_system_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/autoware_auto_tf2 -- -j64 -l64
+[0.074s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.074s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.431s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.431s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.359s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.359s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.460s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.460s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.922s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.926s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.940s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/autoware_auto_tf2/include
+[1.940s] -- Configured cppcheck exclude dirs and/or files: 
+[1.940s] -- Added test 'lint_cmake' to check CMake code style
+[1.940s] -- Added test 'xmllint' to check XML markup files
+[1.944s] -- Configuring done
+[1.963s] -- Generating done
+[1.964s] -- Build files have been written to: /autoware/build/autoware_auto_tf2
+[1.987s] Consolidate compiler generated dependencies of target gtest_main
+[1.990s] Consolidate compiler generated dependencies of target gtest
+[1.996s] [ 33%] Built target gtest_main
+[2.001s] [ 66%] Built target gtest
+[2.014s] Consolidate compiler generated dependencies of target test_tf2_autoware_auto_msgs
+[2.024s] [100%] Built target test_tf2_autoware_auto_msgs
+[2.032s] Invoked command in '/autoware/build/autoware_auto_tf2' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_system_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/autoware_auto_tf2 -- -j64 -l64
+[2.048s] Invoking command in '/autoware/build/autoware_auto_tf2': AMENT_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_system_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/autoware_auto_tf2
+[2.052s] -- Install configuration: "Release"
+[2.053s] -- Execute custom install script
+[2.053s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/include/autoware_auto_tf2/tf2_autoware_auto_msgs.hpp
+[2.053s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/ament_index/resource_index/package_run_dependencies/autoware_auto_tf2
+[2.053s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/ament_index/resource_index/parent_prefix_path/autoware_auto_tf2
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/environment/ament_prefix_path.sh
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/environment/ament_prefix_path.dsv
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/environment/path.sh
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/environment/path.dsv
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/local_setup.bash
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/local_setup.sh
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/local_setup.zsh
+[2.054s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/local_setup.dsv
+[2.054s] -- Symlinking: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/package.dsv
+[2.060s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/ament_index/resource_index/packages/autoware_auto_tf2
+[2.060s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.060s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.060s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/cmake/autoware_auto_tf2Config.cmake
+[2.061s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/cmake/autoware_auto_tf2Config-version.cmake
+[2.061s] -- Up-to-date symlink: /autoware/install/autoware_auto_tf2/share/autoware_auto_tf2/package.xml
+[2.067s] Invoked command in '/autoware/build/autoware_auto_tf2' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_auto_common:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_system_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_system_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/autoware_auto_tf2

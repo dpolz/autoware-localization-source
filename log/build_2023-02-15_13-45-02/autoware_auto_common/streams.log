@@ -1,0 +1,91 @@
+[0.078s] Invoking command in '/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/autoware_auto_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_auto_common
+[0.263s] -- The C compiler identification is GNU 11.3.0
+[0.375s] -- The CXX compiler identification is GNU 11.3.0
+[0.397s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.751s] -- Detecting C compile features
+[0.752s] -- Detecting C compile features - done
+[0.773s] -- Detecting CXX compiler ABI info
+[1.002s] -- Detecting CXX compiler ABI info - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.021s] -- Detecting CXX compile features
+[1.021s] -- Detecting CXX compile features - done
+[1.023s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.562s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.691s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.920s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.930s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.946s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.304s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.308s] -- Looking for pthread.h
+[2.446s] -- Looking for pthread.h - found
+[2.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.542s] -- Found Threads: TRUE  
+[2.548s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.551s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.552s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/autoware_auto_common/include
+[2.552s] -- Configured cppcheck exclude dirs and/or files: 
+[2.552s] -- Added test 'lint_cmake' to check CMake code style
+[2.553s] -- Added test 'xmllint' to check XML markup files
+[2.556s] -- Configuring done
+[2.600s] -- Generating done
+[2.600s] -- Build files have been written to: /autoware/build/autoware_auto_common
+[2.601s] Invoked command in '/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/autoware_auto_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_auto_common
+[2.601s] Invoking command in '/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_auto_common -- -j64 -l64
+[2.672s] [  6%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[2.672s] [ 13%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[3.855s] [ 20%] Linking CXX static library libgtest_main.a
+[3.899s] [ 20%] Built target gtest_main
+[13.255s] [ 26%] Linking CXX static library libgtest.a
+[13.358s] [ 26%] Built target gtest
+[13.448s] [ 33%] Building CXX object CMakeFiles/test_common_gtest.dir/test/gtest_main.cpp.o
+[13.466s] [ 40%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_bool_comparisons.cpp.o
+[13.485s] [ 46%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_byte_reader.cpp.o
+[13.495s] [ 53%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_float_comparisons.cpp.o
+[13.508s] [ 60%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_mahalanobis_distance.cpp.o
+[13.530s] [ 66%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_message_field_adapters.cpp.o
+[13.535s] [ 73%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_angle_utils.cpp.o
+[13.540s] [ 80%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_type_traits.cpp.o
+[13.550s] [ 86%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_template_utils.cpp.o
+[13.552s] [ 93%] Building CXX object CMakeFiles/test_common_gtest.dir/test/test_type_name.cpp.o
+[18.385s] [100%] Linking CXX executable test_common_gtest
+[18.518s] [100%] Built target test_common_gtest
+[18.528s] Invoked command in '/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_auto_common -- -j64 -l64
+[18.574s] Invoking command in '/autoware/build/autoware_auto_common': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_auto_common
+[18.581s] -- Install configuration: "Release"
+[18.581s] -- Execute custom install script
+[18.582s] -- Symlinking: /autoware/install/autoware_auto_common/include/common/type_traits.hpp
+[18.589s] -- Symlinking: /autoware/install/autoware_auto_common/include/common/types.hpp
+[18.596s] -- Symlinking: /autoware/install/autoware_auto_common/include/common/visibility_control.hpp
+[18.602s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/angle_utils.hpp
+[18.608s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/bool_comparisons.hpp
+[18.615s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/byte_reader.hpp
+[18.621s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/crtp.hpp
+[18.628s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/float_comparisons.hpp
+[18.633s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/mahalanobis_distance.hpp
+[18.639s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/message_adapters.hpp
+[18.646s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/template_utils.hpp
+[18.652s] -- Symlinking: /autoware/install/autoware_auto_common/include/helper_functions/type_name.hpp
+[18.660s] -- Symlinking: /autoware/install/autoware_auto_common/share/ament_index/resource_index/package_run_dependencies/autoware_auto_common
+[18.666s] -- Symlinking: /autoware/install/autoware_auto_common/share/ament_index/resource_index/parent_prefix_path/autoware_auto_common
+[18.673s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.sh
+[18.679s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/environment/ament_prefix_path.dsv
+[18.685s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.sh
+[18.691s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/environment/path.dsv
+[18.697s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.bash
+[18.703s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.sh
+[18.709s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.zsh
+[18.715s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/local_setup.dsv
+[18.722s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/package.dsv
+[18.728s] -- Symlinking: /autoware/install/autoware_auto_common/share/ament_index/resource_index/packages/autoware_auto_common
+[18.735s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.741s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.748s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig.cmake
+[18.754s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/cmake/autoware_auto_commonConfig-version.cmake
+[18.760s] -- Symlinking: /autoware/install/autoware_auto_common/share/autoware_auto_common/package.xml
+[18.778s] Invoked command in '/autoware/build/autoware_auto_common' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_auto_common

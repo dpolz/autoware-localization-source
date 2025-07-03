@@ -1,0 +1,1 @@
+/autoware/build/obstacle_cruise_planner/ament_cmake_core/obstacle_cruise_plannerConfig-version.cmake

@@ -1,0 +1,1 @@
+/autoware/build/vehicle_info_util/ament_cmake_core/vehicle_info_utilConfig-version.cmake

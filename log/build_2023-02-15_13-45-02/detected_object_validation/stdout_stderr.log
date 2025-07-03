@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/perception/detected_object_validation/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/detected_object_validation
+[ 12%] Building CXX object CMakeFiles/object_position_filter_node.dir/rclcpp_components/node_main_object_position_filter_node.cpp.o
+[ 12%] Building CXX object CMakeFiles/object_lanelet_filter_node.dir/rclcpp_components/node_main_object_lanelet_filter_node.cpp.o
+[ 25%] Building CXX object CMakeFiles/obstacle_pointcloud_based_validator_node.dir/rclcpp_components/node_main_obstacle_pointcloud_based_validator_node.cpp.o
+[ 25%] Building CXX object CMakeFiles/occupancy_grid_based_validator.dir/src/occupancy_grid_based_validator.cpp.o
+[ 31%] Linking CXX executable object_position_filter_node
+[ 37%] Linking CXX executable obstacle_pointcloud_based_validator_node
+[ 37%] Built target object_position_filter_node
+[ 37%] Built target obstacle_pointcloud_based_validator_node
+[ 43%] Linking CXX executable object_lanelet_filter_node
+[ 43%] Built target object_lanelet_filter_node
+[ 50%] Linking CXX shared library liboccupancy_grid_based_validator.so
+[ 50%] Built target occupancy_grid_based_validator
+[ 56%] Building CXX object CMakeFiles/obstacle_pointcloud_based_validator.dir/src/obstacle_pointcloud_based_validator.cpp.o
+[ 62%] Linking CXX shared library libobstacle_pointcloud_based_validator.so
+[ 62%] Built target obstacle_pointcloud_based_validator
+[ 68%] Building CXX object CMakeFiles/object_lanelet_filter.dir/src/utils.cpp.o
+[ 75%] Building CXX object CMakeFiles/object_lanelet_filter.dir/src/object_lanelet_filter.cpp.o
+[ 81%] Linking CXX shared library libobject_lanelet_filter.so
+[ 81%] Built target object_lanelet_filter
+[ 87%] Building CXX object CMakeFiles/object_position_filter.dir/src/utils.cpp.o
+[ 93%] Building CXX object CMakeFiles/object_position_filter.dir/src/object_position_filter.cpp.o
+[100%] Linking CXX shared library libobject_position_filter.so
+[100%] Built target object_position_filter
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/detected_object_validation/lib/detected_object_validation/obstacle_pointcloud_based_validator_node
+-- Symlinking: /autoware/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node
+-- Symlinking: /autoware/install/detected_object_validation/lib/detected_object_validation/object_position_filter_node
+-- Symlinking: /autoware/install/detected_object_validation/include/detected_object_filter/object_lanelet_filter.hpp
+-- Symlinking: /autoware/install/detected_object_validation/include/detected_object_filter/object_position_filter.hpp
+-- Symlinking: /autoware/install/detected_object_validation/include/obstacle_pointcloud_based_validator/debugger.hpp
+-- Symlinking: /autoware/install/detected_object_validation/include/obstacle_pointcloud_based_validator/obstacle_pointcloud_based_validator.hpp
+-- Symlinking: /autoware/install/detected_object_validation/include/occupancy_grid_based_validator/occupancy_grid_based_validator.hpp
+-- Symlinking: /autoware/install/detected_object_validation/include/utils/utils.hpp
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/library_path.sh
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/library_path.dsv
+-- Symlinking: /autoware/install/detected_object_validation/lib/liboccupancy_grid_based_validator.so
+-- Symlinking: /autoware/install/detected_object_validation/lib/libobstacle_pointcloud_based_validator.so
+-- Symlinking: /autoware/install/detected_object_validation/lib/libobject_lanelet_filter.so
+-- Symlinking: /autoware/install/detected_object_validation/lib/libobject_position_filter.so
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/launch/object_lanelet_filter.launch.xml
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/launch/object_position_filter.launch.xml
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/launch/obstacle_pointcloud_based_validator.launch.xml
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/launch/occupancy_grid_based_validator.launch.xml
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/config/object_lanelet_filter.param.yaml
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/config/object_position_filter.param.yaml
+-- Symlinking: /autoware/install/detected_object_validation/share/ament_index/resource_index/package_run_dependencies/detected_object_validation
+-- Symlinking: /autoware/install/detected_object_validation/share/ament_index/resource_index/parent_prefix_path/detected_object_validation
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/path.sh
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/environment/path.dsv
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/local_setup.bash
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/local_setup.sh
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/local_setup.zsh
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/local_setup.dsv
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/package.dsv
+-- Symlinking: /autoware/install/detected_object_validation/share/ament_index/resource_index/packages/detected_object_validation
+-- Symlinking: /autoware/install/detected_object_validation/share/ament_index/resource_index/rclcpp_components/detected_object_validation
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/cmake/detected_object_validationConfig.cmake
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/cmake/detected_object_validationConfig-version.cmake
+-- Symlinking: /autoware/install/detected_object_validation/share/detected_object_validation/package.xml

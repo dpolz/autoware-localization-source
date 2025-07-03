@@ -1,0 +1,78 @@
+[0.091s] Invoking command in '/autoware/build/fault_injection': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_simulation_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/fault_injection -- -j64 -l64
+[0.120s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.121s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.266s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.635s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.937s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.938s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.349s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.390s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.414s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.414s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.414s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.276s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.288s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.292s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.292s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/simulator/fault_injection/include
+[3.292s] -- Configured cppcheck exclude dirs and/or files: 
+[3.293s] -- Added test 'lint_cmake' to check CMake code style
+[3.293s] -- Added test 'xmllint' to check XML markup files
+[3.298s] -- Configuring done
+[3.398s] -- Generating done
+[3.400s] -- Build files have been written to: /autoware/build/fault_injection
+[3.433s] Consolidate compiler generated dependencies of target gtest_main
+[3.433s] Consolidate compiler generated dependencies of target gtest
+[3.435s] Consolidate compiler generated dependencies of target fault_injection_node_component
+[3.436s] Consolidate compiler generated dependencies of target fault_injection_node
+[3.445s] [ 18%] Built target gtest_main
+[3.446s] [ 36%] Built target gtest
+[3.450s] [ 45%] Building CXX object CMakeFiles/fault_injection_node_component.dir/src/fault_injection_node/fault_injection_node.cpp.o
+[3.452s] [ 63%] Built target fault_injection_node
+[14.565s] [ 72%] Linking CXX shared library libfault_injection_node_component.so
+[14.886s] [ 72%] Built target fault_injection_node_component
+[14.917s] Consolidate compiler generated dependencies of target test_fault_injection_node_component
+[14.943s] [ 81%] Building CXX object CMakeFiles/test_fault_injection_node_component.dir/test/src/main.cpp.o
+[14.944s] [ 90%] Building CXX object CMakeFiles/test_fault_injection_node_component.dir/test/src/test_diagnostic_storage.cpp.o
+[20.232s] [100%] Linking CXX executable test_fault_injection_node_component
+[22.647s] [100%] Built target test_fault_injection_node_component
+[22.661s] Invoked command in '/autoware/build/fault_injection' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_simulation_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/fault_injection -- -j64 -l64
+[22.697s] Invoking command in '/autoware/build/fault_injection': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_simulation_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/fault_injection
+[22.708s] -- Install configuration: "Release"
+[22.708s] -- Execute custom install script
+[22.709s] -- Up-to-date symlink: /autoware/install/fault_injection/lib/fault_injection/fault_injection_node
+[22.709s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection//config/test_event_diag.param.yaml
+[22.710s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection//launch/test_fault_injection.launch.xml
+[22.711s] -- Up-to-date symlink: /autoware/install/fault_injection/include/fault_injection/diagnostic_storage.hpp
+[22.711s] -- Up-to-date symlink: /autoware/install/fault_injection/include/fault_injection/fault_injection_node.hpp
+[22.711s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/library_path.sh
+[22.711s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/library_path.dsv
+[22.712s] -- Up-to-date symlink: /autoware/install/fault_injection/lib/libfault_injection_node_component.so
+[22.712s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/config/fault_injection.param.yaml
+[22.713s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/launch/fault_injection.launch.xml
+[22.713s] -- Up-to-date symlink: /autoware/install/fault_injection/share/ament_index/resource_index/package_run_dependencies/fault_injection
+[22.713s] -- Up-to-date symlink: /autoware/install/fault_injection/share/ament_index/resource_index/parent_prefix_path/fault_injection
+[22.713s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/ament_prefix_path.sh
+[22.714s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/ament_prefix_path.dsv
+[22.714s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/path.sh
+[22.714s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/environment/path.dsv
+[22.714s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/local_setup.bash
+[22.715s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/local_setup.sh
+[22.715s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/local_setup.zsh
+[22.715s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/local_setup.dsv
+[22.715s] -- Symlinking: /autoware/install/fault_injection/share/fault_injection/package.dsv
+[22.728s] -- Up-to-date symlink: /autoware/install/fault_injection/share/ament_index/resource_index/packages/fault_injection
+[22.728s] -- Up-to-date symlink: /autoware/install/fault_injection/share/ament_index/resource_index/rclcpp_components/fault_injection
+[22.728s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.728s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.729s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/cmake/ament_cmake_export_libraries-extras.cmake
+[22.729s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/cmake/fault_injectionConfig.cmake
+[22.729s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/cmake/fault_injectionConfig-version.cmake
+[22.729s] -- Up-to-date symlink: /autoware/install/fault_injection/share/fault_injection/package.xml
+[22.740s] Invoked command in '/autoware/build/fault_injection' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_simulation_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_simulation_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/fault_injection

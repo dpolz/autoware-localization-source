@@ -1,0 +1,1 @@
+/autoware/build/obstacle_collision_checker/ament_cmake_environment_hooks/local_setup.zsh

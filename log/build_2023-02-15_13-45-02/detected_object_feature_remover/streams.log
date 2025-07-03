@@ -1,0 +1,74 @@
+[0.015s] Invoking command in '/autoware/build/detected_object_feature_remover': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/detected_object_feature_remover -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/detected_object_feature_remover
+[0.181s] -- The C compiler identification is GNU 11.3.0
+[0.240s] -- The CXX compiler identification is GNU 11.3.0
+[0.240s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.605s] -- Detecting CXX compiler ABI info
+[0.951s] -- Detecting CXX compiler ABI info - done
+[0.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.956s] -- Detecting CXX compile features
+[0.957s] -- Detecting CXX compile features - done
+[0.959s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.231s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.316s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.582s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.592s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.609s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.207s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.221s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.344s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.421s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.974s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.005s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.006s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.006s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/perception/detected_object_feature_remover/include
+[3.006s] -- Configured cppcheck exclude dirs and/or files: 
+[3.007s] -- Added test 'lint_cmake' to check CMake code style
+[3.008s] -- Added test 'xmllint' to check XML markup files
+[3.011s] -- Configuring done
+[3.029s] -- Generating done
+[3.030s] -- Build files have been written to: /autoware/build/detected_object_feature_remover
+[3.041s] Invoked command in '/autoware/build/detected_object_feature_remover' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/detected_object_feature_remover -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/detected_object_feature_remover
+[3.042s] Invoking command in '/autoware/build/detected_object_feature_remover': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/detected_object_feature_remover -- -j64 -l64
+[3.089s] [ 50%] Building CXX object CMakeFiles/detected_object_feature_remover.dir/rclcpp_components/node_main_detected_object_feature_remover.cpp.o
+[3.089s] [ 50%] Building CXX object CMakeFiles/detected_object_feature_remover_node.dir/src/detected_object_feature_remover.cpp.o
+[6.571s] [ 75%] Linking CXX executable detected_object_feature_remover
+[6.654s] [ 75%] Built target detected_object_feature_remover
+[13.850s] [100%] Linking CXX shared library libdetected_object_feature_remover_node.so
+[13.996s] [100%] Built target detected_object_feature_remover_node
+[14.005s] Invoked command in '/autoware/build/detected_object_feature_remover' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/detected_object_feature_remover -- -j64 -l64
+[14.028s] Invoking command in '/autoware/build/detected_object_feature_remover': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/detected_object_feature_remover
+[14.036s] -- Install configuration: "Release"
+[14.037s] -- Execute custom install script
+[14.037s] -- Symlinking: /autoware/install/detected_object_feature_remover/lib/detected_object_feature_remover/detected_object_feature_remover
+[14.046s] -- Symlinking: /autoware/install/detected_object_feature_remover/include/detected_object_feature_remover/detected_object_feature_remover.hpp
+[14.053s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/library_path.sh
+[14.060s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/library_path.dsv
+[14.067s] -- Symlinking: /autoware/install/detected_object_feature_remover/lib/libdetected_object_feature_remover_node.so
+[14.074s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/launch/detected_object_feature_remover.launch.xml
+[14.083s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/ament_index/resource_index/package_run_dependencies/detected_object_feature_remover
+[14.090s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/ament_index/resource_index/parent_prefix_path/detected_object_feature_remover
+[14.096s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/ament_prefix_path.sh
+[14.102s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/ament_prefix_path.dsv
+[14.110s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/path.sh
+[14.117s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/environment/path.dsv
+[14.125s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/local_setup.bash
+[14.133s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/local_setup.sh
+[14.140s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/local_setup.zsh
+[14.147s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/local_setup.dsv
+[14.159s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/package.dsv
+[14.167s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/ament_index/resource_index/packages/detected_object_feature_remover
+[14.177s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/ament_index/resource_index/rclcpp_components/detected_object_feature_remover
+[14.188s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.198s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.205s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/cmake/ament_cmake_export_libraries-extras.cmake
+[14.217s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/cmake/detected_object_feature_removerConfig.cmake
+[14.227s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/cmake/detected_object_feature_removerConfig-version.cmake
+[14.239s] -- Symlinking: /autoware/install/detected_object_feature_remover/share/detected_object_feature_remover/package.xml
+[14.261s] Invoked command in '/autoware/build/detected_object_feature_remover' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/detected_object_feature_remover

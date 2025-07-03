@@ -1,0 +1,48 @@
+[0.006s] Invoking command in '/autoware/build/common_sensor_launch': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/sample_sensor_kit_launch/common_sensor_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/common_sensor_launch
+[0.051s] -- The C compiler identification is GNU 11.3.0
+[0.157s] -- The CXX compiler identification is GNU 11.3.0
+[0.166s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.734s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.755s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.757s] -- Added test 'lint_cmake' to check CMake code style
+[0.758s] -- Added test 'xmllint' to check XML markup files
+[0.761s] -- Configuring done
+[0.768s] -- Generating done
+[0.769s] -- Build files have been written to: /autoware/build/common_sensor_launch
+[0.777s] Invoked command in '/autoware/build/common_sensor_launch' returned '0': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/sample_sensor_kit_launch/common_sensor_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/common_sensor_launch
+[0.779s] Invoking command in '/autoware/build/common_sensor_launch': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/common_sensor_launch -- -j64 -l64
+[0.815s] Invoked command in '/autoware/build/common_sensor_launch' returned '0': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/common_sensor_launch -- -j64 -l64
+[0.995s] Invoking command in '/autoware/build/common_sensor_launch': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/common_sensor_launch
+[1.008s] -- Install configuration: "Release"
+[1.008s] -- Execute custom install script
+[1.008s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/launch/velodyne_VLP16.launch.xml
+[1.035s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/launch/velodyne_VLS128.launch.xml
+[1.047s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/launch/velodyne_node_container.launch.py
+[1.079s] -- Symlinking: /autoware/install/common_sensor_launch/share/ament_index/resource_index/package_run_dependencies/common_sensor_launch
+[1.120s] -- Symlinking: /autoware/install/common_sensor_launch/share/ament_index/resource_index/parent_prefix_path/common_sensor_launch
+[1.152s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/environment/ament_prefix_path.sh
+[1.192s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/environment/ament_prefix_path.dsv
+[1.231s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/environment/path.sh
+[1.255s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/environment/path.dsv
+[1.291s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/local_setup.bash
+[1.312s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/local_setup.sh
+[1.325s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/local_setup.zsh
+[1.345s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/local_setup.dsv
+[1.357s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/package.dsv
+[1.369s] -- Symlinking: /autoware/install/common_sensor_launch/share/ament_index/resource_index/packages/common_sensor_launch
+[1.382s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/cmake/common_sensor_launchConfig.cmake
+[1.395s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/cmake/common_sensor_launchConfig-version.cmake
+[1.407s] -- Symlinking: /autoware/install/common_sensor_launch/share/common_sensor_launch/package.xml
+[1.423s] Invoked command in '/autoware/build/common_sensor_launch' returned '0': AMENT_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/velodyne_monitor:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/common_sensor_launch

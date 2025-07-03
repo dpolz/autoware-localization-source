@@ -1,0 +1,176 @@
+[0.024s] Invoking command in '/autoware/build/tier4_traffic_light_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_traffic_light_rviz_plugin
+[0.069s] -- The C compiler identification is GNU 11.3.0
+[0.113s] -- The CXX compiler identification is GNU 11.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.259s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.432s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[0.650s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.666s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.794s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.797s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.926s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.131s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[2.359s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[2.597s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.635s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.635s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.647s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[2.670s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.672s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[2.763s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.764s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.764s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.256s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.257s] -- Found OGRE
+[3.257s] --   static     : OFF
+[3.257s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.257s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.257s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.258s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.258s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.258s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.258s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.258s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.258s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.258s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.258s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.259s] -- Could not find freeimage library
+[3.275s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.279s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.358s] -- Found X11: /usr/include   
+[3.358s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.413s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.414s] -- Looking for gethostbyname
+[3.466s] -- Looking for gethostbyname - found
+[3.466s] -- Looking for connect
+[3.519s] -- Looking for connect - found
+[3.519s] -- Looking for remove
+[3.570s] -- Looking for remove - found
+[3.571s] -- Looking for shmat
+[3.627s] -- Looking for shmat - found
+[3.627s] -- Looking for IceConnectionNumber in ICE
+[3.684s] -- Looking for IceConnectionNumber in ICE - found
+[3.686s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.686s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.758s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.873s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.552s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.554s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.554s] -- Configured cppcheck include dirs: 
+[4.554s] -- Configured cppcheck exclude dirs and/or files: 
+[4.555s] -- Added test 'lint_cmake' to check CMake code style
+[4.555s] -- Added test 'xmllint' to check XML markup files
+[4.558s] -- Configuring done
+[4.652s] -- Generating done
+[4.654s] -- Build files have been written to: /autoware/build/tier4_traffic_light_rviz_plugin
+[4.670s] Invoked command in '/autoware/build/tier4_traffic_light_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_traffic_light_rviz_plugin
+[4.672s] Invoking command in '/autoware/build/tier4_traffic_light_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_traffic_light_rviz_plugin -- -j64 -l64
+[4.721s] [ 25%] Automatic MOC for target tier4_traffic_light_rviz_plugin
+[4.777s] [ 25%] Built target tier4_traffic_light_rviz_plugin_autogen
+[4.796s] [ 50%] Building CXX object CMakeFiles/tier4_traffic_light_rviz_plugin.dir/tier4_traffic_light_rviz_plugin_autogen/mocs_compilation.cpp.o
+[4.797s] [ 75%] Building CXX object CMakeFiles/tier4_traffic_light_rviz_plugin.dir/src/traffic_light_publish_panel.cpp.o
+[9.677s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMemoryAllocatorConfig.h:32,
+[9.678s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePrerequisites.h:315,
+[9.678s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:37,
+[9.678s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.678s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.678s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.678s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.678s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAlignedAllocator.h:108:73: warning: extra ‘;’ [-Wpedantic]
+[9.678s]   108 |         AlignedAllocator(const AlignedAllocator<U, Alignment>& other) {};
+[9.678s]       |                                                                         ^
+[9.678s]       |                                                                         -
+[9.691s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.691s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.692s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.692s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.692s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h: In member function ‘Ogre::Radian Ogre::VectorBase<2, float>::angleTo(const Vector2&) const’:
+[9.692s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:770:16: warning: implicitly-declared ‘constexpr Ogre::Radian::Radian(const Ogre::Radian&)’ is deprecated [-Wdeprecated-copy]
+[9.692s]   770 |         return angle;
+[9.692s]       |                ^~~~~
+[9.692s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:38,
+[9.692s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.692s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.693s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.693s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.693s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMath.h:70:17: note: because ‘Ogre::Radian’ has user-provided ‘Ogre::Radian& Ogre::Radian::operator=(const Ogre::Radian&)’
+[9.693s]    70 |         Radian& operator = ( const Radian& r ) { mRad = r.mRad; return *this; }
+[9.693s]       |                 ^~~~~~~~
+[9.693s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.693s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.694s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.694s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.694s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h: In member function ‘Ogre::Quaternion Ogre::VectorBase<3, float>::getRotationTo(const Vector3&, const Vector3&) const’:
+[9.694s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:835:32: warning: implicitly-declared ‘constexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)’ is deprecated [-Wdeprecated-copy]
+[9.694s]   835 |             return Quaternion::IDENTITY;
+[9.694s]       |                                ^~~~~~~~
+[9.694s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39,
+[9.694s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.695s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.695s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.695s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.695s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28: note: because ‘Ogre::Quaternion’ has user-provided ‘Ogre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)’
+[9.695s]   176 |         inline Quaternion& operator= (const Quaternion& rkQ)
+[9.695s]       |                            ^~~~~~~~
+[9.695s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.695s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.695s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.695s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.696s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:853:16: warning: implicitly-declared ‘constexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)’ is deprecated [-Wdeprecated-copy]
+[9.696s]   853 |         return q;
+[9.696s]       |                ^
+[9.696s] In file included from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h:39,
+[9.696s]                  from /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:1,
+[9.696s]                  from /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp:45,
+[9.696s]                  from /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:42,
+[9.696s]                  from /autoware/src/universe/autoware.universe/common/tier4_traffic_light_rviz_plugin/src/traffic_light_publish_panel.cpp:28:
+[9.696s] /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h:176:28: note: because ‘Ogre::Quaternion’ has user-provided ‘Ogre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)’
+[9.696s]   176 |         inline Quaternion& operator= (const Quaternion& rkQ)
+[9.697s]       |                            ^~~~~~~~
+[19.781s] [100%] Linking CXX shared library libtier4_traffic_light_rviz_plugin.so
+[21.427s] [100%] Built target tier4_traffic_light_rviz_plugin
+[21.446s] Invoked command in '/autoware/build/tier4_traffic_light_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_traffic_light_rviz_plugin -- -j64 -l64
+[21.482s] Invoking command in '/autoware/build/tier4_traffic_light_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_traffic_light_rviz_plugin
+[21.495s] -- Install configuration: "Release"
+[21.496s] -- Execute custom install script
+[21.497s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/plugins/plugin_description.xml
+[21.509s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/library_path.sh
+[21.520s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/library_path.dsv
+[21.532s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/lib/libtier4_traffic_light_rviz_plugin.so
+[21.544s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/icons/classes/TrafficLightPublishPanel.png
+[21.555s] -- Up-to-date symlink: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/plugins/plugin_description.xml
+[21.556s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/tier4_traffic_light_rviz_plugin
+[21.569s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/tier4_traffic_light_rviz_plugin
+[21.578s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/ament_prefix_path.sh
+[21.588s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/ament_prefix_path.dsv
+[21.603s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/path.sh
+[21.615s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/environment/path.dsv
+[21.627s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/local_setup.bash
+[21.640s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/local_setup.sh
+[21.653s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/local_setup.zsh
+[21.668s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/local_setup.dsv
+[21.688s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/package.dsv
+[21.700s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/ament_index/resource_index/packages/tier4_traffic_light_rviz_plugin
+[21.714s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/tier4_traffic_light_rviz_plugin
+[21.729s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.758s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[21.788s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/cmake/tier4_traffic_light_rviz_pluginConfig.cmake
+[21.802s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/cmake/tier4_traffic_light_rviz_pluginConfig-version.cmake
+[21.818s] -- Symlinking: /autoware/install/tier4_traffic_light_rviz_plugin/share/tier4_traffic_light_rviz_plugin/package.xml
+[21.840s] Invoked command in '/autoware/build/tier4_traffic_light_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_traffic_light_rviz_plugin

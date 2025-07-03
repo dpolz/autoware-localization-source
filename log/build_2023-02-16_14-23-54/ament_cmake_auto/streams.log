@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/external/ament_cmake/ament_cmake_auto -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ament_cmake_auto
+[0.033s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.202s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.259s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.312s] -- Found ament_cmake_gtest: 1.3.2 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.355s] -- Configuring done
+[0.357s] -- Generating done
+[0.358s] -- Build files have been written to: /autoware/build/ament_cmake_auto
+[0.361s] Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/external/ament_cmake/ament_cmake_auto -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ament_cmake_auto
+[0.362s] Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ament_cmake_auto -- -j64 -l64
+[0.391s] Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ament_cmake_auto -- -j64 -l64
+[0.407s] Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ament_cmake_auto
+[0.411s] -- Install configuration: "Release"
+[0.411s] -- Execute custom install script
+[0.412s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_index/resource_index/package_run_dependencies/ament_cmake_auto
+[0.418s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_index/resource_index/parent_prefix_path/ament_cmake_auto
+[0.423s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/environment/ament_prefix_path.sh
+[0.429s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/environment/ament_prefix_path.dsv
+[0.434s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/environment/path.sh
+[0.440s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/environment/path.dsv
+[0.446s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.bash
+[0.451s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.sh
+[0.457s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.zsh
+[0.462s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.dsv
+[0.469s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/package.dsv
+[0.474s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_index/resource_index/packages/ament_cmake_auto
+[0.480s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake
+[0.486s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake
+[0.492s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_autoConfig-version.cmake
+[0.498s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/package.xml
+[0.503s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake
+[0.508s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_add_gtest.cmake
+[0.514s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake
+[0.521s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake
+[0.527s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_find_test_dependencies.cmake
+[0.532s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_generate_code.cmake
+[0.538s] -- Symlinking: /autoware/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_package.cmake
+[0.558s] Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ament_cmake_auto

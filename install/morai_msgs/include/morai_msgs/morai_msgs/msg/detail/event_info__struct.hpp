@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/msg/detail/event_info__struct.hpp

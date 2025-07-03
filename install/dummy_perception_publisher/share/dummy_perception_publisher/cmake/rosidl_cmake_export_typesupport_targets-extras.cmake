@@ -1,0 +1,1 @@
+/autoware/build/dummy_perception_publisher/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

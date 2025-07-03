@@ -1,0 +1,1 @@
+/autoware/build/fault_injection/ament_cmake_core/fault_injectionConfig.cmake

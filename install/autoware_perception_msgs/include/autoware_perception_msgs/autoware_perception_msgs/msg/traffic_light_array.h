@@ -1,0 +1,1 @@
+/autoware/build/autoware_perception_msgs/rosidl_generator_c/autoware_perception_msgs/msg/traffic_light_array.h

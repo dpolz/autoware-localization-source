@@ -1,0 +1,1 @@
+/autoware/build/static_centerline_optimizer/rosidl_generator_cpp/static_centerline_optimizer/srv/detail/plan_path__builder.hpp

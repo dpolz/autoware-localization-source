@@ -1,0 +1,1 @@
+/autoware/src/universe/external/morai_msgs/msg/MoraiSimConfig.msg

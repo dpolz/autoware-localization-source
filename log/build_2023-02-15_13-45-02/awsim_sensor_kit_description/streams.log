@@ -1,0 +1,45 @@
+[0.018s] Invoking command in '/autoware/build/awsim_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/awsim_sensor_kit_description
+[0.089s] -- The C compiler identification is GNU 11.3.0
+[0.152s] -- The CXX compiler identification is GNU 11.3.0
+[0.162s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.337s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.522s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.586s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.717s] -- Configuring done
+[0.721s] -- Generating done
+[0.723s] -- Build files have been written to: /autoware/build/awsim_sensor_kit_description
+[0.729s] Invoked command in '/autoware/build/awsim_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/external/awsim_sensor_kit_launch/awsim_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/awsim_sensor_kit_description
+[0.729s] Invoking command in '/autoware/build/awsim_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/awsim_sensor_kit_description -- -j64 -l64
+[0.760s] Invoked command in '/autoware/build/awsim_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/awsim_sensor_kit_description -- -j64 -l64
+[0.865s] Invoking command in '/autoware/build/awsim_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/awsim_sensor_kit_description
+[0.873s] -- Install configuration: "Release"
+[0.874s] -- Execute custom install script
+[0.875s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensor_kit.xacro
+[0.882s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/urdf/sensors.xacro
+[0.889s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensor_kit_calibration.yaml
+[0.897s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/config/sensors_calibration.yaml
+[0.904s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/awsim_sensor_kit_description
+[0.914s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/awsim_sensor_kit_description
+[0.921s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.sh
+[0.927s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/ament_prefix_path.dsv
+[0.934s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.sh
+[0.940s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/environment/path.dsv
+[0.947s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.bash
+[0.953s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.sh
+[0.960s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.zsh
+[0.966s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/local_setup.dsv
+[0.972s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.dsv
+[0.978s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/ament_index/resource_index/packages/awsim_sensor_kit_description
+[0.985s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig.cmake
+[0.991s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/cmake/awsim_sensor_kit_descriptionConfig-version.cmake
+[0.997s] -- Symlinking: /autoware/install/awsim_sensor_kit_description/share/awsim_sensor_kit_description/package.xml
+[1.014s] Invoked command in '/autoware/build/awsim_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/awsim_sensor_kit_description

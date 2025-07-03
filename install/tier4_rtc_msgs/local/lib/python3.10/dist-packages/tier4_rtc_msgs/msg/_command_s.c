@@ -1,0 +1,1 @@
+/autoware/build/tier4_rtc_msgs/rosidl_generator_py/tier4_rtc_msgs/msg/_command_s.c

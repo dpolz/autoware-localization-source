@@ -1,0 +1,100 @@
+[0.031s] Invoking command in '/autoware/build/kinematic_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/evaluator/kinematic_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/kinematic_evaluator
+[0.080s] -- The C compiler identification is GNU 11.3.0
+[0.131s] -- The CXX compiler identification is GNU 11.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.298s] -- Detecting CXX compile features - done
+[0.299s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.706s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.722s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.741s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.744s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.654s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.655s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.655s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.835s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.440s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.443s] -- Looking for pthread.h
+[4.501s] -- Looking for pthread.h - found
+[4.501s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.557s] -- Found Threads: TRUE  
+[4.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.566s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.567s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/evaluator/kinematic_evaluator/include
+[4.567s] -- Configured cppcheck exclude dirs and/or files: 
+[4.568s] -- Added test 'lint_cmake' to check CMake code style
+[4.568s] -- Added test 'xmllint' to check XML markup files
+[4.572s] -- Configuring done
+[4.634s] -- Generating done
+[4.636s] -- Build files have been written to: /autoware/build/kinematic_evaluator
+[4.648s] Invoked command in '/autoware/build/kinematic_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/evaluator/kinematic_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/kinematic_evaluator
+[4.649s] Invoking command in '/autoware/build/kinematic_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/kinematic_evaluator -- -j64 -l64
+[4.695s] [  8%] Building CXX object CMakeFiles/kinematic_evaluator.dir/rclcpp_components/node_main_kinematic_evaluator.cpp.o
+[4.696s] [ 16%] Building CXX object CMakeFiles/kinematic_evaluator_node.dir/src/metrics_calculator.cpp.o
+[4.697s] [ 25%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[4.697s] [ 33%] Building CXX object CMakeFiles/kinematic_evaluator_node.dir/src/kinematic_evaluator_node.cpp.o
+[4.697s] [ 41%] Building CXX object CMakeFiles/kinematic_evaluator_node.dir/src/metrics/kinematic_metrics.cpp.o
+[4.698s] [ 50%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[5.242s] [ 58%] Linking CXX static library libgtest_main.a
+[5.271s] [ 58%] Built target gtest_main
+[7.743s] [ 66%] Linking CXX executable kinematic_evaluator
+[7.836s] [ 66%] Built target kinematic_evaluator
+[11.175s] [ 75%] Linking CXX static library libgtest.a
+[11.200s] [ 75%] Built target gtest
+[16.919s] [ 83%] Linking CXX shared library libkinematic_evaluator_node.so
+[17.113s] [ 83%] Built target kinematic_evaluator_node
+[17.133s] [ 91%] Building CXX object CMakeFiles/test_kinematic_evaluator.dir/test/test_kinematic_evaluator_node.cpp.o
+[30.429s] [100%] Linking CXX executable test_kinematic_evaluator
+[30.674s] [100%] Built target test_kinematic_evaluator
+[30.684s] Invoked command in '/autoware/build/kinematic_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/kinematic_evaluator -- -j64 -l64
+[30.721s] Invoking command in '/autoware/build/kinematic_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/kinematic_evaluator
+[30.730s] -- Install configuration: "Release"
+[30.731s] -- Execute custom install script
+[30.731s] -- Symlinking: /autoware/install/kinematic_evaluator/lib/kinematic_evaluator/kinematic_evaluator
+[30.743s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/kinematic_evaluator_node.hpp
+[30.754s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/metrics/kinematic_metrics.hpp
+[30.764s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/metrics/metric.hpp
+[30.775s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/metrics_calculator.hpp
+[30.785s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/parameters.hpp
+[30.796s] -- Symlinking: /autoware/install/kinematic_evaluator/include/kinematic_evaluator/stat.hpp
+[30.808s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/library_path.sh
+[30.820s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/library_path.dsv
+[30.830s] -- Symlinking: /autoware/install/kinematic_evaluator/lib/libkinematic_evaluator_node.so
+[30.843s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/param/kinematic_evaluator.defaults.yaml
+[30.854s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/launch/kinematic_evaluator.launch.xml
+[30.866s] -- Symlinking: /autoware/install/kinematic_evaluator/share/ament_index/resource_index/package_run_dependencies/kinematic_evaluator
+[30.878s] -- Symlinking: /autoware/install/kinematic_evaluator/share/ament_index/resource_index/parent_prefix_path/kinematic_evaluator
+[30.889s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/ament_prefix_path.sh
+[30.901s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/ament_prefix_path.dsv
+[30.912s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/path.sh
+[30.924s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/environment/path.dsv
+[30.934s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/local_setup.bash
+[30.943s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/local_setup.sh
+[30.952s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/local_setup.zsh
+[30.961s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/local_setup.dsv
+[30.973s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/package.dsv
+[30.983s] -- Symlinking: /autoware/install/kinematic_evaluator/share/ament_index/resource_index/packages/kinematic_evaluator
+[30.994s] -- Symlinking: /autoware/install/kinematic_evaluator/share/ament_index/resource_index/rclcpp_components/kinematic_evaluator
+[31.006s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.018s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.029s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/cmake/ament_cmake_export_libraries-extras.cmake
+[31.041s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/cmake/kinematic_evaluatorConfig.cmake
+[31.096s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/cmake/kinematic_evaluatorConfig-version.cmake
+[31.101s] -- Symlinking: /autoware/install/kinematic_evaluator/share/kinematic_evaluator/package.xml
+[31.101s] Invoked command in '/autoware/build/kinematic_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/kinematic_evaluator

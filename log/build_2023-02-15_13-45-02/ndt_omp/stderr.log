@@ -1,0 +1,23 @@
+** WARNING ** io features related to pcap will be disabled
+In file included from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2:
+/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘void pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZ>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZ>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>]’:
+/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:4:24:   required from here
+/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31: warning: ‘BFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double]’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [-Wdeprecated-declarations]
+  230 |     result = bfgs.testGradient(gradient_tol);
+      |              ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45,
+                 from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1:
+/usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21: note: declared here
+  164 |   BFGSSpace::Status testGradient(Scalar) { return testGradient(); }
+      |                     ^~~~~~~~~~~~
+In file included from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2:
+/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘void pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZI>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZI>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>]’:
+/autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:5:24:   required from here
+/autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31: warning: ‘BFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZI, pcl::PointXYZI>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double]’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [-Wdeprecated-declarations]
+  230 |     result = bfgs.testGradient(gradient_tol);
+      |              ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45,
+                 from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1:
+/usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21: note: declared here
+  164 |   BFGSSpace::Status testGradient(Scalar) { return testGradient(); }
+      |                     ^~~~~~~~~~~~

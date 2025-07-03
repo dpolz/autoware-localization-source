@@ -1,0 +1,187 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/behavior_path_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/behavior_path_planner
+[  2%] Building CXX object CMakeFiles/behavior_path_planner.dir/rclcpp_components/node_main_behavior_path_planner.cpp.o
+[  4%] Building CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o
+[  6%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[  8%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 11%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/behavior_path_planner_node.cpp.o
+[ 13%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/utilities.cpp.o
+[ 15%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/turn_signal_decider.cpp.o
+[ 17%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/behavior_tree_manager.cpp.o
+[ 20%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/debug_utilities.cpp.o
+[ 22%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/scene_module_bt_node_interface.cpp.o
+[ 24%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/path_utilities.cpp.o
+[ 28%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/avoidance/debug.cpp.o
+[ 31%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/avoidance/avoidance_module.cpp.o
+[ 31%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/avoidance/avoidance_utils.cpp.o
+[ 33%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/side_shift/util.cpp.o
+[ 37%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/steering_factor_interface.cpp.o
+[ 40%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/lane_change/debug.cpp.o
+[ 44%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/lane_change/util.cpp.o
+[ 44%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/side_shift/side_shift_module.cpp.o
+[ 44%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_over/util.cpp.o
+[ 46%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_over/goal_searcher.cpp.o
+[ 51%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/utils/occupancy_grid_based_collision_detector.cpp.o
+[ 51%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_over/geometric_pull_over.cpp.o
+[ 53%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/lane_following/lane_following_module.cpp.o
+[ 55%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/lane_change/lane_change_module.cpp.o
+[ 62%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_over/pull_over_module.cpp.o
+[ 62%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_over/shift_pull_over.cpp.o
+[ 62%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_out/util.cpp.o
+[ 66%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/utils/path_shifter.cpp.o
+[ 66%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_out/geometric_pull_out.cpp.o
+[ 71%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_out/shift_pull_out.cpp.o
+[ 71%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/scene_module_visitor.cpp.o
+[ 73%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/utils/geometric_parallel_parking.cpp.o
+[ 75%] Building CXX object CMakeFiles/behavior_path_planner_node.dir/src/scene_module/pull_out/pull_out_module.cpp.o
+[ 77%] Linking CXX static library libgmock_main.a
+[ 77%] Built target gmock_main
+[ 80%] Linking CXX executable behavior_path_planner
+[ 80%] Built target behavior_path_planner
+[ 82%] Linking CXX static library libgmock.a
+[ 82%] Built target gmock
+[ 84%] Linking CXX shared library libbehavior_path_planner_node.so
+[ 84%] Built target behavior_path_planner_node
+[ 86%] Building CXX object CMakeFiles/test_behavior_path_planner_avoidance_module.dir/test/test_avoidance_utils.cpp.o
+[ 88%] Building CXX object CMakeFiles/test_behavior_path_planner_utilities.dir/test/test_utilities.cpp.o
+[ 91%] Building CXX object CMakeFiles/test_behavior_path_planner_turn_signal.dir/test/test_turn_signal.cpp.o
+[ 93%] Building CXX object CMakeFiles/test_behavior_path_planner_utilities.dir/test/input.cpp.o
+[ 95%] Linking CXX executable test_behavior_path_planner_avoidance_module
+[ 97%] Linking CXX executable test_behavior_path_planner_turn_signal
+[ 97%] Built target test_behavior_path_planner_avoidance_module
+[ 97%] Built target test_behavior_path_planner_turn_signal
+[100%] Linking CXX executable test_behavior_path_planner_utilities
+[100%] Built target test_behavior_path_planner_utilities
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/behavior_path_planner/lib/behavior_path_planner/behavior_path_planner
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/behavior_path_planner_node.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/behavior_tree_manager.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/data_manager.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/debug_utilities.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/parameters.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/path_utilities.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/avoidance/avoidance_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/avoidance/avoidance_module_data.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/avoidance/avoidance_utils.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/avoidance/debug.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_change/debug.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_change/lane_change_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_change/lane_change_module_data.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_change/lane_change_path.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_change/util.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/lane_following/lane_following_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/geometric_pull_out.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/pull_out_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/pull_out_parameters.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/pull_out_path.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/pull_out_planner_base.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/shift_pull_out.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_out/util.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/geometric_pull_over.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/goal_searcher.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/goal_searcher_base.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/pull_over_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/pull_over_parameters.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/pull_over_planner_base.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/shift_pull_over.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/pull_over/util.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/scene_module_bt_node_interface.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/scene_module_interface.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/scene_module_visitor.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/side_shift/side_shift_module.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/side_shift/util.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/utils/geometric_parallel_parking.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/utils/occupancy_grid_based_collision_detector.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/scene_module/utils/path_shifter.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/steering_factor_interface.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/turn_signal_decider.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/util/create_vehicle_footprint.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/include/behavior_path_planner/utilities.hpp
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/library_path.sh
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/library_path.dsv
+-- Symlinking: /autoware/install/behavior_path_planner/lib/libbehavior_path_planner_node.so
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/avoidance/avoidance.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner_tree.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner_tree_lane_change_only.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner_tree_lane_change_only_old.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner_tree_old.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/behavior_path_planner_tree_pull_out.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/drivable_area_expansion.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/lane_change/lane_change.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/lane_following/lane_following.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/pull_out/pull_out.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/pull_over/pull_over.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/config/side_shift/side_shift.param.yaml
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/launch/behavior_path_planner.launch.xml
+-- Symlinking: /autoware/install/behavior_path_planner/share/ament_index/resource_index/package_run_dependencies/behavior_path_planner
+-- Symlinking: /autoware/install/behavior_path_planner/share/ament_index/resource_index/parent_prefix_path/behavior_path_planner
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/path.sh
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/environment/path.dsv
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/local_setup.bash
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/local_setup.sh
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/local_setup.zsh
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/local_setup.dsv
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/package.dsv
+-- Symlinking: /autoware/install/behavior_path_planner/share/ament_index/resource_index/packages/behavior_path_planner
+-- Symlinking: /autoware/install/behavior_path_planner/share/ament_index/resource_index/rclcpp_components/behavior_path_planner
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/cmake/behavior_path_plannerConfig.cmake
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/cmake/behavior_path_plannerConfig-version.cmake
+-- Symlinking: /autoware/install/behavior_path_planner/share/behavior_path_planner/package.xml

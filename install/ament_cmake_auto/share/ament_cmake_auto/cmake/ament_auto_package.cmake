@@ -1,0 +1,1 @@
+/autoware/src/core/external/ament_cmake/ament_cmake_auto/cmake/ament_auto_package.cmake

@@ -1,0 +1,67 @@
+[0.024s] Invoking command in '/autoware/build/twist2accel': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/twist2accel -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/twist2accel
+[0.094s] -- The C compiler identification is GNU 11.3.0
+[0.170s] -- The CXX compiler identification is GNU 11.3.0
+[0.180s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.403s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.641s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.739s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.961s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.970s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.986s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.551s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.734s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.136s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.192s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.193s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/localization/twist2accel/include
+[2.193s] -- Configured cppcheck exclude dirs and/or files: 
+[2.194s] -- Added test 'lint_cmake' to check CMake code style
+[2.194s] -- Added test 'xmllint' to check XML markup files
+[2.198s] -- Configuring done
+[2.220s] -- Generating done
+[2.223s] -- Build files have been written to: /autoware/build/twist2accel
+[2.236s] Invoked command in '/autoware/build/twist2accel' returned '0': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/twist2accel -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/twist2accel
+[2.236s] Invoking command in '/autoware/build/twist2accel': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/twist2accel -- -j64 -l64
+[2.300s] [ 33%] Building CXX object CMakeFiles/twist2accel.dir/src/twist2accel.cpp.o
+[2.301s] [ 66%] Building CXX object CMakeFiles/twist2accel.dir/src/twist2accel_node.cpp.o
+[16.728s] [100%] Linking CXX executable twist2accel
+[16.880s] [100%] Built target twist2accel
+[16.887s] Invoked command in '/autoware/build/twist2accel' returned '0': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/twist2accel -- -j64 -l64
+[16.905s] Invoking command in '/autoware/build/twist2accel': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/twist2accel
+[16.910s] -- Install configuration: "Release"
+[16.911s] -- Execute custom install script
+[16.911s] -- Symlinking: /autoware/install/twist2accel/include/twist2accel/twist2accel.hpp
+[16.918s] -- Symlinking: /autoware/install/twist2accel/lib/twist2accel/twist2accel
+[16.923s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/launch/twist2accel.launch.xml
+[16.929s] -- Symlinking: /autoware/install/twist2accel/share/ament_index/resource_index/package_run_dependencies/twist2accel
+[16.934s] -- Symlinking: /autoware/install/twist2accel/share/ament_index/resource_index/parent_prefix_path/twist2accel
+[16.939s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/environment/ament_prefix_path.sh
+[16.944s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/environment/ament_prefix_path.dsv
+[16.949s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/environment/path.sh
+[16.955s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/environment/path.dsv
+[16.960s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/local_setup.bash
+[16.965s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/local_setup.sh
+[16.971s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/local_setup.zsh
+[16.976s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/local_setup.dsv
+[16.982s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/package.dsv
+[16.987s] -- Symlinking: /autoware/install/twist2accel/share/ament_index/resource_index/packages/twist2accel
+[16.993s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.998s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.003s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/cmake/twist2accelConfig.cmake
+[17.008s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/cmake/twist2accelConfig-version.cmake
+[17.014s] -- Symlinking: /autoware/install/twist2accel/share/twist2accel/package.xml
+[17.021s] Invoked command in '/autoware/build/twist2accel' returned '0': AMENT_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/signal_processing:/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/signal_processing/lib:/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/twist2accel

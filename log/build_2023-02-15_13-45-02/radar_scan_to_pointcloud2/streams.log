@@ -1,0 +1,122 @@
+[0.008s] Invoking command in '/autoware/build/radar_scan_to_pointcloud2': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/sensing/radar_scan_to_pointcloud2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/radar_scan_to_pointcloud2
+[0.057s] -- The C compiler identification is GNU 11.3.0
+[0.109s] -- The CXX compiler identification is GNU 11.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.285s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.577s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.745s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.751s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.763s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.906s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.909s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.687s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.688s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.688s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.065s] -- Checking for module 'eigen3'
+[2.075s] --   Found eigen3, version 3.4.0
+[2.098s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.098s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.142s] -- Checking for module 'flann'
+[2.155s] --   Found flann, version 1.9.1
+[2.187s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.187s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.118s] -- Checking for module 'libusb-1.0'
+[3.132s] --   Found libusb-1.0, version 1.0.25
+[3.161s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.163s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.199s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.383s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.392s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.398s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.582s] -- Found Qhull version 8.0.2
+[3.778s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.989s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.990s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.991s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.992s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.994s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.995s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.995s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.996s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.997s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.999s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.000s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.001s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.002s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.004s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.005s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.007s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.008s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.009s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.011s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.012s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.014s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.014s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.015s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.016s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.017s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.170s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.302s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.304s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/sensing/radar_scan_to_pointcloud2/include
+[4.304s] -- Configured cppcheck exclude dirs and/or files: 
+[4.306s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.306s] -- Configured cpplint exclude dirs and/or files: 
+[4.306s] -- Added test 'lint_cmake' to check CMake code style
+[4.307s] -- Added test 'xmllint' to check XML markup files
+[4.311s] -- Configuring done
+[4.352s] -- Generating done
+[4.356s] -- Build files have been written to: /autoware/build/radar_scan_to_pointcloud2
+[4.374s] Invoked command in '/autoware/build/radar_scan_to_pointcloud2' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/sensing/radar_scan_to_pointcloud2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/radar_scan_to_pointcloud2
+[4.375s] Invoking command in '/autoware/build/radar_scan_to_pointcloud2': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /autoware/build/radar_scan_to_pointcloud2 -- -j64 -l64
+[4.432s] [ 25%] Building CXX object CMakeFiles/radar_scan_to_pointcloud2_node_component.dir/src/radar_scan_to_pointcloud2_node/radar_scan_to_pointcloud2_node.cpp.o
+[4.434s] [ 50%] Building CXX object CMakeFiles/radar_scan_to_pointcloud2_node.dir/rclcpp_components/node_main_radar_scan_to_pointcloud2_node.cpp.o
+[7.870s] [ 75%] Linking CXX executable radar_scan_to_pointcloud2_node
+[7.989s] [ 75%] Built target radar_scan_to_pointcloud2_node
+[18.598s] [100%] Linking CXX shared library libradar_scan_to_pointcloud2_node_component.so
+[19.047s] [100%] Built target radar_scan_to_pointcloud2_node_component
+[19.061s] Invoked command in '/autoware/build/radar_scan_to_pointcloud2' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /autoware/build/radar_scan_to_pointcloud2 -- -j64 -l64
+[19.101s] Invoking command in '/autoware/build/radar_scan_to_pointcloud2': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /autoware/build/radar_scan_to_pointcloud2
+[19.108s] -- Install configuration: "Release"
+[19.108s] -- Execute custom install script
+[19.109s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/lib/radar_scan_to_pointcloud2/radar_scan_to_pointcloud2_node
+[19.119s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/include/radar_scan_to_pointcloud2/radar_scan_to_pointcloud2_node.hpp
+[19.130s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/library_path.sh
+[19.142s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/library_path.dsv
+[19.153s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/lib/libradar_scan_to_pointcloud2_node_component.so
+[19.164s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/launch/radar_scan_to_pointcloud2.launch.xml
+[19.174s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/radar_scan_to_pointcloud2
+[19.184s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/radar_scan_to_pointcloud2
+[19.193s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/ament_prefix_path.sh
+[19.202s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/ament_prefix_path.dsv
+[19.211s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/path.sh
+[19.219s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/environment/path.dsv
+[19.227s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/local_setup.bash
+[19.235s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/local_setup.sh
+[19.243s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/local_setup.zsh
+[19.252s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/local_setup.dsv
+[19.261s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/package.dsv
+[19.272s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/ament_index/resource_index/packages/radar_scan_to_pointcloud2
+[19.283s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/ament_index/resource_index/rclcpp_components/radar_scan_to_pointcloud2
+[19.294s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.304s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.313s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/cmake/ament_cmake_export_libraries-extras.cmake
+[19.321s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/cmake/radar_scan_to_pointcloud2Config.cmake
+[19.328s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/cmake/radar_scan_to_pointcloud2Config-version.cmake
+[19.336s] -- Symlinking: /autoware/install/radar_scan_to_pointcloud2/share/radar_scan_to_pointcloud2/package.xml
+[19.345s] Invoked command in '/autoware/build/radar_scan_to_pointcloud2' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /autoware/build/radar_scan_to_pointcloud2

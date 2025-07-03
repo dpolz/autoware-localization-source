@@ -1,0 +1,80 @@
+[0.011s] Invoking command in '/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_api_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_api_utils
+[0.078s] -- The C compiler identification is GNU 11.3.0
+[0.152s] -- The CXX compiler identification is GNU 11.3.0
+[0.152s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.289s] -- Detecting CXX compiler ABI info
+[0.374s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.387s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.389s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.580s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.653s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.924s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.925s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.951s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.126s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.131s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.276s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.314s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.759s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.804s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.810s] -- Looking for pthread.h
+[1.922s] -- Looking for pthread.h - found
+[1.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.236s] -- Found Threads: TRUE  
+[2.251s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.254s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.254s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/tier4_api_utils/include
+[2.255s] -- Configured cppcheck exclude dirs and/or files: 
+[2.272s] -- Added test 'lint_cmake' to check CMake code style
+[2.273s] -- Added test 'xmllint' to check XML markup files
+[2.278s] -- Configuring done
+[2.332s] -- Generating done
+[2.336s] -- Build files have been written to: /autoware/build/tier4_api_utils
+[2.383s] Invoked command in '/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_api_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_api_utils
+[2.384s] Invoking command in '/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_api_utils -- -j64 -l64
+[2.602s] [ 16%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[2.613s] [ 33%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[3.720s] [ 50%] Linking CXX static library libgtest_main.a
+[3.745s] [ 50%] Built target gtest_main
+[10.281s] [ 66%] Linking CXX static library libgtest.a
+[10.290s] [ 66%] Built target gtest
+[10.351s] [ 83%] Building CXX object CMakeFiles/tier4_api_utils_test.dir/test/test.cpp.o
+[13.488s] [100%] Linking CXX executable tier4_api_utils_test
+[13.589s] [100%] Built target tier4_api_utils_test
+[13.597s] Invoked command in '/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_api_utils -- -j64 -l64
+[13.619s] Invoking command in '/autoware/build/tier4_api_utils': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_api_utils
+[13.625s] -- Install configuration: "Release"
+[13.626s] -- Execute custom install script
+[13.626s] -- Symlinking: /autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/client.hpp
+[13.634s] -- Symlinking: /autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/proxy.hpp
+[13.641s] -- Symlinking: /autoware/install/tier4_api_utils/include/tier4_api_utils/rclcpp/service.hpp
+[13.647s] -- Symlinking: /autoware/install/tier4_api_utils/include/tier4_api_utils/tier4_api_utils.hpp
+[13.654s] -- Symlinking: /autoware/install/tier4_api_utils/include/tier4_api_utils/types/response.hpp
+[13.661s] -- Symlinking: /autoware/install/tier4_api_utils/share/ament_index/resource_index/package_run_dependencies/tier4_api_utils
+[13.670s] -- Symlinking: /autoware/install/tier4_api_utils/share/ament_index/resource_index/parent_prefix_path/tier4_api_utils
+[13.678s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/environment/ament_prefix_path.sh
+[13.685s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/environment/ament_prefix_path.dsv
+[13.691s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/environment/path.sh
+[13.698s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/environment/path.dsv
+[13.705s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.bash
+[13.714s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.sh
+[13.724s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.zsh
+[13.732s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/local_setup.dsv
+[13.739s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/package.dsv
+[13.746s] -- Symlinking: /autoware/install/tier4_api_utils/share/ament_index/resource_index/packages/tier4_api_utils
+[13.758s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.769s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.779s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/tier4_api_utilsConfig.cmake
+[13.789s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/cmake/tier4_api_utilsConfig-version.cmake
+[13.796s] -- Symlinking: /autoware/install/tier4_api_utils/share/tier4_api_utils/package.xml
+[13.818s] Invoked command in '/autoware/build/tier4_api_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_external_api_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_external_api_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_api_utils

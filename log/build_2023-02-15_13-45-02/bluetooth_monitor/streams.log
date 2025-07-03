@@ -1,0 +1,85 @@
+[0.045s] Invoking command in '/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/system/bluetooth_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/bluetooth_monitor
+[0.108s] -- The C compiler identification is GNU 11.3.0
+[0.187s] -- The CXX compiler identification is GNU 11.3.0
+[0.196s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.462s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.846s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.990s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.253s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.275s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.611s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.616s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.758s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.800s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.178s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.260s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization 
+[2.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.271s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/system/bluetooth_monitor/include
+[2.271s] -- Configured cppcheck exclude dirs and/or files: 
+[2.271s] -- Added test 'lint_cmake' to check CMake code style
+[2.272s] -- Added test 'xmllint' to check XML markup files
+[2.276s] -- Configuring done
+[2.306s] -- Generating done
+[2.308s] -- Build files have been written to: /autoware/build/bluetooth_monitor
+[2.318s] Invoked command in '/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/system/bluetooth_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/bluetooth_monitor
+[2.319s] Invoking command in '/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/bluetooth_monitor -- -j64 -l64
+[2.387s] [ 12%] Building CXX object CMakeFiles/bluetooth_monitor_lib.dir/src/bluetooth_monitor.cpp.o
+[2.387s] [ 25%] Building CXX object CMakeFiles/bluetooth_monitor.dir/rclcpp_components/node_main_bluetooth_monitor.cpp.o
+[5.845s] [ 37%] Linking CXX executable bluetooth_monitor
+[5.951s] [ 37%] Built target bluetooth_monitor
+[13.089s] [ 50%] Linking CXX shared library libbluetooth_monitor_lib.so
+[13.210s] [ 50%] Built target bluetooth_monitor_lib
+[13.229s] [ 62%] Building CXX object CMakeFiles/l2ping_service.dir/service/main.cpp.o
+[13.229s] [ 75%] Building CXX object CMakeFiles/l2ping_service.dir/service/l2ping_service.cpp.o
+[13.232s] [ 87%] Building CXX object CMakeFiles/l2ping_service.dir/service/l2ping.cpp.o
+[25.047s] [100%] Linking CXX executable l2ping_service
+[25.179s] [100%] Built target l2ping_service
+[25.188s] Invoked command in '/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/bluetooth_monitor -- -j64 -l64
+[25.212s] Invoking command in '/autoware/build/bluetooth_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/bluetooth_monitor
+[25.218s] -- Install configuration: "Release"
+[25.218s] -- Execute custom install script
+[25.219s] -- Symlinking: /autoware/install/bluetooth_monitor/lib/bluetooth_monitor/bluetooth_monitor
+[25.225s] -- Symlinking: /autoware/install/bluetooth_monitor/include/bluetooth_monitor/bluetooth_monitor.hpp
+[25.230s] -- Symlinking: /autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping.hpp
+[25.236s] -- Symlinking: /autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping_interface.hpp
+[25.241s] -- Symlinking: /autoware/install/bluetooth_monitor/include/bluetooth_monitor/service/l2ping_service.hpp
+[25.246s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/library_path.sh
+[25.251s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/library_path.dsv
+[25.257s] -- Symlinking: /autoware/install/bluetooth_monitor/lib/libbluetooth_monitor_lib.so
+[25.262s] -- Symlinking: /autoware/install/bluetooth_monitor/lib/bluetooth_monitor/l2ping_service
+[25.267s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/config/bluetooth_monitor.param.yaml
+[25.272s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/launch/bluetooth_monitor.launch.xml
+[25.278s] -- Symlinking: /autoware/install/bluetooth_monitor/share/ament_index/resource_index/package_run_dependencies/bluetooth_monitor
+[25.283s] -- Symlinking: /autoware/install/bluetooth_monitor/share/ament_index/resource_index/parent_prefix_path/bluetooth_monitor
+[25.288s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/ament_prefix_path.sh
+[25.293s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/ament_prefix_path.dsv
+[25.299s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/path.sh
+[25.305s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/environment/path.dsv
+[25.312s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.bash
+[25.316s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.sh
+[25.322s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.zsh
+[25.329s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/local_setup.dsv
+[25.334s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/package.dsv
+[25.339s] -- Symlinking: /autoware/install/bluetooth_monitor/share/ament_index/resource_index/packages/bluetooth_monitor
+[25.345s] -- Symlinking: /autoware/install/bluetooth_monitor/share/ament_index/resource_index/rclcpp_components/bluetooth_monitor
+[25.351s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.357s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.363s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[25.369s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/bluetooth_monitorConfig.cmake
+[25.374s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/cmake/bluetooth_monitorConfig-version.cmake
+[25.380s] -- Symlinking: /autoware/install/bluetooth_monitor/share/bluetooth_monitor/package.xml
+[25.394s] Invoked command in '/autoware/build/bluetooth_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/bluetooth_monitor

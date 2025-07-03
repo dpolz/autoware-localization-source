@@ -1,0 +1,27 @@
+CMake Warning at CMakeLists.txt:4 (find_package):
+  By not providing "Findtensorrt_common.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "tensorrt_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "tensorrt_common"
+  with any of the following names:
+
+    tensorrt_commonConfig.cmake
+    tensorrt_common-config.cmake
+
+  Add the installation prefix of "tensorrt_common" to CMAKE_PREFIX_PATH or
+  set "tensorrt_common_DIR" to a directory containing one of the above files.
+  If "tensorrt_common" provides a separate development package or SDK, be
+  sure it has been installed.
+
+
+CMake Warning at CMakeLists.txt:6 (message):
+  The tensorrt_common package is not found.  Please check its dependencies.
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    AMENT_CMAKE_SYMLINK_INSTALL
+
+

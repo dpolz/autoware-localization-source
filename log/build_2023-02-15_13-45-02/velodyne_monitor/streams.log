@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/velodyne_monitor
+[0.054s] -- The C compiler identification is GNU 11.3.0
+[0.117s] -- The CXX compiler identification is GNU 11.3.0
+[0.127s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.975s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.339s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.344s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.714s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.153s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.233s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.233s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.233s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/system/velodyne_monitor/include
+[2.233s] -- Configured cppcheck exclude dirs and/or files: 
+[2.233s] -- Added test 'lint_cmake' to check CMake code style
+[2.233s] -- Added test 'xmllint' to check XML markup files
+[2.238s] -- Configuring done
+[2.266s] -- Generating done
+[2.269s] -- Build files have been written to: /autoware/build/velodyne_monitor
+[2.283s] Invoked command in '/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/system/velodyne_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/velodyne_monitor
+[2.284s] Invoking command in '/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/velodyne_monitor -- -j64 -l64
+[2.506s] [ 33%] Building CXX object CMakeFiles/velodyne_monitor.dir/src/velodyne_monitor_node.cpp.o
+[2.506s] [ 66%] Building CXX object CMakeFiles/velodyne_monitor.dir/src/velodyne_monitor.cpp.o
+[19.629s] [100%] Linking CXX executable velodyne_monitor
+[19.822s] [100%] Built target velodyne_monitor
+[19.831s] Invoked command in '/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/velodyne_monitor -- -j64 -l64
+[19.854s] Invoking command in '/autoware/build/velodyne_monitor': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/velodyne_monitor
+[19.866s] -- Install configuration: "Release"
+[19.866s] -- Execute custom install script
+[19.866s] -- Symlinking: /autoware/install/velodyne_monitor/include/velodyne_monitor/velodyne_monitor.hpp
+[19.891s] -- Symlinking: /autoware/install/velodyne_monitor/lib/velodyne_monitor/velodyne_monitor
+[19.891s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/launch/velodyne_monitor.launch.xml
+[19.891s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/config/HDL-32E.param.yaml
+[19.891s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLP-16.param.yaml
+[19.891s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLP-32C.param.yaml
+[19.894s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/config/VLS-128.param.yaml
+[19.900s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/config/Velarray_M1600.param.yaml
+[19.906s] -- Symlinking: /autoware/install/velodyne_monitor/share/ament_index/resource_index/package_run_dependencies/velodyne_monitor
+[19.912s] -- Symlinking: /autoware/install/velodyne_monitor/share/ament_index/resource_index/parent_prefix_path/velodyne_monitor
+[19.918s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.sh
+[19.924s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/environment/ament_prefix_path.dsv
+[19.930s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/environment/path.sh
+[19.936s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/environment/path.dsv
+[19.942s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.bash
+[19.948s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.sh
+[19.953s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.zsh
+[19.959s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/local_setup.dsv
+[19.966s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/package.dsv
+[19.972s] -- Symlinking: /autoware/install/velodyne_monitor/share/ament_index/resource_index/packages/velodyne_monitor
+[19.978s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.983s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.989s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig.cmake
+[19.995s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/cmake/velodyne_monitorConfig-version.cmake
+[20.001s] -- Symlinking: /autoware/install/velodyne_monitor/share/velodyne_monitor/package.xml
+[20.009s] Invoked command in '/autoware/build/velodyne_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/velodyne_monitor

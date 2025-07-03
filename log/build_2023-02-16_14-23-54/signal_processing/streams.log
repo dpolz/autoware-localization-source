@@ -1,0 +1,60 @@
+[0.283s] Invoking command in '/autoware/build/signal_processing': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --build /autoware/build/signal_processing -- -j64 -l64
+[0.467s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.467s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.548s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.556s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.727s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.932s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.932s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.933s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.942s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/signal_processing/include;/autoware/src/universe/autoware.universe/common/signal_processing/test/include
+[0.943s] -- Configured cppcheck exclude dirs and/or files: 
+[0.943s] -- Added test 'lint_cmake' to check CMake code style
+[0.943s] -- Added test 'xmllint' to check XML markup files
+[0.943s] -- Configuring done
+[0.943s] -- Generating done
+[0.943s] -- Build files have been written to: /autoware/build/signal_processing
+[1.098s] Consolidate compiler generated dependencies of target gtest
+[1.098s] Consolidate compiler generated dependencies of target gtest_main
+[1.098s] Consolidate compiler generated dependencies of target lowpass_filters
+[1.099s] [ 16%] Built target gtest_main
+[1.099s] [ 33%] Built target gtest
+[1.099s] [ 66%] Built target lowpass_filters
+[1.099s] Consolidate compiler generated dependencies of target test_signal_processing
+[1.105s] [100%] Built target test_signal_processing
+[1.125s] Invoked command in '/autoware/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --build /autoware/build/signal_processing -- -j64 -l64
+[1.325s] Invoking command in '/autoware/build/signal_processing': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --install /autoware/build/signal_processing
+[1.334s] -- Install configuration: "Release"
+[1.334s] -- Execute custom install script
+[1.334s] -- Up-to-date symlink: /autoware/install/signal_processing/include/signal_processing/butterworth.hpp
+[1.334s] -- Up-to-date symlink: /autoware/install/signal_processing/include/signal_processing/lowpass_filter.hpp
+[1.334s] -- Up-to-date symlink: /autoware/install/signal_processing/include/signal_processing/lowpass_filter_1d.hpp
+[1.335s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/library_path.sh
+[1.335s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/library_path.dsv
+[1.335s] -- Up-to-date symlink: /autoware/install/signal_processing/lib/liblowpass_filters.so
+[1.336s] -- Up-to-date symlink: /autoware/install/signal_processing/share/ament_index/resource_index/package_run_dependencies/signal_processing
+[1.341s] -- Up-to-date symlink: /autoware/install/signal_processing/share/ament_index/resource_index/parent_prefix_path/signal_processing
+[1.341s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/ament_prefix_path.sh
+[1.341s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/ament_prefix_path.dsv
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/path.sh
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/environment/path.dsv
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/local_setup.bash
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/local_setup.sh
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/local_setup.zsh
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/local_setup.dsv
+[1.342s] -- Symlinking: /autoware/install/signal_processing/share/signal_processing/package.dsv
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/ament_index/resource_index/packages/signal_processing
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.342s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.343s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/cmake/ament_cmake_export_libraries-extras.cmake
+[1.343s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/cmake/signal_processingConfig.cmake
+[1.343s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/cmake/signal_processingConfig-version.cmake
+[1.343s] -- Up-to-date symlink: /autoware/install/signal_processing/share/signal_processing/package.xml
+[1.348s] Invoked command in '/autoware/build/signal_processing' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --install /autoware/build/signal_processing

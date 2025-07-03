@@ -1,0 +1,88 @@
+[0.042s] Invoking command in '/autoware/build/costmap_generator': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/costmap_generator -- -j64 -l64
+[0.077s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.078s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.345s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.353s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.901s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.903s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.281s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[2.385s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.386s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.926s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.250s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.257s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.446s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.451s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.456s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.601s] -- Found Qhull version 8.0.2
+[3.752s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.079s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.427s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.433s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.442s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.444s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.445s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/costmap_generator/include
+[8.445s] -- Configured cppcheck exclude dirs and/or files: 
+[8.445s] -- Added test 'lint_cmake' to check CMake code style
+[8.446s] -- Added test 'xmllint' to check XML markup files
+[8.450s] -- Configuring done
+[8.754s] -- Generating done
+[8.758s] -- Build files have been written to: /autoware/build/costmap_generator
+[8.801s] Consolidate compiler generated dependencies of target gtest_main
+[8.802s] Consolidate compiler generated dependencies of target gtest
+[8.803s] Consolidate compiler generated dependencies of target costmap_generator
+[8.813s] [ 12%] Built target gtest_main
+[8.813s] [ 25%] Built target gtest
+[8.816s] [ 37%] Built target costmap_generator
+[8.818s] Consolidate compiler generated dependencies of target costmap_generator_lib
+[8.840s] [ 43%] Linking CXX shared library libcostmap_generator_lib.so
+[9.248s] [ 62%] Built target costmap_generator_lib
+[9.269s] Consolidate compiler generated dependencies of target test_objects_to_costmap
+[9.271s] Consolidate compiler generated dependencies of target test_points_to_costmap
+[9.281s] Consolidate compiler generated dependencies of target costmap_generator_node
+[9.286s] [ 68%] Linking CXX executable test_objects_to_costmap
+[9.292s] [ 75%] Linking CXX executable test_points_to_costmap
+[9.313s] [ 81%] Building CXX object CMakeFiles/costmap_generator_node.dir/nodes/costmap_generator/costmap_generator_node.cpp.o
+[9.896s] [ 87%] Built target test_objects_to_costmap
+[9.929s] [ 93%] Built target test_points_to_costmap
+[42.520s] [100%] Linking CXX shared library libcostmap_generator_node.so
+[43.335s] [100%] Built target costmap_generator_node
+[43.345s] Invoked command in '/autoware/build/costmap_generator' returned '0': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/costmap_generator -- -j64 -l64
+[43.378s] Invoking command in '/autoware/build/costmap_generator': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/costmap_generator
+[43.384s] -- Install configuration: "Release"
+[43.385s] -- Execute custom install script
+[43.385s] -- Up-to-date symlink: /autoware/install/costmap_generator/lib/costmap_generator/costmap_generator
+[43.385s] -- Up-to-date symlink: /autoware/install/costmap_generator/include/costmap_generator/costmap_generator.hpp
+[43.385s] -- Up-to-date symlink: /autoware/install/costmap_generator/include/costmap_generator/object_map_utils.hpp
+[43.385s] -- Up-to-date symlink: /autoware/install/costmap_generator/include/costmap_generator/objects_to_costmap.hpp
+[43.385s] -- Up-to-date symlink: /autoware/install/costmap_generator/include/costmap_generator/points_to_costmap.hpp
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/library_path.sh
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/library_path.dsv
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/lib/libcostmap_generator_lib.so
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/lib/libcostmap_generator_node.so
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/launch/costmap_generator.launch.xml
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/ament_index/resource_index/package_run_dependencies/costmap_generator
+[43.386s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/ament_index/resource_index/parent_prefix_path/costmap_generator
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/ament_prefix_path.sh
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/ament_prefix_path.dsv
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/path.sh
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/environment/path.dsv
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/local_setup.bash
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/local_setup.sh
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/local_setup.zsh
+[43.387s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/local_setup.dsv
+[43.388s] -- Symlinking: /autoware/install/costmap_generator/share/costmap_generator/package.dsv
+[43.424s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/ament_index/resource_index/packages/costmap_generator
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/ament_index/resource_index/rclcpp_components/costmap_generator
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/cmake/ament_cmake_export_libraries-extras.cmake
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig.cmake
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig-version.cmake
+[43.425s] -- Up-to-date symlink: /autoware/install/costmap_generator/share/costmap_generator/package.xml
+[43.425s] Invoked command in '/autoware/build/costmap_generator' returned '0': AMENT_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/costmap_generator

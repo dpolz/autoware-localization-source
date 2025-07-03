@@ -1,0 +1,289 @@
+[0.063s] Invoking command in '/autoware/build/tier4_api_msgs': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_api_msgs -- -j64 -l64
+[0.131s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_generator_c
+[0.131s] [  0%] Built target tier4_api_msgs__cpp
+[0.132s] [  0%] Built target ament_cmake_python_symlink_tier4_api_msgs
+[0.156s] [ 12%] Built target tier4_api_msgs__rosidl_generator_c
+[0.156s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_c
+[0.156s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_cpp
+[0.156s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_cpp
+[0.156s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_c
+[0.156s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_cpp
+[0.224s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_c
+[0.224s] [ 24%] Built target tier4_api_msgs__rosidl_typesupport_c
+[0.224s] [ 36%] Built target tier4_api_msgs__rosidl_typesupport_cpp
+[0.225s] [ 48%] Built target tier4_api_msgs__rosidl_typesupport_introspection_cpp
+[0.225s] [ 70%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_cpp
+[0.225s] [ 71%] Built target tier4_api_msgs__rosidl_typesupport_introspection_c
+[0.225s] [ 83%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_c
+[0.228s] [ 83%] Built target tier4_api_msgs
+[0.228s] [ 84%] Built target tier4_api_msgs__py
+[0.228s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_generator_py
+[0.237s] [ 95%] Built target tier4_api_msgs__rosidl_generator_py
+[0.240s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.240s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_c__pyext
+[0.240s] Consolidate compiler generated dependencies of target tier4_api_msgs__rosidl_typesupport_introspection_c__pyext
+[0.251s] [ 97%] Built target tier4_api_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.251s] [100%] Built target tier4_api_msgs__rosidl_typesupport_c__pyext
+[0.252s] [100%] Built target tier4_api_msgs__rosidl_typesupport_introspection_c__pyext
+[0.484s] running egg_info
+[0.486s] writing tier4_api_msgs.egg-info/PKG-INFO
+[0.486s] writing dependency_links to tier4_api_msgs.egg-info/dependency_links.txt
+[0.487s] writing top-level names to tier4_api_msgs.egg-info/top_level.txt
+[0.491s] reading manifest file 'tier4_api_msgs.egg-info/SOURCES.txt'
+[0.493s] writing manifest file 'tier4_api_msgs.egg-info/SOURCES.txt'
+[0.538s] [100%] Built target ament_cmake_python_build_tier4_api_msgs_egg
+[0.566s] Invoked command in '/autoware/build/tier4_api_msgs' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_api_msgs -- -j64 -l64
+[1.112s] Invoking command in '/autoware/build/tier4_api_msgs': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_api_msgs
+[1.125s] -- Install configuration: "Release"
+[1.126s] -- Execute custom install script
+[1.127s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_api_msgs
+[1.130s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/awapi_autoware_status.h
+[1.130s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/awapi_vehicle_status.h
+[1.130s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/crosswalk_status.h
+[1.131s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__functions.h
+[1.132s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__struct.h
+[1.132s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__type_support.h
+[1.132s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__functions.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__struct.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__type_support.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__functions.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__struct.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__type_support.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__functions.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__struct.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__type_support.h
+[1.135s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__functions.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__struct.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__type_support.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__functions.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__struct.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__type_support.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__functions.h
+[1.136s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__struct.h
+[1.137s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__type_support.h
+[1.137s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__functions.h
+[1.137s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__struct.h
+[1.137s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__type_support.h
+[1.137s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__functions.h
+[1.138s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__struct.h
+[1.138s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__type_support.h
+[1.138s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__functions.h
+[1.139s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__struct.h
+[1.139s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__type_support.h
+[1.139s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__functions.h
+[1.139s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__struct.h
+[1.140s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__type_support.h
+[1.140s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/door_control_command.h
+[1.140s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/door_status.h
+[1.141s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/euler.h
+[1.141s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/intersection_status.h
+[1.141s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/lane_change_status.h
+[1.141s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/obstacle_avoidance_status.h
+[1.142s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.142s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/stop_command.h
+[1.142s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/velocity_limit.h
+[1.143s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/library_path.sh
+[1.143s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/library_path.dsv
+[1.145s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_fastrtps_c.h
+[1.145s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_fastrtps_c.h
+[1.146s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_fastrtps_c.h
+[1.146s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_fastrtps_c.h
+[1.146s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_fastrtps_c.h
+[1.146s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_fastrtps_c.h
+[1.147s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_fastrtps_c.h
+[1.147s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_fastrtps_c.h
+[1.147s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_fastrtps_c.h
+[1.148s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_fastrtps_c.h
+[1.148s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_fastrtps_c.h
+[1.148s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.149s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_introspection_c.h
+[1.151s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_introspection_c.h
+[1.151s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_introspection_c.h
+[1.151s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_introspection_c.h
+[1.152s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_introspection_c.h
+[1.152s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_introspection_c.h
+[1.152s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_introspection_c.h
+[1.152s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.156s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/awapi_autoware_status.hpp
+[1.156s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/awapi_vehicle_status.hpp
+[1.156s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/crosswalk_status.hpp
+[1.157s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__builder.hpp
+[1.157s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__struct.hpp
+[1.157s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__traits.hpp
+[1.158s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__builder.hpp
+[1.158s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__struct.hpp
+[1.158s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__traits.hpp
+[1.158s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__builder.hpp
+[1.159s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__struct.hpp
+[1.159s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__traits.hpp
+[1.159s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__builder.hpp
+[1.160s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__struct.hpp
+[1.160s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__traits.hpp
+[1.160s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__builder.hpp
+[1.161s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__struct.hpp
+[1.161s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__traits.hpp
+[1.162s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__builder.hpp
+[1.162s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__struct.hpp
+[1.162s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__traits.hpp
+[1.163s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__builder.hpp
+[1.163s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__struct.hpp
+[1.163s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__traits.hpp
+[1.164s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__builder.hpp
+[1.164s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__struct.hpp
+[1.164s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__traits.hpp
+[1.165s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__builder.hpp
+[1.165s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__struct.hpp
+[1.165s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__traits.hpp
+[1.166s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__builder.hpp
+[1.166s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__struct.hpp
+[1.166s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__traits.hpp
+[1.167s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__builder.hpp
+[1.167s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__struct.hpp
+[1.167s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__traits.hpp
+[1.167s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/door_control_command.hpp
+[1.168s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/door_status.hpp
+[1.168s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/euler.hpp
+[1.168s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/intersection_status.hpp
+[1.168s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/lane_change_status.hpp
+[1.169s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/obstacle_avoidance_status.hpp
+[1.169s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/stop_command.hpp
+[1.169s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/velocity_limit.hpp
+[1.171s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.171s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.172s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.172s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.173s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.175s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_fastrtps_cpp.hpp
+[1.177s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.177s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.178s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.178s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.178s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[1.178s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.179s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_autoware_status__rosidl_typesupport_introspection_cpp.hpp
+[1.179s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/awapi_vehicle_status__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/crosswalk_status__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_control_command__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/door_status__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/euler__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/intersection_status__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/lane_change_status__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/obstacle_avoidance_status__rosidl_typesupport_introspection_cpp.hpp
+[1.181s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/stop_command__rosidl_typesupport_introspection_cpp.hpp
+[1.181s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/include/tier4_api_msgs/tier4_api_msgs/msg/detail/velocity_limit__rosidl_typesupport_introspection_cpp.hpp
+[1.181s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/pythonpath.sh
+[1.182s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/pythonpath.dsv
+[1.182s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[1.182s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.182s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.182s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[1.184s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/__init__.py
+[1.185s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_c.c
+[1.185s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.185s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/_tier4_api_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.186s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/libtier4_api_msgs__rosidl_generator_py.so
+[1.186s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/__init__.py
+[1.186s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_awapi_autoware_status.py
+[1.187s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_awapi_autoware_status_s.c
+[1.187s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_awapi_vehicle_status.py
+[1.187s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_awapi_vehicle_status_s.c
+[1.188s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_crosswalk_status.py
+[1.188s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_crosswalk_status_s.c
+[1.188s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_door_control_command.py
+[1.188s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_door_control_command_s.c
+[1.188s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_door_status.py
+[1.189s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_door_status_s.c
+[1.189s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_euler.py
+[1.189s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_euler_s.c
+[1.190s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_intersection_status.py
+[1.190s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_intersection_status_s.c
+[1.190s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_lane_change_status.py
+[1.191s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_lane_change_status_s.c
+[1.191s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_obstacle_avoidance_status.py
+[1.191s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_obstacle_avoidance_status_s.c
+[1.192s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_stop_command.py
+[1.192s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_stop_command_s.c
+[1.192s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_velocity_limit.py
+[1.192s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg/_velocity_limit_s.c
+[1.193s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.193s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.193s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.194s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.197s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.197s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/tier4_api_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.198s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiAutowareStatus.idl
+[1.200s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiVehicleStatus.idl
+[1.200s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/CrosswalkStatus.idl
+[1.200s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorControlCommand.idl
+[1.200s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorStatus.idl
+[1.200s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/Euler.idl
+[1.201s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/IntersectionStatus.idl
+[1.202s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/LaneChangeStatus.idl
+[1.202s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/ObstacleAvoidanceStatus.idl
+[1.202s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/StopCommand.idl
+[1.202s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/VelocityLimit.idl
+[1.202s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiAutowareStatus.msg
+[1.203s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/AwapiVehicleStatus.msg
+[1.203s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/CrosswalkStatus.msg
+[1.203s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorControlCommand.msg
+[1.203s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/DoorStatus.msg
+[1.203s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/Euler.msg
+[1.204s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/IntersectionStatus.msg
+[1.204s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/LaneChangeStatus.msg
+[1.204s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/ObstacleAvoidanceStatus.msg
+[1.204s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/StopCommand.msg
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/msg/VelocityLimit.msg
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_api_msgs
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_api_msgs
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/ament_prefix_path.sh
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/ament_prefix_path.dsv
+[1.205s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/path.sh
+[1.206s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/environment/path.dsv
+[1.206s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.bash
+[1.206s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.sh
+[1.206s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.zsh
+[1.206s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/local_setup.dsv
+[1.206s] -- Symlinking: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/package.dsv
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/ament_index/resource_index/packages/tier4_api_msgs
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake-extras.cmake
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.216s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.217s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.217s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.217s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgsConfig.cmake
+[1.217s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgsConfig-version.cmake
+[1.217s] -- Up-to-date symlink: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/package.xml
+[1.218s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_generator_c.so
+[1.220s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_fastrtps_c.so
+[1.223s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_c.so
+[1.223s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_c.so
+[1.238s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.238s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_introspection_cpp.so
+[1.239s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_typesupport_cpp.so
+[1.301s] Listing '/autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs'...
+[1.301s] Listing '/autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages/tier4_api_msgs/msg'...
+[1.303s] -- Up-to-date: /autoware/install/tier4_api_msgs/lib/libtier4_api_msgs__rosidl_generator_py.so
+[1.303s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_generator_cExport.cmake
+[1.303s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_generator_cExport-release.cmake
+[1.303s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.303s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.304s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.304s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.304s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cExport.cmake
+[1.305s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cExport-release.cmake
+[1.305s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_generator_cppExport.cmake
+[1.305s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.305s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.306s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.306s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.306s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cppExport.cmake
+[1.307s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/tier4_api_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.307s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_generator_pyExport.cmake
+[1.307s] -- Up-to-date: /autoware/install/tier4_api_msgs/share/tier4_api_msgs/cmake/export_tier4_api_msgs__rosidl_generator_pyExport-release.cmake
+[1.354s] Invoked command in '/autoware/build/tier4_api_msgs' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_common_msgs:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_api_msgs

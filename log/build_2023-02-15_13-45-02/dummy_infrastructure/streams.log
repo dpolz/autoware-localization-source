@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/autoware/build/dummy_infrastructure': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/dummy_infrastructure -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/dummy_infrastructure
+[0.112s] -- The C compiler identification is GNU 11.3.0
+[0.164s] -- The CXX compiler identification is GNU 11.3.0
+[0.172s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.311s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.544s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.767s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.772s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.781s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.889s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.019s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.349s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.367s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.369s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.369s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/system/dummy_infrastructure/include
+[1.369s] -- Configured cppcheck exclude dirs and/or files: 
+[1.370s] -- Added test 'lint_cmake' to check CMake code style
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.374s] -- Configuring done
+[1.387s] -- Generating done
+[1.389s] -- Build files have been written to: /autoware/build/dummy_infrastructure
+[1.399s] Invoked command in '/autoware/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/dummy_infrastructure -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/dummy_infrastructure
+[1.400s] Invoking command in '/autoware/build/dummy_infrastructure': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/dummy_infrastructure -- -j64 -l64
+[1.466s] [ 25%] Building CXX object CMakeFiles/dummy_infrastructure_node.dir/rclcpp_components/node_main_dummy_infrastructure_node.cpp.o
+[1.475s] [ 50%] Building CXX object CMakeFiles/dummy_infrastructure_node_component.dir/src/dummy_infrastructure_node/dummy_infrastructure_node.cpp.o
+[5.764s] [ 75%] Linking CXX executable dummy_infrastructure_node
+[5.845s] [ 75%] Built target dummy_infrastructure_node
+[13.668s] [100%] Linking CXX shared library libdummy_infrastructure_node_component.so
+[13.859s] [100%] Built target dummy_infrastructure_node_component
+[13.868s] Invoked command in '/autoware/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/dummy_infrastructure -- -j64 -l64
+[13.896s] Invoking command in '/autoware/build/dummy_infrastructure': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/dummy_infrastructure
+[13.902s] -- Install configuration: "Release"
+[13.903s] -- Execute custom install script
+[13.903s] -- Symlinking: /autoware/install/dummy_infrastructure/lib/dummy_infrastructure/dummy_infrastructure_node
+[13.915s] -- Symlinking: /autoware/install/dummy_infrastructure/include/dummy_infrastructure/dummy_infrastructure_node.hpp
+[13.926s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.sh
+[13.938s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/library_path.dsv
+[13.946s] -- Symlinking: /autoware/install/dummy_infrastructure/lib/libdummy_infrastructure_node_component.so
+[13.957s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/config/dummy_infrastructure.param.yaml
+[13.966s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/launch/dummy_infrastructure.launch.xml
+[13.976s] -- Symlinking: /autoware/install/dummy_infrastructure/share/ament_index/resource_index/package_run_dependencies/dummy_infrastructure
+[13.983s] -- Symlinking: /autoware/install/dummy_infrastructure/share/ament_index/resource_index/parent_prefix_path/dummy_infrastructure
+[13.990s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.sh
+[14.002s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/ament_prefix_path.dsv
+[14.013s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.sh
+[14.025s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/environment/path.dsv
+[14.035s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.bash
+[14.047s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.sh
+[14.059s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.zsh
+[14.067s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/local_setup.dsv
+[14.076s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/package.dsv
+[14.085s] -- Symlinking: /autoware/install/dummy_infrastructure/share/ament_index/resource_index/packages/dummy_infrastructure
+[14.093s] -- Symlinking: /autoware/install/dummy_infrastructure/share/ament_index/resource_index/rclcpp_components/dummy_infrastructure
+[14.101s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.109s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.121s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/ament_cmake_export_libraries-extras.cmake
+[14.128s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig.cmake
+[14.139s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/cmake/dummy_infrastructureConfig-version.cmake
+[14.146s] -- Symlinking: /autoware/install/dummy_infrastructure/share/dummy_infrastructure/package.xml
+[14.170s] Invoked command in '/autoware/build/dummy_infrastructure' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_v2x_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_v2x_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/dummy_infrastructure

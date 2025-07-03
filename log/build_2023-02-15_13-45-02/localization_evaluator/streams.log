@@ -1,0 +1,100 @@
+[0.027s] Invoking command in '/autoware/build/localization_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/evaluator/localization_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/localization_evaluator
+[0.077s] -- The C compiler identification is GNU 11.3.0
+[0.130s] -- The CXX compiler identification is GNU 11.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.288s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.536s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.701s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.707s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.735s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.738s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.836s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.870s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.931s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.705s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.706s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.706s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.907s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.502s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.505s] -- Looking for pthread.h
+[4.565s] -- Looking for pthread.h - found
+[4.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.624s] -- Found Threads: TRUE  
+[4.631s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.633s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.633s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/evaluator/localization_evaluator/include
+[4.633s] -- Configured cppcheck exclude dirs and/or files: 
+[4.634s] -- Added test 'lint_cmake' to check CMake code style
+[4.635s] -- Added test 'xmllint' to check XML markup files
+[4.638s] -- Configuring done
+[4.699s] -- Generating done
+[4.702s] -- Build files have been written to: /autoware/build/localization_evaluator
+[4.714s] Invoked command in '/autoware/build/localization_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/evaluator/localization_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/localization_evaluator
+[4.715s] Invoking command in '/autoware/build/localization_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/localization_evaluator -- -j64 -l64
+[4.764s] [ 16%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[4.764s] [ 16%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[4.764s] [ 25%] Building CXX object CMakeFiles/localization_evaluator_node.dir/src/localization_evaluator_node.cpp.o
+[4.765s] [ 33%] Building CXX object CMakeFiles/localization_evaluator_node.dir/src/metrics_calculator.cpp.o
+[4.769s] [ 41%] Building CXX object CMakeFiles/localization_evaluator_node.dir/src/metrics/localization_metrics.cpp.o
+[4.770s] [ 50%] Building CXX object CMakeFiles/localization_evaluator.dir/rclcpp_components/node_main_localization_evaluator.cpp.o
+[5.324s] [ 58%] Linking CXX static library libgtest_main.a
+[5.348s] [ 58%] Built target gtest_main
+[8.130s] [ 66%] Linking CXX executable localization_evaluator
+[8.215s] [ 66%] Built target localization_evaluator
+[11.541s] [ 75%] Linking CXX static library libgtest.a
+[11.569s] [ 75%] Built target gtest
+[23.805s] [ 83%] Linking CXX shared library liblocalization_evaluator_node.so
+[24.064s] [ 83%] Built target localization_evaluator_node
+[24.064s] [ 91%] Building CXX object CMakeFiles/test_localization_evaluator.dir/test/test_localization_evaluator_node.cpp.o
+[37.518s] [100%] Linking CXX executable test_localization_evaluator
+[37.770s] [100%] Built target test_localization_evaluator
+[37.780s] Invoked command in '/autoware/build/localization_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/localization_evaluator -- -j64 -l64
+[37.807s] Invoking command in '/autoware/build/localization_evaluator': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/localization_evaluator
+[37.813s] -- Install configuration: "Release"
+[37.814s] -- Execute custom install script
+[37.814s] -- Symlinking: /autoware/install/localization_evaluator/lib/localization_evaluator/localization_evaluator
+[37.823s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/localization_evaluator_node.hpp
+[37.831s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/metrics/localization_metrics.hpp
+[37.839s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/metrics/metric.hpp
+[37.846s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/metrics_calculator.hpp
+[37.854s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/parameters.hpp
+[37.861s] -- Symlinking: /autoware/install/localization_evaluator/include/localization_evaluator/stat.hpp
+[37.869s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/library_path.sh
+[37.875s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/library_path.dsv
+[37.883s] -- Symlinking: /autoware/install/localization_evaluator/lib/liblocalization_evaluator_node.so
+[37.890s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/param/localization_evaluator.defaults.yaml
+[37.897s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/launch/localization_evaluator.launch.xml
+[37.904s] -- Symlinking: /autoware/install/localization_evaluator/share/ament_index/resource_index/package_run_dependencies/localization_evaluator
+[37.910s] -- Symlinking: /autoware/install/localization_evaluator/share/ament_index/resource_index/parent_prefix_path/localization_evaluator
+[37.919s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/ament_prefix_path.sh
+[37.928s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/ament_prefix_path.dsv
+[37.936s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/path.sh
+[37.944s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/environment/path.dsv
+[37.953s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/local_setup.bash
+[37.960s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/local_setup.sh
+[37.969s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/local_setup.zsh
+[37.976s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/local_setup.dsv
+[37.983s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/package.dsv
+[37.990s] -- Symlinking: /autoware/install/localization_evaluator/share/ament_index/resource_index/packages/localization_evaluator
+[37.996s] -- Symlinking: /autoware/install/localization_evaluator/share/ament_index/resource_index/rclcpp_components/localization_evaluator
+[38.005s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.013s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.020s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/cmake/ament_cmake_export_libraries-extras.cmake
+[38.027s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/cmake/localization_evaluatorConfig.cmake
+[38.033s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/cmake/localization_evaluatorConfig-version.cmake
+[38.039s] -- Symlinking: /autoware/install/localization_evaluator/share/localization_evaluator/package.xml
+[38.053s] Invoked command in '/autoware/build/localization_evaluator' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/localization_evaluator

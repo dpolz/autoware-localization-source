@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/tier4_planning_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_planning_msgs
+Invoked command in '/autoware/build/tier4_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_planning_msgs
+Invoking command in '/autoware/build/tier4_planning_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_planning_msgs -- -j64 -l64
+Invoked command in '/autoware/build/tier4_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_planning_msgs -- -j64 -l64
+Invoking command in '/autoware/build/tier4_planning_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_planning_msgs
+Invoked command in '/autoware/build/tier4_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_planning_msgs

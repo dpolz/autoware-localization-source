@@ -1,0 +1,178 @@
+[0.068s] Invoking command in '/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/obstacle_velocity_limiter
+[0.126s] -- The C compiler identification is GNU 11.3.0
+[0.181s] -- The CXX compiler identification is GNU 11.3.0
+[0.190s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.345s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.842s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.851s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.863s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.056s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.062s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.220s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.305s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.307s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.307s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.992s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[4.274s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[4.506s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.596s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.596s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.848s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[4.925s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.925s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[6.942s] -- Checking for module 'eigen3'
+[6.975s] --   Found eigen3, version 3.4.0
+[7.048s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.048s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.090s] -- Checking for module 'flann'
+[7.148s] --   Found flann, version 1.9.1
+[7.215s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[9.079s] -- Checking for module 'libusb-1.0'
+[9.109s] --   Found libusb-1.0, version 1.0.25
+[9.242s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.243s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.502s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.747s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.766s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.784s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.102s] -- Found Qhull version 8.0.2
+[10.469s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.818s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.819s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.821s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.822s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.824s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.825s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.826s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.827s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.828s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.830s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.832s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.833s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.834s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.836s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.837s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.839s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.841s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.842s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.844s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.845s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.848s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.848s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.849s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.851s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.852s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.879s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.932s] CMake Warning (dev) at CMakeLists.txt:7 (find_package):
+[11.932s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[11.932s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[11.932s]   command to set the policy and suppress this warning.
+[11.933s] 
+[11.933s]   CMake variable PCL_ROOT is set to:
+[11.933s] 
+[11.933s]     /usr
+[11.933s] 
+[11.933s]   For compatibility, CMake is ignoring the variable.
+[11.933s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.933s] 
+[26.453s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.460s] -- Found Threads: TRUE  
+[26.469s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.477s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter/include
+[26.477s] -- Configured cppcheck exclude dirs and/or files: 
+[26.480s] -- Added test 'lint_cmake' to check CMake code style
+[26.482s] -- Added test 'xmllint' to check XML markup files
+[26.488s] -- Configuring done
+[26.973s] -- Generating done
+[26.977s] -- Build files have been written to: /autoware/build/obstacle_velocity_limiter
+[27.004s] Invoked command in '/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/planning/obstacle_velocity_limiter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/obstacle_velocity_limiter
+[27.005s] Invoking command in '/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/obstacle_velocity_limiter -- -j64 -l64
+[27.099s] [  4%] Building CXX object CMakeFiles/obstacle_velocity_limiter.dir/rclcpp_components/node_main_obstacle_velocity_limiter.cpp.o
+[27.104s] [  8%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[27.107s] [ 12%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/forward_projection.cpp.o
+[27.108s] [ 16%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacles.cpp.o
+[27.109s] [ 20%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/debug.cpp.o
+[27.109s] [ 25%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[27.110s] [ 29%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacle_velocity_limiter_node.cpp.o
+[27.110s] [ 33%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/map_utils.cpp.o
+[27.113s] [ 41%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/obstacle_velocity_limiter.cpp.o
+[27.114s] [ 45%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/distance.cpp.o
+[27.114s] [ 45%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/occupancy_grid_utils.cpp.o
+[27.121s] [ 50%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/trajectory_preprocessing.cpp.o
+[27.122s] [ 54%] Building CXX object CMakeFiles/obstacle_velocity_limiter_node.dir/src/pointcloud_utils.cpp.o
+[28.376s] [ 58%] Linking CXX static library libgtest_main.a
+[28.452s] [ 58%] Built target gtest_main
+[31.132s] [ 62%] Linking CXX executable obstacle_velocity_limiter
+[31.231s] [ 62%] Built target obstacle_velocity_limiter
+[34.809s] [ 66%] Linking CXX static library libgtest.a
+[34.841s] [ 66%] Built target gtest
+[76.633s] [ 70%] Linking CXX shared library libobstacle_velocity_limiter_node.so
+[77.633s] [ 70%] Built target obstacle_velocity_limiter_node
+[77.658s] [ 75%] Building CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_collision_distance.cpp.o
+[77.659s] [ 79%] Building CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_obstacles.cpp.o
+[77.659s] [ 83%] Building CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_forward_projection.cpp.o
+[77.660s] [ 87%] Building CXX object CMakeFiles/test_obstacle_velocity_limiter.dir/test/test_occupancy_grid_utils.cpp.o
+[77.661s] [ 91%] Building CXX object CMakeFiles/collision_benchmark.dir/benchmarks/collision_checker_benchmark.cpp.o
+[87.494s] [ 95%] Linking CXX executable test_obstacle_velocity_limiter
+[88.142s] [100%] Linking CXX executable collision_benchmark
+[90.641s] [100%] Built target test_obstacle_velocity_limiter
+[97.960s] [100%] Built target collision_benchmark
+[97.972s] Invoked command in '/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/obstacle_velocity_limiter -- -j64 -l64
+[98.011s] Invoking command in '/autoware/build/obstacle_velocity_limiter': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/obstacle_velocity_limiter
+[98.018s] -- Install configuration: "Release"
+[98.018s] -- Execute custom install script
+[98.018s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/lib/obstacle_velocity_limiter/obstacle_velocity_limiter
+[98.027s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/debug.hpp
+[98.034s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/distance.hpp
+[98.041s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/forward_projection.hpp
+[98.048s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/map_utils.hpp
+[98.055s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacle_velocity_limiter.hpp
+[98.062s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacle_velocity_limiter_node.hpp
+[98.069s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/obstacles.hpp
+[98.076s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/occupancy_grid_utils.hpp
+[98.083s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/parameters.hpp
+[98.089s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/pointcloud_utils.hpp
+[98.096s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/trajectory_preprocessing.hpp
+[98.103s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/include/obstacle_velocity_limiter/types.hpp
+[98.110s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/library_path.sh
+[98.116s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/library_path.dsv
+[98.123s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/lib/libobstacle_velocity_limiter_node.so
+[98.131s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/launch/obstacle_velocity_limiter.launch.xml
+[98.138s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/config/default_obstacle_velocity_limiter.param.yaml
+[98.144s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/script/velocity_visualizer.py
+[98.151s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/package_run_dependencies/obstacle_velocity_limiter
+[98.159s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/parent_prefix_path/obstacle_velocity_limiter
+[98.165s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/ament_prefix_path.sh
+[98.172s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/ament_prefix_path.dsv
+[98.179s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/path.sh
+[98.186s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/environment/path.dsv
+[98.192s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.bash
+[98.198s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.sh
+[98.205s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.zsh
+[98.211s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/local_setup.dsv
+[98.218s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/package.dsv
+[98.224s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/packages/obstacle_velocity_limiter
+[98.231s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/ament_index/resource_index/rclcpp_components/obstacle_velocity_limiter
+[98.238s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.244s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.251s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/ament_cmake_export_libraries-extras.cmake
+[98.258s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/obstacle_velocity_limiterConfig.cmake
+[98.264s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/cmake/obstacle_velocity_limiterConfig-version.cmake
+[98.272s] -- Symlinking: /autoware/install/obstacle_velocity_limiter/share/obstacle_velocity_limiter/package.xml
+[98.287s] Invoked command in '/autoware/build/obstacle_velocity_limiter' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/grid_map_utils:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/grid_map_utils/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/obstacle_velocity_limiter

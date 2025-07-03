@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_typesupport_fastrtps_cpp/morai_msgs/msg/detail/replay_info__rosidl_typesupport_fastrtps_cpp.hpp

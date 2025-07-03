@@ -1,0 +1,134 @@
+[0.023s] Invoking command in '/autoware/build/obstacle_collision_checker': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/control/obstacle_collision_checker -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/obstacle_collision_checker
+[0.067s] -- The C compiler identification is GNU 11.3.0
+[0.111s] -- The CXX compiler identification is GNU 11.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.262s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.664s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.679s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.498s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.502s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.631s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.298s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.300s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.300s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.633s] -- Checking for module 'eigen3'
+[2.645s] --   Found eigen3, version 3.4.0
+[2.670s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.670s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.715s] -- Checking for module 'flann'
+[2.727s] --   Found flann, version 1.9.1
+[2.763s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.763s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.751s] -- Checking for module 'libusb-1.0'
+[3.763s] --   Found libusb-1.0, version 1.0.25
+[3.794s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.795s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.852s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.038s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.043s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.048s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.202s] -- Found Qhull version 8.0.2
+[4.352s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.491s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.492s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.492s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.493s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.493s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.494s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.494s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.495s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.495s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.496s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.497s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.498s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.498s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.499s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.501s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.502s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.502s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.503s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.504s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.504s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.505s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.506s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.506s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.506s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.507s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.833s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.944s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.948s] -- Found Threads: TRUE  
+[6.955s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.956s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.957s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/control/obstacle_collision_checker/include
+[6.957s] -- Configured cppcheck exclude dirs and/or files: 
+[6.958s] -- Added test 'lint_cmake' to check CMake code style
+[6.958s] -- Added test 'xmllint' to check XML markup files
+[6.962s] -- Configuring done
+[7.073s] -- Generating done
+[7.076s] -- Build files have been written to: /autoware/build/obstacle_collision_checker
+[7.095s] Invoked command in '/autoware/build/obstacle_collision_checker' returned '0': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/control/obstacle_collision_checker -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/obstacle_collision_checker
+[7.097s] Invoking command in '/autoware/build/obstacle_collision_checker': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/obstacle_collision_checker -- -j64 -l64
+[7.144s] [  9%] Building CXX object CMakeFiles/obstacle_collision_checker.dir/src/obstacle_collision_checker_node/obstacle_collision_checker.cpp.o
+[7.145s] [ 18%] Building CXX object CMakeFiles/obstacle_collision_checker_node.dir/rclcpp_components/node_main_obstacle_collision_checker_node.cpp.o
+[7.145s] [ 27%] Building CXX object CMakeFiles/obstacle_collision_checker.dir/src/obstacle_collision_checker_node/obstacle_collision_checker_node.cpp.o
+[7.147s] [ 36%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[7.147s] [ 45%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[7.980s] [ 54%] Linking CXX static library libgtest_main.a
+[8.011s] [ 54%] Built target gtest_main
+[10.324s] [ 63%] Linking CXX executable obstacle_collision_checker_node
+[10.410s] [ 63%] Built target obstacle_collision_checker_node
+[14.233s] [ 72%] Linking CXX static library libgtest.a
+[14.273s] [ 72%] Built target gtest
+[39.892s] [ 81%] Linking CXX shared library libobstacle_collision_checker.so
+[40.454s] [ 81%] Built target obstacle_collision_checker
+[40.525s] [ 90%] Building CXX object CMakeFiles/test_obstacle_collision_checker.dir/test/test_obstacle_collision_checker.cpp.o
+[64.620s] [100%] Linking CXX executable test_obstacle_collision_checker
+[66.993s] [100%] Built target test_obstacle_collision_checker
+[67.010s] Invoked command in '/autoware/build/obstacle_collision_checker' returned '0': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/obstacle_collision_checker -- -j64 -l64
+[67.054s] Invoking command in '/autoware/build/obstacle_collision_checker': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/obstacle_collision_checker
+[67.064s] -- Install configuration: "Release"
+[67.064s] -- Execute custom install script
+[67.065s] -- Symlinking: /autoware/install/obstacle_collision_checker/lib/obstacle_collision_checker/obstacle_collision_checker_node
+[67.079s] -- Symlinking: /autoware/install/obstacle_collision_checker/include/obstacle_collision_checker/obstacle_collision_checker.hpp
+[67.091s] -- Symlinking: /autoware/install/obstacle_collision_checker/include/obstacle_collision_checker/obstacle_collision_checker_node.hpp
+[67.103s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/library_path.sh
+[67.116s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/library_path.dsv
+[67.129s] -- Symlinking: /autoware/install/obstacle_collision_checker/lib/libobstacle_collision_checker.so
+[67.142s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/launch/obstacle_collision_checker.launch.xml
+[67.154s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/config/obstacle_collision_checker.param.yaml
+[67.167s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/ament_index/resource_index/package_run_dependencies/obstacle_collision_checker
+[67.179s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/ament_index/resource_index/parent_prefix_path/obstacle_collision_checker
+[67.190s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/ament_prefix_path.sh
+[67.203s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/ament_prefix_path.dsv
+[67.215s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/path.sh
+[67.227s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/environment/path.dsv
+[67.239s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/local_setup.bash
+[67.252s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/local_setup.sh
+[67.264s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/local_setup.zsh
+[67.278s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/local_setup.dsv
+[67.292s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/package.dsv
+[67.305s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/ament_index/resource_index/packages/obstacle_collision_checker
+[67.318s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/ament_index/resource_index/rclcpp_components/obstacle_collision_checker
+[67.331s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.343s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.356s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/cmake/ament_cmake_export_libraries-extras.cmake
+[67.368s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/cmake/obstacle_collision_checkerConfig.cmake
+[67.378s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/cmake/obstacle_collision_checkerConfig-version.cmake
+[67.390s] -- Symlinking: /autoware/install/obstacle_collision_checker/share/obstacle_collision_checker/package.xml
+[67.408s] Invoked command in '/autoware/build/obstacle_collision_checker' returned '0': AMENT_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/vehicle_info_util:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/vehicle_info_util/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/obstacle_collision_checker

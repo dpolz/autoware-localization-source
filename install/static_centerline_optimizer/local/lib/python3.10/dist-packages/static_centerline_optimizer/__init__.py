@@ -1,0 +1,1 @@
+/autoware/build/static_centerline_optimizer/rosidl_generator_py/static_centerline_optimizer/__init__.py

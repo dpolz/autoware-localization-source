@@ -1,0 +1,1 @@
+/autoware/build/autoware_auto_geometry/ament_cmake_environment_hooks/local_setup.bash

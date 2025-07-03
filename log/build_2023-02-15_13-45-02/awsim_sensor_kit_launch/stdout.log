@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/awsim_sensor_kit_launch
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/launch/imu.launch.xml
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/launch/lidar.launch.xml
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/launch/pointcloud_preprocessor.launch.py
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/launch/sensing.launch.xml
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/data/traffic_light_camera.yaml
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/config/diagnostic_aggregator/sensor_kit.param.yaml
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/ament_index/resource_index/package_run_dependencies/awsim_sensor_kit_launch
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/ament_index/resource_index/parent_prefix_path/awsim_sensor_kit_launch
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/environment/path.sh
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/environment/path.dsv
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/local_setup.bash
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/local_setup.sh
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/local_setup.zsh
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/local_setup.dsv
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/package.dsv
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/ament_index/resource_index/packages/awsim_sensor_kit_launch
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/cmake/awsim_sensor_kit_launchConfig.cmake
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/cmake/awsim_sensor_kit_launchConfig-version.cmake
+-- Symlinking: /autoware/install/awsim_sensor_kit_launch/share/awsim_sensor_kit_launch/package.xml

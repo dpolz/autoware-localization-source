@@ -1,0 +1,1 @@
+/autoware/src/universe/autoware.universe/planning/planning_debug_tools/msg/TrajectoryDebugInfo.msg

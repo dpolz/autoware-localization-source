@@ -1,0 +1,5 @@
+source;share/trtexec_vendor/local_setup.bash
+source;share/trtexec_vendor/local_setup.dsv
+source;share/trtexec_vendor/local_setup.ps1
+source;share/trtexec_vendor/local_setup.sh
+source;share/trtexec_vendor/local_setup.zsh

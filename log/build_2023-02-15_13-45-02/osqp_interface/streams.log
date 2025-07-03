@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/autoware/build/osqp_interface': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/osqp_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/osqp_interface
+[0.060s] -- The C compiler identification is GNU 11.3.0
+[0.134s] -- The CXX compiler identification is GNU 11.3.0
+[0.145s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.382s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.624s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.692s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.940s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.954s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.970s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.164s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.170s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.243s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.245s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.245s] -- Looking for pthread.h
+[2.576s] -- Looking for pthread.h - found
+[2.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.872s] -- Found Threads: TRUE  
+[2.877s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.897s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/osqp_interface/include
+[2.898s] -- Configured cppcheck exclude dirs and/or files: 
+[2.899s] -- Added test 'lint_cmake' to check CMake code style
+[2.900s] -- Added test 'xmllint' to check XML markup files
+[2.907s] -- Configuring done
+[2.947s] -- Generating done
+[2.950s] -- Build files have been written to: /autoware/build/osqp_interface
+[2.980s] Invoked command in '/autoware/build/osqp_interface' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/osqp_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/osqp_interface
+[2.980s] Invoking command in '/autoware/build/osqp_interface': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/osqp_interface -- -j64 -l64
+[3.057s] [ 10%] Building CXX object CMakeFiles/osqp_interface.dir/src/csc_matrix_conv.cpp.o
+[3.066s] [ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[3.072s] [ 30%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[3.073s] [ 40%] Building CXX object CMakeFiles/osqp_interface.dir/src/osqp_interface.cpp.o
+[4.180s] [ 50%] Linking CXX static library libgtest_main.a
+[4.209s] [ 50%] Built target gtest_main
+[8.081s] [ 60%] Linking CXX shared library libosqp_interface.so
+[8.291s] [ 60%] Built target osqp_interface
+[14.026s] [ 70%] Linking CXX static library libgtest.a
+[14.235s] [ 70%] Built target gtest
+[14.236s] [ 80%] Building CXX object CMakeFiles/test_osqp_interface.dir/test/test_osqp_interface.cpp.o
+[14.236s] [ 90%] Building CXX object CMakeFiles/test_osqp_interface.dir/test/test_csc_matrix_conv.cpp.o
+[19.130s] [100%] Linking CXX executable test_osqp_interface
+[19.222s] [100%] Built target test_osqp_interface
+[19.231s] Invoked command in '/autoware/build/osqp_interface' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/osqp_interface -- -j64 -l64
+[19.256s] Invoking command in '/autoware/build/osqp_interface': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/osqp_interface
+[19.262s] -- Install configuration: "Release"
+[19.262s] -- Execute custom install script
+[19.262s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/library_path.sh
+[19.270s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/library_path.dsv
+[19.278s] -- Symlinking: /autoware/install/osqp_interface/include/osqp_interface/csc_matrix_conv.hpp
+[19.284s] -- Symlinking: /autoware/install/osqp_interface/include/osqp_interface/osqp_interface.hpp
+[19.291s] -- Symlinking: /autoware/install/osqp_interface/include/osqp_interface/visibility_control.hpp
+[19.297s] -- Symlinking: /autoware/install/osqp_interface/lib/libosqp_interface.so
+[19.304s] -- Symlinking: /autoware/install/osqp_interface/share/ament_index/resource_index/package_run_dependencies/osqp_interface
+[19.311s] -- Symlinking: /autoware/install/osqp_interface/share/ament_index/resource_index/parent_prefix_path/osqp_interface
+[19.318s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/ament_prefix_path.sh
+[19.324s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/ament_prefix_path.dsv
+[19.331s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/path.sh
+[19.337s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/environment/path.dsv
+[19.344s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/local_setup.bash
+[19.350s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/local_setup.sh
+[19.356s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/local_setup.zsh
+[19.363s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/local_setup.dsv
+[19.369s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/package.dsv
+[19.375s] -- Symlinking: /autoware/install/osqp_interface/share/ament_index/resource_index/packages/osqp_interface
+[19.381s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.388s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[19.394s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.400s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/cmake/osqp_interfaceConfig.cmake
+[19.432s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/cmake/osqp_interfaceConfig-version.cmake
+[19.433s] -- Symlinking: /autoware/install/osqp_interface/share/osqp_interface/package.xml
+[19.433s] Invoked command in '/autoware/build/osqp_interface' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/osqp_interface

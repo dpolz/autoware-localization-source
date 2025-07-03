@@ -1,0 +1,1 @@
+/autoware/build/static_centerline_optimizer/rosidl_cmake/srv/PlanRoute_Request.msg

@@ -1,0 +1,70 @@
+[0.020s] Invoking command in '/autoware/build/pose2twist': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/pose2twist -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pose2twist
+[0.062s] -- The C compiler identification is GNU 11.3.0
+[0.106s] -- The CXX compiler identification is GNU 11.3.0
+[0.112s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.370s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.493s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.735s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.740s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.749s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.956s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.078s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.360s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.361s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.361s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.731s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.749s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/localization/pose2twist/include
+[1.749s] -- Configured cppcheck exclude dirs and/or files: 
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.750s] -- Added test 'xmllint' to check XML markup files
+[1.753s] -- Configuring done
+[1.765s] -- Generating done
+[1.767s] -- Build files have been written to: /autoware/build/pose2twist
+[1.777s] Invoked command in '/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/localization/pose2twist -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pose2twist
+[1.779s] Invoking command in '/autoware/build/pose2twist': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/pose2twist -- -j64 -l64
+[1.825s] [ 33%] Building CXX object CMakeFiles/pose2twist.dir/src/pose2twist_node.cpp.o
+[1.825s] [ 66%] Building CXX object CMakeFiles/pose2twist.dir/src/pose2twist_core.cpp.o
+[16.359s] [100%] Linking CXX executable pose2twist
+[16.555s] [100%] Built target pose2twist
+[16.564s] Invoked command in '/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/pose2twist -- -j64 -l64
+[16.589s] Invoking command in '/autoware/build/pose2twist': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/pose2twist
+[16.597s] -- Install configuration: "Release"
+[16.597s] -- Execute custom install script
+[16.598s] -- Symlinking: /autoware/install/pose2twist/include/pose2twist/pose2twist_core.hpp
+[16.609s] -- Symlinking: /autoware/install/pose2twist/lib/pose2twist/pose2twist
+[16.616s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/launch/pose2twist.launch.xml
+[16.624s] -- Symlinking: /autoware/install/pose2twist/share/ament_index/resource_index/package_run_dependencies/pose2twist
+[16.631s] -- Symlinking: /autoware/install/pose2twist/share/ament_index/resource_index/parent_prefix_path/pose2twist
+[16.638s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/environment/ament_prefix_path.sh
+[16.657s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/environment/ament_prefix_path.dsv
+[16.699s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/environment/path.sh
+[16.699s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/environment/path.dsv
+[16.699s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/local_setup.bash
+[16.700s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/local_setup.sh
+[16.700s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/local_setup.zsh
+[16.700s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/local_setup.dsv
+[16.700s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/package.dsv
+[16.700s] -- Symlinking: /autoware/install/pose2twist/share/ament_index/resource_index/packages/pose2twist
+[16.706s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.712s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.718s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/cmake/pose2twistConfig.cmake
+[16.726s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/cmake/pose2twistConfig-version.cmake
+[16.734s] -- Symlinking: /autoware/install/pose2twist/share/pose2twist/package.xml
+[16.752s] Invoked command in '/autoware/build/pose2twist' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/pose2twist

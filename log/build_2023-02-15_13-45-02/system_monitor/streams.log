@@ -1,0 +1,195 @@
+[0.029s] Invoking command in '/autoware/build/system_monitor': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/system_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/system_monitor
+[0.073s] -- The C compiler identification is GNU 11.3.0
+[0.119s] -- The CXX compiler identification is GNU 11.3.0
+[0.125s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.281s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.716s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.722s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.732s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.958s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.058s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.084s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.481s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.482s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.482s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.960s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.984s] -- Could NOT find NVML (missing: NVML_LIBRARIES NVML_INCLUDE_DIRS) 
+[2.984s] -- NVML include dir: NVML_INCLUDE_DIRS-NOTFOUND
+[2.984s] -- NVML library : NVML_LIBRARIES-NOTFOUND
+[2.985s] -- HOST_SYSTEM_VERSION: 5.15.0-56-generic
+[2.985s] -- SYSTEM_PROCESSOR: x86_64
+[2.985s] -- CPU PLATFORM: intel
+[2.985s] -- GPU PLATFORM: unknown
+[12.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization thread filesystem regex 
+[12.254s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.274s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/system/system_monitor/include
+[12.274s] -- Configured cppcheck exclude dirs and/or files: 
+[12.278s] -- Added test 'lint_cmake' to check CMake code style
+[12.281s] -- Added test 'xmllint' to check XML markup files
+[12.287s] -- Configuring done
+[13.511s] -- Generating done
+[13.517s] -- Build files have been written to: /autoware/build/system_monitor
+[13.540s] Invoked command in '/autoware/build/system_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/system/system_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/system_monitor
+[13.541s] Invoking command in '/autoware/build/system_monitor': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/system_monitor -- -j64 -l64
+[13.622s] [  4%] Building CXX object CMakeFiles/cpu_monitor.dir/rclcpp_components/node_main_cpu_monitor.cpp.o
+[13.623s] [  7%] Building CXX object CMakeFiles/hdd_monitor.dir/rclcpp_components/node_main_hdd_monitor.cpp.o
+[13.623s] [  7%] Building CXX object CMakeFiles/net_monitor.dir/rclcpp_components/node_main_net_monitor.cpp.o
+[13.624s] [ 11%] Building CXX object CMakeFiles/gpu_monitor.dir/rclcpp_components/node_main_gpu_monitor.cpp.o
+[13.624s] [ 11%] Building CXX object CMakeFiles/process_monitor.dir/rclcpp_components/node_main_process_monitor.cpp.o
+[13.624s] [ 16%] Building CXX object CMakeFiles/cpu_monitor_lib.dir/src/cpu_monitor/intel_cpu_monitor.cpp.o
+[13.625s] [ 16%] Building CXX object CMakeFiles/ntp_monitor.dir/rclcpp_components/node_main_ntp_monitor.cpp.o
+[13.625s] [ 21%] Building CXX object CMakeFiles/mem_monitor.dir/rclcpp_components/node_main_mem_monitor.cpp.o
+[13.625s] [ 21%] Building CXX object CMakeFiles/cpu_monitor_lib.dir/src/cpu_monitor/cpu_monitor_base.cpp.o
+[13.625s] [ 23%] Building CXX object CMakeFiles/voltage_monitor.dir/rclcpp_components/node_main_voltage_monitor.cpp.o
+[18.795s] [ 26%] Linking CXX executable net_monitor
+[18.796s] [ 28%] Linking CXX executable process_monitor
+[18.802s] [ 30%] Linking CXX executable gpu_monitor
+[18.809s] [ 33%] Linking CXX executable cpu_monitor
+[18.859s] [ 33%] Built target net_monitor
+[18.902s] [ 35%] Linking CXX executable ntp_monitor
+[18.928s] [ 35%] Built target process_monitor
+[18.933s] [ 35%] Built target gpu_monitor
+[18.954s] [ 35%] Built target cpu_monitor
+[19.023s] [ 38%] Linking CXX executable mem_monitor
+[19.072s] [ 38%] Built target ntp_monitor
+[19.161s] [ 38%] Built target mem_monitor
+[19.307s] [ 40%] Linking CXX executable hdd_monitor
+[19.343s] [ 42%] Linking CXX executable voltage_monitor
+[19.409s] [ 42%] Built target hdd_monitor
+[19.444s] [ 42%] Built target voltage_monitor
+[21.706s] In file included from /usr/include/boost/bind.hpp:30,
+[21.706s]                  from /usr/include/boost/property_tree/json_parser/detail/parser.hpp:7,
+[21.706s]                  from /usr/include/boost/property_tree/json_parser/detail/read.hpp:13,
+[21.706s]                  from /usr/include/boost/property_tree/json_parser.hpp:16,
+[21.706s]                  from /autoware/src/universe/autoware.universe/system/system_monitor/src/cpu_monitor/cpu_monitor_base.cpp:26:
+[21.706s] /usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+[21.707s]    36 | BOOST_PRAGMA_MESSAGE(
+[21.707s]       | ^~~~~~~~~~~~~~~~~~~~
+[34.293s] [ 45%] Linking CXX shared library libcpu_monitor_lib.so
+[34.546s] [ 45%] Built target cpu_monitor_lib
+[34.570s] [ 47%] Building CXX object CMakeFiles/hdd_monitor_lib.dir/src/hdd_monitor/hdd_monitor.cpp.o
+[50.735s] [ 50%] Linking CXX shared library libhdd_monitor_lib.so
+[50.942s] [ 50%] Built target hdd_monitor_lib
+[50.961s] [ 52%] Building CXX object CMakeFiles/mem_monitor_lib.dir/src/mem_monitor/mem_monitor.cpp.o
+[61.654s] [ 54%] Linking CXX shared library libmem_monitor_lib.so
+[62.039s] [ 54%] Built target mem_monitor_lib
+[62.077s] [ 57%] Building CXX object CMakeFiles/net_monitor_lib.dir/src/net_monitor/net_monitor.cpp.o
+[62.078s] [ 59%] Building CXX object CMakeFiles/net_monitor_lib.dir/src/net_monitor/nl80211.cpp.o
+[80.593s] [ 61%] Linking CXX shared library libnet_monitor_lib.so
+[81.045s] [ 61%] Built target net_monitor_lib
+[81.077s] [ 64%] Building CXX object CMakeFiles/ntp_monitor_lib.dir/src/ntp_monitor/ntp_monitor.cpp.o
+[95.059s] [ 66%] Linking CXX shared library libntp_monitor_lib.so
+[95.317s] [ 66%] Built target ntp_monitor_lib
+[95.334s] [ 69%] Building CXX object CMakeFiles/process_monitor_lib.dir/src/process_monitor/process_monitor.cpp.o
+[110.468s] [ 71%] Linking CXX shared library libprocess_monitor_lib.so
+[110.720s] [ 71%] Built target process_monitor_lib
+[110.737s] [ 73%] Building CXX object CMakeFiles/gpu_monitor_lib.dir/src/gpu_monitor/unknown_gpu_monitor.cpp.o
+[110.739s] [ 76%] Building CXX object CMakeFiles/gpu_monitor_lib.dir/src/gpu_monitor/gpu_monitor_base.cpp.o
+[115.532s] [ 78%] Linking CXX shared library libgpu_monitor_lib.so
+[115.777s] [ 78%] Built target gpu_monitor_lib
+[115.797s] [ 80%] Building CXX object CMakeFiles/voltage_monitor_lib.dir/src/voltage_monitor/voltage_monitor.cpp.o
+[129.771s] [ 83%] Linking CXX shared library libvoltage_monitor_lib.so
+[130.043s] [ 83%] Built target voltage_monitor_lib
+[130.062s] [ 85%] Building CXX object CMakeFiles/hdd_reader.dir/reader/hdd_reader/hdd_reader.cpp.o
+[130.064s] [ 88%] Building CXX object CMakeFiles/msr_reader.dir/reader/msr_reader/msr_reader.cpp.o
+[130.067s] [ 92%] Building CXX object CMakeFiles/traffic_reader.dir/reader/traffic_reader/traffic_reader_main.cpp.o
+[130.067s] [ 92%] Building CXX object CMakeFiles/traffic_reader.dir/reader/traffic_reader/traffic_reader_service.cpp.o
+[138.620s] [ 95%] Linking CXX executable msr_reader
+[141.259s] [ 97%] Linking CXX executable hdd_reader
+[144.138s] [100%] Linking CXX executable traffic_reader
+[148.563s] [100%] Built target hdd_reader
+[150.301s] [100%] Built target msr_reader
+[152.614s] [100%] Built target traffic_reader
+[152.628s] Invoked command in '/autoware/build/system_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/system_monitor -- -j64 -l64
+[152.875s] Invoking command in '/autoware/build/system_monitor': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/system_monitor
+[152.891s] -- Install configuration: "Release"
+[152.892s] -- Execute custom install script
+[152.893s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/cpu_monitor
+[152.910s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/hdd_monitor
+[152.927s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/mem_monitor
+[152.944s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/net_monitor
+[152.960s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/ntp_monitor
+[152.975s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/process_monitor
+[152.990s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/gpu_monitor
+[153.004s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/voltage_monitor
+[153.022s] -- Symlinking: /autoware/install/system_monitor/include/hdd_reader/hdd_reader.hpp
+[153.039s] -- Symlinking: /autoware/install/system_monitor/include/msr_reader/msr_reader.hpp
+[153.055s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/arm_cpu_monitor.hpp
+[153.072s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/cpu_monitor_base.hpp
+[153.088s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/intel_cpu_monitor.hpp
+[153.105s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/raspi_cpu_monitor.hpp
+[153.120s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/tegra_cpu_monitor.hpp
+[153.137s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/cpu_monitor/unknown_cpu_monitor.hpp
+[153.152s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/gpu_monitor/gpu_monitor_base.hpp
+[153.168s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/gpu_monitor/nvml_gpu_monitor.hpp
+[153.181s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/gpu_monitor/tegra_gpu_monitor.hpp
+[153.195s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/gpu_monitor/unknown_gpu_monitor.hpp
+[153.208s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/hdd_monitor/hdd_monitor.hpp
+[153.224s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/mem_monitor/mem_monitor.hpp
+[153.237s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/net_monitor/net_monitor.hpp
+[153.252s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/net_monitor/nl80211.hpp
+[153.266s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/ntp_monitor/ntp_monitor.hpp
+[153.279s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/process_monitor/diag_task.hpp
+[153.293s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/process_monitor/process_monitor.hpp
+[153.307s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/system_monitor_utility.hpp
+[153.322s] -- Symlinking: /autoware/install/system_monitor/include/system_monitor/voltage_monitor/voltage_monitor.hpp
+[153.336s] -- Symlinking: /autoware/install/system_monitor/include/traffic_reader/traffic_reader_common.hpp
+[153.349s] -- Symlinking: /autoware/install/system_monitor/include/traffic_reader/traffic_reader_service.hpp
+[153.365s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/library_path.sh
+[153.379s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/library_path.dsv
+[153.393s] -- Symlinking: /autoware/install/system_monitor/lib/libcpu_monitor_lib.so
+[153.407s] -- Symlinking: /autoware/install/system_monitor/lib/libhdd_monitor_lib.so
+[153.421s] -- Symlinking: /autoware/install/system_monitor/lib/libmem_monitor_lib.so
+[153.434s] -- Symlinking: /autoware/install/system_monitor/lib/libnet_monitor_lib.so
+[153.449s] -- Symlinking: /autoware/install/system_monitor/lib/libntp_monitor_lib.so
+[153.463s] -- Symlinking: /autoware/install/system_monitor/lib/libprocess_monitor_lib.so
+[153.478s] -- Symlinking: /autoware/install/system_monitor/lib/libgpu_monitor_lib.so
+[153.491s] -- Symlinking: /autoware/install/system_monitor/lib/libvoltage_monitor_lib.so
+[153.508s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/msr_reader
+[153.525s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/hdd_reader
+[153.537s] -- Symlinking: /autoware/install/system_monitor/lib/system_monitor/traffic_reader
+[153.549s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/launch/system_monitor.launch.xml
+[153.561s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/cpu_monitor.param.yaml
+[153.577s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/gpu_monitor.param.yaml
+[153.592s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/hdd_monitor.param.yaml
+[153.608s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/mem_monitor.param.yaml
+[153.623s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/net_monitor.param.yaml
+[153.638s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/ntp_monitor.param.yaml
+[153.653s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/process_monitor.param.yaml
+[153.669s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/config/voltage_monitor.param.yaml
+[153.685s] -- Symlinking: /autoware/install/system_monitor/share/ament_index/resource_index/package_run_dependencies/system_monitor
+[153.701s] -- Symlinking: /autoware/install/system_monitor/share/ament_index/resource_index/parent_prefix_path/system_monitor
+[153.718s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/ament_prefix_path.sh
+[153.734s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/ament_prefix_path.dsv
+[153.750s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/path.sh
+[153.765s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/environment/path.dsv
+[153.779s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/local_setup.bash
+[153.794s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/local_setup.sh
+[153.808s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/local_setup.zsh
+[153.824s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/local_setup.dsv
+[153.837s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/package.dsv
+[153.848s] -- Symlinking: /autoware/install/system_monitor/share/ament_index/resource_index/packages/system_monitor
+[153.864s] -- Symlinking: /autoware/install/system_monitor/share/ament_index/resource_index/rclcpp_components/system_monitor
+[153.881s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[153.896s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[153.911s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[153.926s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/cmake/system_monitorConfig.cmake
+[153.941s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/cmake/system_monitorConfig-version.cmake
+[153.957s] -- Symlinking: /autoware/install/system_monitor/share/system_monitor/package.xml
+[153.979s] Invoked command in '/autoware/build/system_monitor' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_external_api_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_external_api_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/system_monitor

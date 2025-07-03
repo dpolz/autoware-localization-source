@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/autoware/build/individual_params': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/param/autoware_individual_params/individual_params -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/individual_params
+[0.071s] -- The C compiler identification is GNU 11.3.0
+[0.179s] -- The CXX compiler identification is GNU 11.3.0
+[0.179s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.354s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.586s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.746s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.767s] -- Added test 'lint_cmake' to check CMake code style
+[0.768s] -- Added test 'xmllint' to check XML markup files
+[0.770s] -- Configuring done
+[0.775s] -- Generating done
+[0.776s] -- Build files have been written to: /autoware/build/individual_params
+[0.781s] Invoked command in '/autoware/build/individual_params' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/param/autoware_individual_params/individual_params -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/individual_params
+[0.783s] Invoking command in '/autoware/build/individual_params': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/individual_params -- -j64 -l64
+[0.810s] Invoked command in '/autoware/build/individual_params' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/individual_params -- -j64 -l64
+[0.828s] Invoking command in '/autoware/build/individual_params': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/individual_params
+[0.833s] -- Install configuration: "Release"
+[0.834s] -- Execute custom install script
+[0.834s] -- Symlinking: /autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/imu_corrector.param.yaml
+[0.868s] -- Symlinking: /autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/sensor_kit_calibration.yaml
+[0.868s] -- Symlinking: /autoware/install/individual_params/share/individual_params/config/default/sample_sensor_kit/sensors_calibration.yaml
+[0.868s] -- Symlinking: /autoware/install/individual_params/share/ament_index/resource_index/package_run_dependencies/individual_params
+[0.868s] -- Symlinking: /autoware/install/individual_params/share/ament_index/resource_index/parent_prefix_path/individual_params
+[0.870s] -- Symlinking: /autoware/install/individual_params/share/individual_params/environment/ament_prefix_path.sh
+[0.875s] -- Symlinking: /autoware/install/individual_params/share/individual_params/environment/ament_prefix_path.dsv
+[0.891s] -- Symlinking: /autoware/install/individual_params/share/individual_params/environment/path.sh
+[0.938s] -- Symlinking: /autoware/install/individual_params/share/individual_params/environment/path.dsv
+[0.938s] -- Symlinking: /autoware/install/individual_params/share/individual_params/local_setup.bash
+[0.938s] -- Symlinking: /autoware/install/individual_params/share/individual_params/local_setup.sh
+[0.938s] -- Symlinking: /autoware/install/individual_params/share/individual_params/local_setup.zsh
+[0.987s] -- Symlinking: /autoware/install/individual_params/share/individual_params/local_setup.dsv
+[0.987s] -- Symlinking: /autoware/install/individual_params/share/individual_params/package.dsv
+[0.987s] -- Symlinking: /autoware/install/individual_params/share/ament_index/resource_index/packages/individual_params
+[0.988s] -- Symlinking: /autoware/install/individual_params/share/individual_params/cmake/individual_paramsConfig.cmake
+[1.046s] -- Symlinking: /autoware/install/individual_params/share/individual_params/cmake/individual_paramsConfig-version.cmake
+[1.047s] -- Symlinking: /autoware/install/individual_params/share/individual_params/package.xml
+[1.049s] Invoked command in '/autoware/build/individual_params' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/individual_params

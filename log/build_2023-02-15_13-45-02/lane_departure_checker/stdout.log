@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/control/lane_departure_checker/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/lane_departure_checker
+[ 20%] Building CXX object CMakeFiles/lane_departure_checker.dir/src/lane_departure_checker_node/lane_departure_checker_node.cpp.o
+[ 40%] Building CXX object CMakeFiles/lane_departure_checker.dir/src/lane_departure_checker_node/lane_departure_checker.cpp.o
+[ 60%] Building CXX object CMakeFiles/lane_departure_checker_node.dir/rclcpp_components/node_main_lane_departure_checker_node.cpp.o
+[ 80%] Linking CXX executable lane_departure_checker_node
+[ 80%] Built target lane_departure_checker_node
+[100%] Linking CXX shared library liblane_departure_checker.so
+[100%] Built target lane_departure_checker
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/lane_departure_checker/lib/lane_departure_checker/lane_departure_checker_node
+-- Symlinking: /autoware/install/lane_departure_checker/include/lane_departure_checker/lane_departure_checker.hpp
+-- Symlinking: /autoware/install/lane_departure_checker/include/lane_departure_checker/lane_departure_checker_node.hpp
+-- Symlinking: /autoware/install/lane_departure_checker/include/lane_departure_checker/util/create_vehicle_footprint.hpp
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/library_path.sh
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/library_path.dsv
+-- Symlinking: /autoware/install/lane_departure_checker/lib/liblane_departure_checker.so
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/launch/lane_departure_checker.launch.xml
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/config/lane_departure_checker.param.yaml
+-- Symlinking: /autoware/install/lane_departure_checker/share/ament_index/resource_index/package_run_dependencies/lane_departure_checker
+-- Symlinking: /autoware/install/lane_departure_checker/share/ament_index/resource_index/parent_prefix_path/lane_departure_checker
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/path.sh
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/environment/path.dsv
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/local_setup.bash
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/local_setup.sh
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/local_setup.zsh
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/local_setup.dsv
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/package.dsv
+-- Symlinking: /autoware/install/lane_departure_checker/share/ament_index/resource_index/packages/lane_departure_checker
+-- Symlinking: /autoware/install/lane_departure_checker/share/ament_index/resource_index/rclcpp_components/lane_departure_checker
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/cmake/lane_departure_checkerConfig.cmake
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/cmake/lane_departure_checkerConfig-version.cmake
+-- Symlinking: /autoware/install/lane_departure_checker/share/lane_departure_checker/package.xml

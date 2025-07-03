@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/autoware_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/autoware_msgs/autoware_map_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_map_msgs
+Invoked command in '/autoware/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/autoware_msgs/autoware_map_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_map_msgs
+Invoking command in '/autoware/build/autoware_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_map_msgs -- -j64 -l64
+Invoked command in '/autoware/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_map_msgs -- -j64 -l64
+Invoking command in '/autoware/build/autoware_map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_map_msgs
+Invoked command in '/autoware/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_map_msgs

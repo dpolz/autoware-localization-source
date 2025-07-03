@@ -1,0 +1,1 @@
+/autoware/build/lidar_apollo_instance_segmentation/ament_cmake_environment_hooks/local_setup.zsh

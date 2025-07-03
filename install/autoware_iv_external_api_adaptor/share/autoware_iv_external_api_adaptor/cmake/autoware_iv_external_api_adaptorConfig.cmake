@@ -1,0 +1,1 @@
+/autoware/build/autoware_iv_external_api_adaptor/ament_cmake_core/autoware_iv_external_api_adaptorConfig.cmake

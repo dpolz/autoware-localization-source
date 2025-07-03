@@ -1,0 +1,1 @@
+/autoware/src/universe/autoware.universe/planning/static_centerline_optimizer/msg/PointsWithLaneId.msg

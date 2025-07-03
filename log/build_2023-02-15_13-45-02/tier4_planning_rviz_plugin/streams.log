@@ -1,0 +1,136 @@
+[0.035s] Invoking command in '/autoware/build/tier4_planning_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_planning_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_planning_rviz_plugin
+[0.085s] -- The C compiler identification is GNU 11.3.0
+[0.160s] -- The CXX compiler identification is GNU 11.3.0
+[0.169s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.392s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.671s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.052s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.066s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.085s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.818s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.823s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.927s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.958s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.014s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.202s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.203s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.203s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.104s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.106s] -- Found OGRE
+[5.106s] --   static     : OFF
+[5.106s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.107s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.107s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.107s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.107s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[5.107s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.107s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[5.108s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.108s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.108s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.108s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.109s] -- Could not find freeimage library
+[5.139s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[5.146s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[5.286s] -- Found X11: /usr/include   
+[5.287s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.400s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.400s] -- Looking for gethostbyname
+[5.498s] -- Looking for gethostbyname - found
+[5.499s] -- Looking for connect
+[5.601s] -- Looking for connect - found
+[5.601s] -- Looking for remove
+[5.700s] -- Looking for remove - found
+[5.700s] -- Looking for shmat
+[5.801s] -- Looking for shmat - found
+[5.801s] -- Looking for IceConnectionNumber in ICE
+[5.891s] -- Looking for IceConnectionNumber in ICE - found
+[5.895s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[5.895s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[6.382s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[8.187s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.855s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.863s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.864s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/tier4_planning_rviz_plugin/include
+[10.864s] -- Configured cppcheck exclude dirs and/or files: 
+[10.866s] -- Added test 'lint_cmake' to check CMake code style
+[10.868s] -- Added test 'xmllint' to check XML markup files
+[10.874s] -- Configuring done
+[11.010s] -- Generating done
+[11.011s] -- Build files have been written to: /autoware/build/tier4_planning_rviz_plugin
+[11.029s] Invoked command in '/autoware/build/tier4_planning_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_planning_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_planning_rviz_plugin
+[11.031s] Invoking command in '/autoware/build/tier4_planning_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_planning_rviz_plugin -- -j64 -l64
+[11.089s] [  7%] Automatic MOC for target tier4_planning_rviz_plugin
+[14.329s] [  7%] Built target tier4_planning_rviz_plugin_autogen
+[14.363s] [ 23%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/drivable_area/display.cpp.o
+[14.363s] [ 23%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/path/display.cpp.o
+[14.363s] [ 30%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/path_with_lane_id/display.cpp.o
+[14.363s] [ 38%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/tier4_planning_rviz_plugin_autogen/mocs_compilation.cpp.o
+[14.364s] [ 46%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/path_footprint/display.cpp.o
+[14.366s] [ 61%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/tools/jsk_overlay_utils.cpp.o
+[14.367s] [ 69%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/mission_checkpoint/mission_checkpoint.cpp.o
+[14.367s] [ 69%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/path_with_lane_id_footprint/display.cpp.o
+[14.367s] [ 92%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/tools/max_velocity.cpp.o
+[14.367s] [ 84%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/trajectory/display.cpp.o
+[14.367s] [ 92%] Building CXX object CMakeFiles/tier4_planning_rviz_plugin.dir/src/trajectory_footprint/display.cpp.o
+[55.051s] [100%] Linking CXX shared library libtier4_planning_rviz_plugin.so
+[56.610s] [100%] Built target tier4_planning_rviz_plugin
+[56.621s] Invoked command in '/autoware/build/tier4_planning_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_planning_rviz_plugin -- -j64 -l64
+[56.651s] Invoking command in '/autoware/build/tier4_planning_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_planning_rviz_plugin
+[56.657s] -- Install configuration: "Release"
+[56.658s] -- Execute custom install script
+[56.658s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/plugins/plugin_description.xml
+[56.665s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/drivable_area/display.hpp
+[56.673s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/mission_checkpoint/mission_checkpoint.hpp
+[56.680s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/path/display.hpp
+[56.687s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/path_footprint/display.hpp
+[56.693s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/path_with_lane_id/display.hpp
+[56.699s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/path_with_lane_id_footprint/display.hpp
+[56.706s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/trajectory/display.hpp
+[56.712s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/trajectory_footprint/display.hpp
+[56.718s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/include/utils.hpp
+[56.725s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/library_path.sh
+[56.731s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/library_path.dsv
+[56.737s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/lib/libtier4_planning_rviz_plugin.so
+[56.744s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/DrivableArea.png
+[56.750s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/MaxVelocity.png
+[56.756s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/MissionCheckpointTool.png
+[56.762s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/Path.png
+[56.768s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/PathFootprint.png
+[56.774s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/PathWithLaneId.png
+[56.780s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/PathWithLaneIdFootprint.png
+[56.787s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/Trajectory.png
+[56.793s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/icons/classes/TrajectoryFootprint.png
+[56.800s] -- Up-to-date symlink: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/plugins/plugin_description.xml
+[56.800s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/tier4_planning_rviz_plugin
+[56.806s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/tier4_planning_rviz_plugin
+[56.813s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/ament_prefix_path.sh
+[56.819s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/ament_prefix_path.dsv
+[56.825s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/path.sh
+[56.832s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/environment/path.dsv
+[56.837s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/local_setup.bash
+[56.844s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/local_setup.sh
+[56.850s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/local_setup.zsh
+[56.857s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/local_setup.dsv
+[56.863s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/package.dsv
+[56.869s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/ament_index/resource_index/packages/tier4_planning_rviz_plugin
+[56.876s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/tier4_planning_rviz_plugin
+[56.882s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.889s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[56.895s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[56.901s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/cmake/tier4_planning_rviz_pluginConfig.cmake
+[56.907s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/cmake/tier4_planning_rviz_pluginConfig-version.cmake
+[56.913s] -- Symlinking: /autoware/install/tier4_planning_rviz_plugin/share/tier4_planning_rviz_plugin/package.xml
+[56.928s] Invoked command in '/autoware/build/tier4_planning_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_planning_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_planning_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_planning_rviz_plugin

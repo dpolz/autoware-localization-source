@@ -1,0 +1,1 @@
+/autoware/build/tier4_vehicle_msgs/rosidl_generator_py/tier4_vehicle_msgs/msg/_battery_status_s.c

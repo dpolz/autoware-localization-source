@@ -1,0 +1,1 @@
+/autoware/src/core/autoware_msgs/autoware_perception_msgs/msg/TrafficSignalArray.msg

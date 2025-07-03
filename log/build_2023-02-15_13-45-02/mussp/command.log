@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/mussp
+Invoked command in '/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/mussp
+Invoking command in '/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/mussp -- -j64 -l64
+Invoked command in '/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/mussp -- -j64 -l64
+Invoking command in '/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/mussp
+Invoked command in '/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/mussp

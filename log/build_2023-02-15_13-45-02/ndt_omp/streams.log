@@ -1,0 +1,201 @@
+[0.158s] Invoking command in '/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ndt_omp
+[0.166s] -- The C compiler identification is GNU 11.3.0
+[0.198s] -- The CXX compiler identification is GNU 11.3.0
+[0.205s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.494s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.684s] -- Checking for module 'eigen3'
+[0.693s] --   Found eigen3, version 3.4.0
+[0.715s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.715s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.735s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.751s] -- Checking for module 'flann'
+[0.761s] --   Found flann, version 1.9.1
+[0.800s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.800s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.832s] -- Looking for pthread.h
+[0.893s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.955s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.956s] -- Found Threads: TRUE  
+[0.957s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.964s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.109s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.110s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.113s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.143s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.143s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.146s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.215s] -- Found X11: /usr/include   
+[1.216s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.272s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.272s] -- Looking for gethostbyname
+[1.329s] -- Looking for gethostbyname - found
+[1.329s] -- Looking for connect
+[1.381s] -- Looking for connect - found
+[1.381s] -- Looking for remove
+[1.436s] -- Looking for remove - found
+[1.436s] -- Looking for shmat
+[1.490s] -- Looking for shmat - found
+[1.490s] -- Looking for IceConnectionNumber in ICE
+[1.548s] -- Looking for IceConnectionNumber in ICE - found
+[1.628s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.631s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.634s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.636s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.657s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.660s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.666s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.671s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.741s] -- Checking for module 'libusb-1.0'
+[1.752s] --   Found libusb-1.0, version 1.0.25
+[1.784s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.786s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.786s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.839s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.839s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.839s] ** WARNING ** io features related to pcap will be disabled
+[2.068s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.075s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.083s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.265s] -- Found Qhull version 8.0.2
+[2.506s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.767s] -- looking for PCL_COMMON
+[2.769s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.770s] -- looking for PCL_KDTREE
+[2.771s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.772s] -- looking for PCL_OCTREE
+[2.774s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.775s] -- looking for PCL_SEARCH
+[2.777s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.777s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.779s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.779s] -- looking for PCL_FILTERS
+[2.781s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.781s] -- looking for PCL_2D
+[2.782s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.783s] -- looking for PCL_GEOMETRY
+[2.783s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.784s] -- looking for PCL_IO
+[2.785s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.786s] -- looking for PCL_FEATURES
+[2.787s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.788s] -- looking for PCL_ML
+[2.789s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.790s] -- looking for PCL_SEGMENTATION
+[2.791s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.792s] -- looking for PCL_VISUALIZATION
+[2.793s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.794s] -- looking for PCL_SURFACE
+[2.795s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.796s] -- looking for PCL_REGISTRATION
+[2.797s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.798s] -- looking for PCL_KEYPOINTS
+[2.799s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.800s] -- looking for PCL_TRACKING
+[2.801s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.802s] -- looking for PCL_RECOGNITION
+[2.803s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.804s] -- looking for PCL_STEREO
+[2.806s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.807s] -- looking for PCL_APPS
+[2.808s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.809s] -- looking for PCL_IN_HAND_SCANNER
+[2.810s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.811s] -- looking for PCL_MODELER
+[2.811s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.812s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.813s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.813s] -- looking for PCL_OUTOFCORE
+[2.815s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.816s] -- looking for PCL_PEOPLE
+[2.817s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.819s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.7") 
+[2.819s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2
+[2.820s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[2.820s] -- PCL_DEFINITIONS:-DDISABLE_PCAP
+[3.525s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.870s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.870s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.907s] -- Configuring done
+[3.982s] -- Generating done
+[3.985s] -- Build files have been written to: /autoware/build/ndt_omp
+[4.017s] Invoked command in '/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/ndt_omp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ndt_omp
+[4.018s] Invoking command in '/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ndt_omp -- -j64 -l64
+[4.246s] [ 14%] Building CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o
+[4.257s] [ 28%] Building CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o
+[4.302s] [ 42%] Building CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o
+[10.376s] In file included from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2:
+[10.376s] /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘void pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZ>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZ>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>]’:
+[10.376s] /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:4:24:   required from here
+[10.377s] /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31: warning: ‘BFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double]’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [-Wdeprecated-declarations]
+[10.377s]   230 |     result = bfgs.testGradient(gradient_tol);
+[10.377s]       |              ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[10.377s] In file included from /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45,
+[10.377s]                  from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1:
+[10.377s] /usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21: note: declared here
+[10.377s]   164 |   BFGSSpace::Status testGradient(Scalar) { return testGradient(); }
+[10.377s]       |                     ^~~~~~~~~~~~
+[10.889s] In file included from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:2:
+[10.889s] /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp: In instantiation of ‘void pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::estimateRigidTransformationBFGS(const PointCloudSource&, const std::vector<int, std::allocator<int> >&, const PointCloudTarget&, const std::vector<int, std::allocator<int> >&, Eigen::Matrix4f&) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZI>; pclomp::GeneralizedIterativeClosestPoint<PointSource, PointTarget>::PointCloudTarget = pcl::PointCloud<pcl::PointXYZI>; Eigen::Matrix4f = Eigen::Matrix<float, 4, 4>]’:
+[10.889s] /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:5:24:   required from here
+[10.889s] /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp_impl.hpp:230:31: warning: ‘BFGSSpace::Status BFGS<FunctorType>::testGradient(BFGS<FunctorType>::Scalar) [with FunctorType = pclomp::GeneralizedIterativeClosestPoint<pcl::PointXYZI, pcl::PointXYZI>::OptimizationFunctorWithIndices; BFGS<FunctorType>::Scalar = double]’ is deprecated: Use `testGradient()` instead (It will be removed in PCL 1.13) [-Wdeprecated-declarations]
+[10.889s]   230 |     result = bfgs.testGradient(gradient_tol);
+[10.889s]       |              ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[10.889s] In file included from /autoware/src/universe/external/ndt_omp/include/pclomp/gicp_omp.h:45,
+[10.890s]                  from /autoware/src/universe/external/ndt_omp/src/pclomp/gicp_omp.cpp:1:
+[10.890s] /usr/include/pcl-1.12/pcl/registration/bfgs.h:164:21: note: declared here
+[10.890s]   164 |   BFGSSpace::Status testGradient(Scalar) { return testGradient(); }
+[10.890s]       |                     ^~~~~~~~~~~~
+[26.156s] [ 57%] Linking CXX shared library libndt_omp.so
+[27.762s] [ 57%] Built target ndt_omp
+[27.777s] [ 71%] Building CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multigrid_ndt_omp.cpp.o
+[27.778s] [ 85%] Building CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multi_voxel_grid_covariance_omp.cpp.o
+[43.826s] [100%] Linking CXX shared library libmultigrid_ndt_omp.so
+[45.637s] [100%] Built target multigrid_ndt_omp
+[45.667s] Invoked command in '/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ndt_omp -- -j64 -l64
+[45.771s] Invoking command in '/autoware/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ndt_omp
+[45.837s] -- Install configuration: "RELEASE"
+[45.837s] -- Execute custom install script
+[45.837s] -- Symlinking: /autoware/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp.h
+[45.837s] -- Symlinking: /autoware/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp_impl.hpp
+[45.837s] -- Symlinking: /autoware/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp.h
+[45.837s] -- Symlinking: /autoware/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp_impl.hpp
+[45.858s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/gicp_omp.h
+[45.870s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[45.873s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/ndt_omp.h
+[45.884s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[45.896s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[45.909s] -- Symlinking: /autoware/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[45.923s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[45.932s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[45.943s] -- Symlinking: /autoware/install/ndt_omp/lib/libndt_omp.so
+[45.958s] -- Symlinking: /autoware/install/ndt_omp/lib/libmultigrid_ndt_omp.so
+[45.973s] -- Symlinking: /autoware/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[45.985s] -- Symlinking: /autoware/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[45.998s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[46.010s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[46.019s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/path.sh
+[46.028s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[46.037s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/local_setup.bash
+[46.045s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/local_setup.sh
+[46.052s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[46.060s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[46.068s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/package.dsv
+[46.076s] -- Symlinking: /autoware/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[46.084s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.091s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[46.098s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[46.104s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[46.111s] -- Symlinking: /autoware/install/ndt_omp/share/ndt_omp/package.xml
+[46.129s] Invoked command in '/autoware/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ndt_omp

@@ -1,0 +1,1 @@
+/autoware/build/tier4_simulation_msgs/rosidl_generator_py/tier4_simulation_msgs/msg/_fault_injection_event_s.c

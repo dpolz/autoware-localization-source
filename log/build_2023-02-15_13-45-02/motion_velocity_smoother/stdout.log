@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/motion_velocity_smoother/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /autoware/build/motion_velocity_smoother
+[ 10%] Building CXX object CMakeFiles/smoother.dir/src/resample.cpp.o
+[ 10%] Building CXX object CMakeFiles/smoother.dir/src/smoother/smoother_base.cpp.o
+[ 15%] Building CXX object CMakeFiles/smoother.dir/src/smoother/linf_pseudo_jerk_smoother.cpp.o
+[ 35%] Building CXX object CMakeFiles/smoother.dir/src/smoother/analytical_jerk_constrained_smoother/velocity_planning_utils.cpp.o
+[ 35%] Building CXX object CMakeFiles/smoother.dir/src/smoother/l2_pseudo_jerk_smoother.cpp.o
+[ 35%] Building CXX object CMakeFiles/smoother.dir/src/trajectory_utils.cpp.o
+[ 35%] Building CXX object CMakeFiles/smoother.dir/src/smoother/jerk_filtered_smoother.cpp.o
+[ 40%] Building CXX object CMakeFiles/smoother.dir/src/smoother/analytical_jerk_constrained_smoother/analytical_jerk_constrained_smoother.cpp.o
+[ 45%] Building CXX object CMakeFiles/motion_velocity_smoother.dir/rclcpp_components/node_main_motion_velocity_smoother.cpp.o
+[ 50%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 55%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 60%] Building CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o
+[ 65%] Linking CXX static library libgmock_main.a
+[ 65%] Built target gmock_main
+[ 70%] Linking CXX executable motion_velocity_smoother
+[ 70%] Built target motion_velocity_smoother
+[ 75%] Linking CXX static library libgmock.a
+[ 75%] Built target gmock
+[ 80%] Linking CXX shared library libsmoother.so
+[ 80%] Built target smoother
+[ 85%] Building CXX object CMakeFiles/test_smoother_functions.dir/test/test_smoother_functions.cpp.o
+[ 90%] Building CXX object CMakeFiles/motion_velocity_smoother_node.dir/src/motion_velocity_smoother_node.cpp.o
+[ 95%] Linking CXX executable test_smoother_functions
+[ 95%] Built target test_smoother_functions
+[100%] Linking CXX shared library libmotion_velocity_smoother_node.so
+[100%] Built target motion_velocity_smoother_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /autoware/install/motion_velocity_smoother/lib/motion_velocity_smoother/motion_velocity_smoother
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/motion_velocity_smoother_node.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/resample.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/analytical_jerk_constrained_smoother/analytical_jerk_constrained_smoother.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/analytical_jerk_constrained_smoother/velocity_planning_utils.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/jerk_filtered_smoother.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/l2_pseudo_jerk_smoother.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/linf_pseudo_jerk_smoother.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/smoother/smoother_base.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/include/motion_velocity_smoother/trajectory_utils.hpp
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/library_path.sh
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/library_path.dsv
+-- Symlinking: /autoware/install/motion_velocity_smoother/lib/libsmoother.so
+-- Symlinking: /autoware/install/motion_velocity_smoother/lib/libmotion_velocity_smoother_node.so
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/launch/motion_velocity_smoother.launch.xml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/Analytical.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/JerkFiltered.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/L2.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/Linf.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/default_common.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/default_motion_velocity_smoother.param.yaml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/config/rqt_multiplot.xml
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/motion_velocity_smoother
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/motion_velocity_smoother
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/ament_prefix_path.sh
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/ament_prefix_path.dsv
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/path.sh
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/environment/path.dsv
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/local_setup.bash
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/local_setup.sh
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/local_setup.zsh
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/local_setup.dsv
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/package.dsv
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/ament_index/resource_index/packages/motion_velocity_smoother
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/ament_index/resource_index/rclcpp_components/motion_velocity_smoother
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/cmake/motion_velocity_smootherConfig.cmake
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/cmake/motion_velocity_smootherConfig-version.cmake
+-- Symlinking: /autoware/install/motion_velocity_smoother/share/motion_velocity_smoother/package.xml

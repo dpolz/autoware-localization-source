@@ -1,0 +1,297 @@
+[0.014s] Invoking command in '/autoware/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/autoware_msgs/autoware_perception_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_perception_msgs
+[0.057s] -- The C compiler identification is GNU 11.3.0
+[0.129s] -- The CXX compiler identification is GNU 11.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.410s] -- Detecting CXX compile features
+[0.410s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.630s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.727s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.937s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.946s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.962s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.987s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.369s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.892s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.894s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.929s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.929s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.929s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.929s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.950s] -- Found PythonExtra: .so  
+[2.003s] -- Configuring done
+[2.072s] -- Generating done
+[2.076s] -- Build files have been written to: /autoware/build/autoware_perception_msgs
+[2.099s] Invoked command in '/autoware/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/autoware_msgs/autoware_perception_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/autoware_perception_msgs
+[2.099s] Invoking command in '/autoware/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_perception_msgs -- -j64 -l64
+[2.148s] [  1%] Generating C code for ROS interfaces
+[2.156s] [  3%] Generating C++ code for ROS interfaces
+[2.164s] [  3%] Built target ament_cmake_python_symlink_autoware_perception_msgs
+[2.457s] running egg_info
+[2.458s] creating autoware_perception_msgs.egg-info
+[2.458s] writing autoware_perception_msgs.egg-info/PKG-INFO
+[2.459s] writing dependency_links to autoware_perception_msgs.egg-info/dependency_links.txt
+[2.459s] writing top-level names to autoware_perception_msgs.egg-info/top_level.txt
+[2.459s] writing manifest file 'autoware_perception_msgs.egg-info/SOURCES.txt'
+[2.461s] reading manifest file 'autoware_perception_msgs.egg-info/SOURCES.txt'
+[2.461s] writing manifest file 'autoware_perception_msgs.egg-info/SOURCES.txt'
+[2.483s] [  3%] Built target ament_cmake_python_build_autoware_perception_msgs_egg
+[2.891s] [  4%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_perception_msgs/msg/detail/traffic_light__functions.c.o
+[2.892s] [  6%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_perception_msgs/msg/detail/traffic_signal__functions.c.o
+[2.893s] [  7%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_perception_msgs/msg/detail/traffic_light_array__functions.c.o
+[2.894s] [  9%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_perception_msgs/msg/detail/traffic_light_element__functions.c.o
+[2.895s] [ 11%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_perception_msgs/msg/detail/traffic_signal_array__functions.c.o
+[3.007s] [ 12%] Linking C shared library libautoware_perception_msgs__rosidl_generator_c.so
+[3.045s] [ 12%] Built target autoware_perception_msgs__rosidl_generator_c
+[3.054s] [ 14%] Generating C introspection for ROS interfaces
+[3.054s] [ 15%] Generating C type support dispatch for ROS interfaces
+[3.057s] [ 17%] Generating C type support for eProsima Fast-RTPS
+[3.081s] [ 17%] Built target autoware_perception_msgs__cpp
+[3.093s] [ 19%] Generating C++ type support dispatch for ROS interfaces
+[3.094s] [ 20%] Generating C++ introspection for ROS interfaces
+[3.095s] [ 22%] Generating C++ type support for eProsima Fast-RTPS
+[3.638s] [ 23%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_perception_msgs/msg/traffic_light_array__type_support.cpp.o
+[3.641s] [ 25%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_perception_msgs/msg/traffic_light_element__type_support.cpp.o
+[3.641s] [ 26%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_perception_msgs/msg/traffic_signal_array__type_support.cpp.o
+[3.642s] [ 28%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_perception_msgs/msg/traffic_light__type_support.cpp.o
+[3.642s] [ 30%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_perception_msgs/msg/traffic_signal__type_support.cpp.o
+[3.685s] [ 31%] Linking CXX shared library libautoware_perception_msgs__rosidl_typesupport_c.so
+[3.732s] [ 31%] Built target autoware_perception_msgs__rosidl_typesupport_c
+[3.749s] [ 33%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_perception_msgs/msg/detail/traffic_light_element__type_support.c.o
+[3.750s] [ 36%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_perception_msgs/msg/detail/traffic_light_array__type_support.c.o
+[3.751s] [ 36%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_perception_msgs/msg/detail/traffic_light__type_support.c.o
+[3.751s] [ 38%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_perception_msgs/msg/detail/traffic_signal__type_support.c.o
+[3.752s] [ 39%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_perception_msgs/msg/detail/traffic_signal_array__type_support.c.o
+[3.810s] [ 41%] Linking C shared library libautoware_perception_msgs__rosidl_typesupport_introspection_c.so
+[3.810s] [ 42%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_perception_msgs/msg/traffic_light_element__type_support.cpp.o
+[3.811s] [ 44%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_perception_msgs/msg/traffic_light_array__type_support.cpp.o
+[3.811s] [ 46%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_perception_msgs/msg/traffic_light__type_support.cpp.o
+[3.812s] [ 47%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_perception_msgs/msg/traffic_signal_array__type_support.cpp.o
+[3.813s] [ 49%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_perception_msgs/msg/traffic_signal__type_support.cpp.o
+[3.836s] [ 49%] Built target autoware_perception_msgs__rosidl_typesupport_introspection_c
+[3.903s] [ 52%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_perception_msgs/msg/detail/traffic_signal_array__type_support_c.cpp.o
+[3.903s] [ 52%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_perception_msgs/msg/detail/traffic_light_element__type_support_c.cpp.o
+[3.903s] [ 55%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_perception_msgs/msg/detail/traffic_light_array__type_support_c.cpp.o
+[3.904s] [ 55%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_perception_msgs/msg/detail/traffic_light__type_support_c.cpp.o
+[3.904s] [ 57%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_perception_msgs/msg/detail/traffic_signal__type_support_c.cpp.o
+[3.914s] [ 58%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_perception_msgs/msg/detail/traffic_light__type_support.cpp.o
+[3.914s] [ 60%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_perception_msgs/msg/detail/traffic_signal__type_support.cpp.o
+[3.914s] [ 61%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_perception_msgs/msg/detail/traffic_light_element__type_support.cpp.o
+[3.914s] [ 63%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_perception_msgs/msg/detail/traffic_signal_array__type_support.cpp.o
+[3.914s] [ 65%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_perception_msgs/msg/detail/traffic_light_array__type_support.cpp.o
+[3.996s] [ 66%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_perception_msgs/msg/detail/dds_fastrtps/traffic_light__type_support.cpp.o
+[3.996s] [ 68%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_perception_msgs/msg/detail/dds_fastrtps/traffic_signal_array__type_support.cpp.o
+[3.996s] [ 69%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_perception_msgs/msg/detail/dds_fastrtps/traffic_light_array__type_support.cpp.o
+[3.998s] [ 71%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_perception_msgs/msg/detail/dds_fastrtps/traffic_signal__type_support.cpp.o
+[3.999s] [ 73%] Building CXX object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_perception_msgs/msg/detail/dds_fastrtps/traffic_light_element__type_support.cpp.o
+[4.222s] [ 74%] Linking CXX shared library libautoware_perception_msgs__rosidl_typesupport_cpp.so
+[4.259s] [ 74%] Built target autoware_perception_msgs__rosidl_typesupport_cpp
+[4.450s] [ 76%] Linking CXX shared library libautoware_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[4.535s] [ 76%] Built target autoware_perception_msgs__rosidl_typesupport_fastrtps_c
+[4.601s] [ 77%] Linking CXX shared library libautoware_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[4.694s] [ 79%] Linking CXX shared library libautoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.694s] [ 79%] Built target autoware_perception_msgs__rosidl_typesupport_introspection_cpp
+[4.768s] [ 79%] Built target autoware_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[4.768s] [ 79%] Built target autoware_perception_msgs
+[4.791s] [ 80%] Generating Python code for ROS interfaces
+[6.432s] [ 80%] Built target autoware_perception_msgs__py
+[6.433s] [ 85%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_perception_msgs/msg/_traffic_light_array_s.c.o
+[6.433s] [ 85%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_perception_msgs/msg/_traffic_light_s.c.o
+[6.433s] [ 85%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_perception_msgs/msg/_traffic_signal_s.c.o
+[6.433s] [ 87%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_perception_msgs/msg/_traffic_light_element_s.c.o
+[6.434s] [ 88%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/autoware_perception_msgs/msg/_traffic_signal_array_s.c.o
+[6.563s] [ 90%] Linking C shared library rosidl_generator_py/autoware_perception_msgs/libautoware_perception_msgs__rosidl_generator_py.so
+[6.597s] [ 90%] Built target autoware_perception_msgs__rosidl_generator_py
+[6.612s] [ 92%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.612s] [ 93%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.613s] [ 95%] Building C object CMakeFiles/autoware_perception_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_c.c.o
+[6.855s] [ 96%] Linking C shared library rosidl_generator_py/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.855s] [ 98%] Linking C shared library rosidl_generator_py/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.855s] [100%] Linking C shared library rosidl_generator_py/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.908s] [100%] Built target autoware_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[6.909s] [100%] Built target autoware_perception_msgs__rosidl_typesupport_c__pyext
+[6.942s] [100%] Built target autoware_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.044s] Invoked command in '/autoware/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_perception_msgs -- -j64 -l64
+[7.732s] Invoking command in '/autoware/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_perception_msgs
+[7.744s] -- Install configuration: "Release"
+[7.745s] -- Execute custom install script
+[7.746s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_perception_msgs
+[7.763s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__functions.h
+[7.779s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__struct.h
+[7.792s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__type_support.h
+[7.803s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__functions.h
+[7.814s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__struct.h
+[7.821s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__type_support.h
+[7.832s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__functions.h
+[7.843s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__struct.h
+[7.854s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__type_support.h
+[7.865s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__functions.h
+[7.876s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__struct.h
+[7.887s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__type_support.h
+[7.898s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__functions.h
+[7.909s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__struct.h
+[7.919s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__type_support.h
+[7.929s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.938s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light.h
+[7.947s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light_array.h
+[7.958s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light_element.h
+[7.969s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_signal.h
+[7.979s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_signal_array.h
+[7.990s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/library_path.sh
+[7.999s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/library_path.dsv
+[8.011s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_c.h
+[8.021s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__rosidl_typesupport_fastrtps_c.h
+[8.030s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__rosidl_typesupport_fastrtps_c.h
+[8.040s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__rosidl_typesupport_fastrtps_c.h
+[8.052s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__rosidl_typesupport_fastrtps_c.h
+[8.063s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.075s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__builder.hpp
+[8.084s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__struct.hpp
+[8.096s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__traits.hpp
+[8.109s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__builder.hpp
+[8.120s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__struct.hpp
+[8.131s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__traits.hpp
+[8.143s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__builder.hpp
+[8.153s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__struct.hpp
+[8.164s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__traits.hpp
+[8.176s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__builder.hpp
+[8.188s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__struct.hpp
+[8.200s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__traits.hpp
+[8.211s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__builder.hpp
+[8.223s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__struct.hpp
+[8.233s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__traits.hpp
+[8.243s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light.hpp
+[8.252s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light_array.hpp
+[8.263s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_light_element.hpp
+[8.274s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_signal.hpp
+[8.287s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/traffic_signal_array.hpp
+[8.299s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_cpp.hpp
+[8.306s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.317s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__rosidl_typesupport_fastrtps_cpp.hpp
+[8.325s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[8.332s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.344s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.352s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_c.h
+[8.359s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__rosidl_typesupport_introspection_c.h
+[8.366s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__rosidl_typesupport_introspection_c.h
+[8.373s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__rosidl_typesupport_introspection_c.h
+[8.380s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__rosidl_typesupport_introspection_c.h
+[8.389s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.397s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_cpp.hpp
+[8.408s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_array__rosidl_typesupport_introspection_cpp.hpp
+[8.417s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_light_element__rosidl_typesupport_introspection_cpp.hpp
+[8.427s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal__rosidl_typesupport_introspection_cpp.hpp
+[8.434s] -- Symlinking: /autoware/install/autoware_perception_msgs/include/autoware_perception_msgs/autoware_perception_msgs/msg/detail/traffic_signal_array__rosidl_typesupport_introspection_cpp.hpp
+[8.441s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/pythonpath.sh
+[8.452s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/pythonpath.dsv
+[8.462s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[8.470s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[8.477s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[8.484s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[8.493s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/__init__.py
+[8.499s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_c.c
+[8.506s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.513s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/_autoware_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.521s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.527s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.533s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.540s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/libautoware_perception_msgs__rosidl_generator_py.so
+[8.547s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/__init__.py
+[8.554s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light.py
+[8.561s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_array.py
+[8.566s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_array_s.c
+[8.574s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_element.py
+[8.579s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_element_s.c
+[8.586s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_s.c
+[8.592s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal.py
+[8.599s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal_array.py
+[8.606s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal_array_s.c
+[8.612s] -- Symlinking: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal_s.c
+[8.619s] -- Up-to-date symlink: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.619s] -- Up-to-date symlink: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.620s] -- Up-to-date symlink: /autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/autoware_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.620s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLight.idl
+[8.626s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLightArray.idl
+[8.633s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLightElement.idl
+[8.639s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficSignal.idl
+[8.645s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficSignalArray.idl
+[8.652s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLight.msg
+[8.659s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLightArray.msg
+[8.665s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficLightElement.msg
+[8.672s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficSignal.msg
+[8.678s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/msg/TrafficSignalArray.msg
+[8.685s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_perception_msgs
+[8.692s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_perception_msgs
+[8.698s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/ament_prefix_path.sh
+[8.704s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/ament_prefix_path.dsv
+[8.712s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/path.sh
+[8.718s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/environment/path.dsv
+[8.726s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/local_setup.bash
+[8.732s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/local_setup.sh
+[8.738s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/local_setup.zsh
+[8.745s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/local_setup.dsv
+[8.780s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/package.dsv
+[8.780s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/ament_index/resource_index/packages/autoware_perception_msgs
+[8.781s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/rosidl_cmake-extras.cmake
+[8.781s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.781s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.783s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.789s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.795s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.835s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.835s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgsConfig.cmake
+[8.835s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgsConfig-version.cmake
+[8.836s] -- Symlinking: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/package.xml
+[8.836s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_generator_c.so
+[8.836s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_generator_c.so" to ""
+[8.836s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[8.837s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.837s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.837s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.837s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_introspection_c.so
+[8.837s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.837s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_c.so
+[8.837s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_c.so" to ""
+[8.837s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[8.837s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.838s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_cpp.so
+[8.838s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_typesupport_cpp.so" to ""
+[8.873s] Listing '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs'...
+[8.873s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/__init__.py'...
+[8.874s] Listing '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/__init__.py'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light.py'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_array.py'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_light_element.py'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal.py'...
+[8.874s] Compiling '/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages/autoware_perception_msgs/msg/_traffic_signal_array.py'...
+[8.880s] -- Installing: /autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_generator_py.so
+[8.888s] -- Set runtime path of "/autoware/install/autoware_perception_msgs/lib/libautoware_perception_msgs__rosidl_generator_py.so" to ""
+[8.888s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_generator_cExport.cmake
+[8.888s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_generator_cExport-release.cmake
+[8.888s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.888s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[8.888s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_generator_cppExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_cExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_cExport-release.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_cppExport.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/autoware_perception_msgs__rosidl_typesupport_cppExport-release.cmake
+[8.889s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_generator_pyExport.cmake
+[8.890s] -- Installing: /autoware/install/autoware_perception_msgs/share/autoware_perception_msgs/cmake/export_autoware_perception_msgs__rosidl_generator_pyExport-release.cmake
+[8.908s] Invoked command in '/autoware/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_perception_msgs

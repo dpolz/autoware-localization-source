@@ -1,0 +1,11 @@
+** WARNING ** io features related to pcap will be disabled
+CMake Warning at /autoware/install/tvm_utility/share/tvm_utility/cmake/tvm_utility-extras.cmake:58 (message):
+  Skipped download for baidu_cnn (enable by setting DOWNLOAD_ARTIFACTS)
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (get_neural_network)
+
+
+CMake Warning at CMakeLists.txt:83 (message):
+  Neural network not found, skipping package.
+
+

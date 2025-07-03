@@ -1,0 +1,54 @@
+[0.063s] Invoking command in '/autoware/build/component_interface_utils': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/component_interface_utils -- -j64 -l64
+[0.104s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.104s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.240s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.352s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.352s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.130s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.536s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.536s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.536s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.536s] -- Configured cppcheck include dirs: 
+[1.536s] -- Configured cppcheck exclude dirs and/or files: 
+[1.536s] -- Added test 'lint_cmake' to check CMake code style
+[1.537s] -- Added test 'xmllint' to check XML markup files
+[1.546s] -- Configuring done
+[1.546s] -- Generating done
+[1.547s] -- Build files have been written to: /autoware/build/component_interface_utils
+[1.581s] Invoked command in '/autoware/build/component_interface_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/component_interface_utils -- -j64 -l64
+[1.613s] Invoking command in '/autoware/build/component_interface_utils': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/component_interface_utils
+[1.647s] -- Install configuration: "Release"
+[1.647s] -- Execute custom install script
+[1.647s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp.hpp
+[1.647s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/create_interface.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/exceptions.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/interface.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/service_client.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/service_server.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/topic_publisher.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/rclcpp/topic_subscription.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/specs.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/include/component_interface_utils/status.hpp
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/ament_index/resource_index/package_run_dependencies/component_interface_utils
+[1.648s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/ament_index/resource_index/parent_prefix_path/component_interface_utils
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/environment/ament_prefix_path.sh
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/environment/ament_prefix_path.dsv
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/environment/path.sh
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/environment/path.dsv
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/local_setup.bash
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/local_setup.sh
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/local_setup.zsh
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/local_setup.dsv
+[1.649s] -- Symlinking: /autoware/install/component_interface_utils/share/component_interface_utils/package.dsv
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/ament_index/resource_index/packages/component_interface_utils
+[1.649s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.650s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.650s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/cmake/component_interface_utilsConfig.cmake
+[1.650s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/cmake/component_interface_utilsConfig-version.cmake
+[1.650s] -- Up-to-date symlink: /autoware/install/component_interface_utils/share/component_interface_utils/package.xml
+[1.724s] Invoked command in '/autoware/build/component_interface_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_system_msgs:/autoware/install/autoware_common_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_adapi_v1_msgs:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_system_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/component_interface_utils

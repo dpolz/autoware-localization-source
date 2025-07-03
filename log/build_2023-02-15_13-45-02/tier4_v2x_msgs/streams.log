@@ -1,0 +1,299 @@
+[0.135s] Invoking command in '/autoware/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_v2x_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_v2x_msgs
+[0.189s] -- The C compiler identification is GNU 11.3.0
+[0.216s] -- The CXX compiler identification is GNU 11.3.0
+[0.222s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.613s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.028s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.521s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.525s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.545s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.546s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.546s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.546s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.566s] -- Found PythonExtra: .so  
+[1.618s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.643s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.647s] -- Added test 'lint_cmake' to check CMake code style
+[1.649s] -- Added test 'xmllint' to check XML markup files
+[1.654s] -- Configuring done
+[1.699s] -- Generating done
+[1.703s] -- Build files have been written to: /autoware/build/tier4_v2x_msgs
+[1.714s] Invoked command in '/autoware/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_v2x_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_v2x_msgs
+[1.715s] Invoking command in '/autoware/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_v2x_msgs -- -j64 -l64
+[1.754s] [  1%] Generating C code for ROS interfaces
+[1.768s] [  3%] Generating C++ code for ROS interfaces
+[1.775s] [  3%] Built target ament_cmake_python_symlink_tier4_v2x_msgs
+[2.178s] running egg_info
+[2.179s] creating tier4_v2x_msgs.egg-info
+[2.179s] writing tier4_v2x_msgs.egg-info/PKG-INFO
+[2.179s] writing dependency_links to tier4_v2x_msgs.egg-info/dependency_links.txt
+[2.179s] writing top-level names to tier4_v2x_msgs.egg-info/top_level.txt
+[2.180s] writing manifest file 'tier4_v2x_msgs.egg-info/SOURCES.txt'
+[2.183s] reading manifest file 'tier4_v2x_msgs.egg-info/SOURCES.txt'
+[2.183s] writing manifest file 'tier4_v2x_msgs.egg-info/SOURCES.txt'
+[2.211s] [  3%] Built target ament_cmake_python_build_tier4_v2x_msgs_egg
+[2.464s] [  3%] Built target tier4_v2x_msgs__cpp
+[2.486s] [  4%] Generating C++ introspection for ROS interfaces
+[2.486s] [  6%] Generating C++ type support for eProsima Fast-RTPS
+[2.492s] [  7%] Generating C++ type support dispatch for ROS interfaces
+[2.536s] [  9%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_v2x_msgs/msg/detail/infrastructure_command__functions.c.o
+[2.538s] [ 11%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_v2x_msgs/msg/detail/infrastructure_command_array__functions.c.o
+[2.544s] [ 12%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_v2x_msgs/msg/detail/key_value__functions.c.o
+[2.546s] [ 14%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__functions.c.o
+[2.556s] [ 15%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__functions.c.o
+[2.695s] [ 17%] Linking C shared library libtier4_v2x_msgs__rosidl_generator_c.so
+[2.754s] [ 17%] Built target tier4_v2x_msgs__rosidl_generator_c
+[2.777s] [ 19%] Generating C type support for eProsima Fast-RTPS
+[2.777s] [ 20%] Generating C type support dispatch for ROS interfaces
+[2.782s] [ 22%] Generating C introspection for ROS interfaces
+[3.199s] [ 23%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_v2x_msgs/msg/infrastructure_command_array__type_support.cpp.o
+[3.209s] [ 25%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_v2x_msgs/msg/infrastructure_command__type_support.cpp.o
+[3.210s] [ 26%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_v2x_msgs/msg/key_value__type_support.cpp.o
+[3.243s] [ 28%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_v2x_msgs/msg/virtual_traffic_light_state__type_support.cpp.o
+[3.310s] [ 30%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_v2x_msgs/msg/virtual_traffic_light_state_array__type_support.cpp.o
+[3.361s] [ 31%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support.cpp.o
+[3.394s] [ 33%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_v2x_msgs/msg/detail/key_value__type_support.cpp.o
+[3.408s] [ 34%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support.cpp.o
+[3.446s] [ 36%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support.cpp.o
+[3.532s] [ 38%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support.cpp.o
+[3.586s] [ 39%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_v2x_msgs/msg/detail/dds_fastrtps/infrastructure_command__type_support.cpp.o
+[3.598s] [ 41%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_v2x_msgs/msg/detail/dds_fastrtps/infrastructure_command_array__type_support.cpp.o
+[3.618s] [ 42%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_v2x_msgs/msg/infrastructure_command_array__type_support.cpp.o
+[3.624s] [ 44%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_v2x_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o
+[3.635s] [ 46%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_v2x_msgs/msg/infrastructure_command__type_support.cpp.o
+[3.656s] [ 47%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_v2x_msgs/msg/key_value__type_support.cpp.o
+[3.658s] [ 49%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_v2x_msgs/msg/virtual_traffic_light_state__type_support.cpp.o
+[3.672s] [ 50%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_v2x_msgs/msg/detail/dds_fastrtps/virtual_traffic_light_state_array__type_support.cpp.o
+[3.674s] [ 52%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_v2x_msgs/msg/detail/dds_fastrtps/virtual_traffic_light_state__type_support.cpp.o
+[3.726s] [ 53%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_v2x_msgs/msg/virtual_traffic_light_state_array__type_support.cpp.o
+[3.819s] [ 55%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support.c.o
+[3.822s] [ 57%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support.c.o
+[3.837s] [ 58%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support.c.o
+[3.840s] [ 60%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support_c.cpp.o
+[3.846s] [ 61%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support.c.o
+[3.848s] [ 63%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support_c.cpp.o
+[3.850s] [ 65%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_v2x_msgs/msg/detail/key_value__type_support.c.o
+[3.852s] [ 66%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_v2x_msgs/msg/detail/key_value__type_support_c.cpp.o
+[3.859s] [ 68%] Linking CXX shared library libtier4_v2x_msgs__rosidl_typesupport_c.so
+[3.861s] [ 69%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support_c.cpp.o
+[3.900s] [ 71%] Building CXX object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support_c.cpp.o
+[4.058s] [ 73%] Linking C shared library libtier4_v2x_msgs__rosidl_typesupport_introspection_c.so
+[4.064s] [ 73%] Built target tier4_v2x_msgs__rosidl_typesupport_c
+[4.092s] [ 74%] Linking CXX shared library libtier4_v2x_msgs__rosidl_typesupport_cpp.so
+[4.189s] [ 74%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c
+[4.199s] [ 74%] Built target tier4_v2x_msgs__rosidl_typesupport_cpp
+[4.610s] [ 76%] Linking CXX shared library libtier4_v2x_msgs__rosidl_typesupport_introspection_cpp.so
+[4.667s] [ 77%] Linking CXX shared library libtier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.761s] [ 77%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_cpp
+[4.790s] [ 79%] Linking CXX shared library libtier4_v2x_msgs__rosidl_typesupport_fastrtps_c.so
+[4.844s] [ 79%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp
+[4.930s] [ 79%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c
+[4.971s] [ 79%] Built target tier4_v2x_msgs
+[5.091s] [ 80%] Generating Python code for ROS interfaces
+[7.026s] [ 80%] Built target tier4_v2x_msgs__py
+[7.068s] [ 82%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_v2x_msgs/msg/_infrastructure_command_s.c.o
+[7.070s] [ 84%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_v2x_msgs/msg/_infrastructure_command_array_s.c.o
+[7.074s] [ 85%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_v2x_msgs/msg/_key_value_s.c.o
+[7.084s] [ 87%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_v2x_msgs/msg/_virtual_traffic_light_state_s.c.o
+[7.090s] [ 88%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array_s.c.o
+[7.333s] [ 90%] Linking C shared library rosidl_generator_py/tier4_v2x_msgs/libtier4_v2x_msgs__rosidl_generator_py.so
+[7.406s] [ 90%] Built target tier4_v2x_msgs__rosidl_generator_py
+[7.434s] [ 92%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[7.443s] [ 93%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_c.c.o
+[7.453s] [ 95%] Building C object CMakeFiles/tier4_v2x_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[7.660s] [ 96%] Linking C shared library rosidl_generator_py/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.660s] [ 98%] Linking C shared library rosidl_generator_py/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.741s] [ 98%] Built target tier4_v2x_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.742s] [100%] Linking C shared library rosidl_generator_py/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.742s] [100%] Built target tier4_v2x_msgs__rosidl_typesupport_c__pyext
+[7.762s] [100%] Built target tier4_v2x_msgs__rosidl_typesupport_introspection_c__pyext
+[7.823s] Invoked command in '/autoware/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_v2x_msgs -- -j64 -l64
+[8.096s] Invoking command in '/autoware/build/tier4_v2x_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_v2x_msgs
+[8.101s] -- Install configuration: "Release"
+[8.102s] -- Execute custom install script
+[8.102s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_v2x_msgs
+[8.113s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__functions.h
+[8.122s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.h
+[8.130s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__type_support.h
+[8.148s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__functions.h
+[8.168s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.h
+[8.186s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__type_support.h
+[8.200s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__functions.h
+[8.247s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__struct.h
+[8.247s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__type_support.h
+[8.247s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__functions.h
+[8.249s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.h
+[8.259s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__type_support.h
+[8.264s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__functions.h
+[8.271s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.h
+[8.278s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__type_support.h
+[8.284s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command.h
+[8.294s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command_array.h
+[8.360s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/key_value.h
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state.h
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.h
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.sh
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/library_path.dsv
+[8.361s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_c.h
+[8.373s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_c.h
+[8.373s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[8.373s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_c.h
+[8.385s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_c.h
+[8.414s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.415s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_c.h
+[8.415s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_c.h
+[8.415s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[8.415s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_c.h
+[8.417s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_c.h
+[8.423s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.433s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__builder.hpp
+[8.441s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__struct.hpp
+[8.448s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__traits.hpp
+[8.455s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__builder.hpp
+[8.465s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__struct.hpp
+[8.530s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__traits.hpp
+[8.530s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__builder.hpp
+[8.530s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__struct.hpp
+[8.530s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__traits.hpp
+[8.530s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__builder.hpp
+[8.531s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__struct.hpp
+[8.531s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__traits.hpp
+[8.531s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__builder.hpp
+[8.533s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__struct.hpp
+[8.535s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__traits.hpp
+[8.545s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command.hpp
+[8.551s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/infrastructure_command_array.hpp
+[8.557s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/key_value.hpp
+[8.564s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state.hpp
+[8.577s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/virtual_traffic_light_state_array.hpp
+[8.587s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_fastrtps_cpp.hpp
+[8.598s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.651s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[8.652s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.652s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.652s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.661s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command__rosidl_typesupport_introspection_cpp.hpp
+[8.676s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/infrastructure_command_array__rosidl_typesupport_introspection_cpp.hpp
+[8.689s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[8.701s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state__rosidl_typesupport_introspection_cpp.hpp
+[8.713s] -- Symlinking: /autoware/install/tier4_v2x_msgs/include/tier4_v2x_msgs/tier4_v2x_msgs/msg/detail/virtual_traffic_light_state_array__rosidl_typesupport_introspection_cpp.hpp
+[8.727s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.sh
+[8.738s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/pythonpath.dsv
+[8.754s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[8.767s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[8.779s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[8.791s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[8.859s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/__init__.py
+[8.859s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_c.c
+[8.859s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.859s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/_tier4_v2x_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.860s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/libtier4_v2x_msgs__rosidl_generator_py.so
+[8.860s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/__init__.py
+[8.861s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command.py
+[8.870s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_array.py
+[8.880s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_array_s.c
+[8.889s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_s.c
+[8.899s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_key_value.py
+[8.909s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_key_value_s.c
+[8.916s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state.py
+[8.926s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array.py
+[8.938s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array_s.c
+[8.949s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_s.c
+[8.961s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.971s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.014s] -- Symlinking: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.014s] -- Up-to-date symlink: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.014s] -- Up-to-date symlink: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.014s] -- Up-to-date symlink: /autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/tier4_v2x_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.015s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.idl
+[9.015s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.idl
+[9.016s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.idl
+[9.025s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.idl
+[9.035s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.idl
+[9.046s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommand.msg
+[9.058s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/InfrastructureCommandArray.msg
+[9.069s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/KeyValue.msg
+[9.078s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightState.msg
+[9.087s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/msg/VirtualTrafficLightStateArray.msg
+[9.100s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_v2x_msgs
+[9.113s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_v2x_msgs
+[9.123s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.sh
+[9.134s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/ament_prefix_path.dsv
+[9.142s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.sh
+[9.148s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/environment/path.dsv
+[9.191s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.bash
+[9.192s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.sh
+[9.192s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.zsh
+[9.192s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/local_setup.dsv
+[9.193s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.dsv
+[9.193s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/ament_index/resource_index/packages/tier4_v2x_msgs
+[9.196s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake-extras.cmake
+[9.200s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.207s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.212s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.219s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.228s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.235s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.241s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig.cmake
+[9.248s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgsConfig-version.cmake
+[9.260s] -- Symlinking: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/package.xml
+[9.272s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_c.so
+[9.272s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_c.so" to ""
+[9.272s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_c.so
+[9.272s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.272s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_c.so
+[9.272s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.272s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_c.so
+[9.273s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_c.so" to ""
+[9.273s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.274s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.274s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_cpp.so
+[9.274s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.275s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_cpp.so
+[9.275s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_typesupport_cpp.so" to ""
+[9.339s] Listing '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs'...
+[9.339s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/__init__.py'...
+[9.339s] Listing '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg'...
+[9.339s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/__init__.py'...
+[9.340s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command.py'...
+[9.340s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_infrastructure_command_array.py'...
+[9.340s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_key_value.py'...
+[9.340s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state.py'...
+[9.340s] Compiling '/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages/tier4_v2x_msgs/msg/_virtual_traffic_light_state_array.py'...
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_py.so
+[9.343s] -- Set runtime path of "/autoware/install/tier4_v2x_msgs/lib/libtier4_v2x_msgs__rosidl_generator_py.so" to ""
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cExport.cmake
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cExport-release.cmake
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[9.343s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.344s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[9.344s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport.cmake
+[9.344s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cExport-release.cmake
+[9.345s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_cppExport.cmake
+[9.345s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.346s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[9.347s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.348s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[9.348s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport.cmake
+[9.349s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/tier4_v2x_msgs__rosidl_typesupport_cppExport-release.cmake
+[9.349s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_pyExport.cmake
+[9.350s] -- Installing: /autoware/install/tier4_v2x_msgs/share/tier4_v2x_msgs/cmake/export_tier4_v2x_msgs__rosidl_generator_pyExport-release.cmake
+[9.362s] Invoked command in '/autoware/build/tier4_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_v2x_msgs

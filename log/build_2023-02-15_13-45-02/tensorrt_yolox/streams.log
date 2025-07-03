@@ -1,0 +1,46 @@
+[0.073s] Invoking command in '/autoware/build/tensorrt_yolox': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/tensorrt_yolox -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tensorrt_yolox
+[0.158s] -- The C compiler identification is GNU 11.3.0
+[0.241s] -- The CXX compiler identification is GNU 11.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.371s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.538s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.570s] CMake Warning at CMakeLists.txt:4 (find_package):
+[0.570s]   By not providing "Findtensorrt_common.cmake" in CMAKE_MODULE_PATH this
+[0.571s]   project has asked CMake to find a package configuration file provided by
+[0.571s]   "tensorrt_common", but CMake did not find one.
+[0.571s] 
+[0.571s]   Could not find a package configuration file provided by "tensorrt_common"
+[0.571s]   with any of the following names:
+[0.571s] 
+[0.571s]     tensorrt_commonConfig.cmake
+[0.571s]     tensorrt_common-config.cmake
+[0.572s] 
+[0.572s]   Add the installation prefix of "tensorrt_common" to CMAKE_PREFIX_PATH or
+[0.572s]   set "tensorrt_common_DIR" to a directory containing one of the above files.
+[0.572s]   If "tensorrt_common" provides a separate development package or SDK, be
+[0.572s]   sure it has been installed.
+[0.572s] 
+[0.573s] 
+[0.573s] CMake Warning at CMakeLists.txt:6 (message):
+[0.573s]   The tensorrt_common package is not found.  Please check its dependencies.
+[0.573s] 
+[0.573s] 
+[0.573s] -- Configuring done
+[0.575s] -- Generating done
+[0.576s] CMake Warning:
+[0.576s]   Manually-specified variables were not used by the project:
+[0.576s] 
+[0.576s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.577s] 
+[0.577s] 
+[0.578s] -- Build files have been written to: /autoware/build/tensorrt_yolox
+[0.585s] Invoked command in '/autoware/build/tensorrt_yolox' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/tensorrt_yolox -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tensorrt_yolox
+[0.585s] Invoking command in '/autoware/build/tensorrt_yolox': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tensorrt_yolox -- -j64 -l64
+[0.639s] Invoked command in '/autoware/build/tensorrt_yolox' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_perception_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_perception_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_perception_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tensorrt_yolox -- -j64 -l64

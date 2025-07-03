@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_typesupport_fastrtps_c/morai_msgs/msg/detail/npc_ghost_cmd__rosidl_typesupport_fastrtps_c.h

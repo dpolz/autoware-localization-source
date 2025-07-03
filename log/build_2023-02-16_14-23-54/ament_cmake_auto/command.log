@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/external/ament_cmake/ament_cmake_auto -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ament_cmake_auto
+Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/core/external/ament_cmake/ament_cmake_auto -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/ament_cmake_auto
+Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ament_cmake_auto -- -j64 -l64
+Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/ament_cmake_auto -- -j64 -l64
+Invoking command in '/autoware/build/ament_cmake_auto': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ament_cmake_auto
+Invoked command in '/autoware/build/ament_cmake_auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/ament_cmake_auto

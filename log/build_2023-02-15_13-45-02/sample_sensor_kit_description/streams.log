@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/autoware/build/sample_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/sample_sensor_kit_launch/sample_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/sample_sensor_kit_description
+[0.055s] -- The C compiler identification is GNU 11.3.0
+[0.105s] -- The CXX compiler identification is GNU 11.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.717s] -- Configuring done
+[0.722s] -- Generating done
+[0.723s] -- Build files have been written to: /autoware/build/sample_sensor_kit_description
+[0.729s] Invoked command in '/autoware/build/sample_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/sensor_kit/sample_sensor_kit_launch/sample_sensor_kit_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/sample_sensor_kit_description
+[0.730s] Invoking command in '/autoware/build/sample_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/sample_sensor_kit_description -- -j64 -l64
+[0.776s] Invoked command in '/autoware/build/sample_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/sample_sensor_kit_description -- -j64 -l64
+[0.814s] Invoking command in '/autoware/build/sample_sensor_kit_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/sample_sensor_kit_description
+[0.823s] -- Install configuration: "Release"
+[0.823s] -- Execute custom install script
+[0.825s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensor_kit.xacro
+[0.837s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/urdf/sensors.xacro
+[0.849s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensor_kit_calibration.yaml
+[0.859s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/config/sensors_calibration.yaml
+[0.871s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/package_run_dependencies/sample_sensor_kit_description
+[0.880s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/parent_prefix_path/sample_sensor_kit_description
+[0.888s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.sh
+[0.898s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/ament_prefix_path.dsv
+[0.909s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.sh
+[0.920s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/environment/path.dsv
+[0.932s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.bash
+[0.944s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.sh
+[0.954s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.zsh
+[0.989s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/local_setup.dsv
+[1.015s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.dsv
+[1.042s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/ament_index/resource_index/packages/sample_sensor_kit_description
+[1.054s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig.cmake
+[1.062s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/cmake/sample_sensor_kit_descriptionConfig-version.cmake
+[1.070s] -- Symlinking: /autoware/install/sample_sensor_kit_description/share/sample_sensor_kit_description/package.xml
+[1.089s] Invoked command in '/autoware/build/sample_sensor_kit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/sample_sensor_kit_description

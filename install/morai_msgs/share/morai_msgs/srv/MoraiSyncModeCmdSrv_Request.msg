@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_cmake/srv/MoraiSyncModeCmdSrv_Request.msg

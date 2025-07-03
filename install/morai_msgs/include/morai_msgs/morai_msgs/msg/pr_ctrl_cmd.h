@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/msg/pr_ctrl_cmd.h

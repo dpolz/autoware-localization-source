@@ -1,0 +1,38 @@
+[0.091s] Invoking command in '/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/trtexec_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/trtexec_vendor
+[0.216s] -- The C compiler identification is GNU 11.3.0
+[0.251s] -- The CXX compiler identification is GNU 11.3.0
+[0.262s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.459s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.658s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.740s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.772s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[0.792s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[0.795s] -- Found cudnn_cmake_module: 0.0.1 (/opt/ros/humble/share/cudnn_cmake_module/cmake)
+[0.796s] -- Could NOT find CUDNN (missing: CUDNN_LIBRARY CUDNN_INCLUDE_DIR) 
+[0.799s] -- Found tensorrt_cmake_module: 0.0.3 (/opt/ros/humble/share/tensorrt_cmake_module/cmake)
+[0.800s] -- Found TensorRT headers at TENSORRT_INCLUDE_DIR-NOTFOUND
+[0.804s] -- Found TensorRT libs at TENSORRT_NVINFER_LIBRARY-NOTFOUND;TENSORRT_NVINFER_PLUGIN_LIBRARY-NOTFOUND;TENSORRT_NVPARSERS_LIBRARY-NOTFOUND;TENSORRT_NVONNXPARSER_LIBRARY-NOTFOUND
+[0.805s] -- Could NOT find TENSORRT (missing: TENSORRT_INCLUDE_DIR TENSORRT_LIBRARY) 
+[0.805s] CMake Warning at CMakeLists.txt:21 (message):
+[0.805s]   cuda, cudnn, tensorrt libraries are not found
+[0.805s] 
+[0.805s] 
+[0.805s] -- Configuring done
+[0.807s] -- Generating done
+[0.808s] -- Build files have been written to: /autoware/build/trtexec_vendor
+[0.813s] Invoked command in '/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /autoware/src/universe/autoware.universe/common/trtexec_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/trtexec_vendor
+[0.814s] Invoking command in '/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/trtexec_vendor -- -j64 -l64
+[0.883s] Invoked command in '/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /autoware/build/trtexec_vendor -- -j64 -l64
+[0.899s] Invoking command in '/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/trtexec_vendor
+[0.938s] -- Install configuration: "Release"
+[0.945s] -- Execute custom install script
+[0.946s] Invoked command in '/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /autoware/build/trtexec_vendor

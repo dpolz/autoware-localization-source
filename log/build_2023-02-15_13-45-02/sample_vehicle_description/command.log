@@ -1,0 +1,6 @@
+Invoking command in '/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/sample_vehicle_description
+Invoked command in '/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/sample_vehicle_description
+Invoking command in '/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/sample_vehicle_description -- -j64 -l64
+Invoked command in '/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/sample_vehicle_description -- -j64 -l64
+Invoking command in '/autoware/build/sample_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/sample_vehicle_description
+Invoked command in '/autoware/build/sample_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/sample_vehicle_description

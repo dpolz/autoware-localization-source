@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/msg/detail/sensor_pos_control__type_support.h

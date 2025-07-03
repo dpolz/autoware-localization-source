@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_typesupport_introspection_c/morai_msgs/msg/detail/pr_event__rosidl_typesupport_introspection_c.h

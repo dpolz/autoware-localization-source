@@ -1,0 +1,157 @@
+[0.077s] Invoking command in '/autoware/build/compare_map_segmentation': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/compare_map_segmentation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/compare_map_segmentation
+[0.128s] -- The C compiler identification is GNU 11.3.0
+[0.176s] -- The CXX compiler identification is GNU 11.3.0
+[0.184s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.340s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.809s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.818s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.829s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.234s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.239s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.366s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.375s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.376s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.376s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.701s] -- Checking for module 'eigen3'
+[3.711s] --   Found eigen3, version 3.4.0
+[3.734s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.735s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.781s] -- Checking for module 'flann'
+[3.791s] --   Found flann, version 1.9.1
+[3.820s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.820s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.868s] -- Checking for module 'libusb-1.0'
+[4.882s] --   Found libusb-1.0, version 1.0.25
+[4.919s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.919s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.973s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.134s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.139s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.145s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.292s] -- Found Qhull version 8.0.2
+[5.441s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.583s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.584s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.584s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.585s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.586s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.586s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.587s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.587s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.588s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.589s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.589s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.590s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.591s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.592s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.592s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.593s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.594s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.595s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.595s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.596s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.597s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.597s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.597s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.598s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.599s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.128s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[6.202s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[6.396s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[6.465s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[6.465s] -- Found OpenMP: TRUE (found version "4.5")  
+[6.475s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[6.495s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.497s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[9.115s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.122s] -- Found OpenCV: /usr (found version "4.5.4") 
+[9.127s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[9.138s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[9.138s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[11.883s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.886s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/perception/compare_map_segmentation/include
+[11.886s] -- Configured cppcheck exclude dirs and/or files: 
+[11.887s] -- Added test 'lint_cmake' to check CMake code style
+[11.888s] -- Added test 'xmllint' to check XML markup files
+[11.891s] -- Configuring done
+[11.989s] -- Generating done
+[11.993s] -- Build files have been written to: /autoware/build/compare_map_segmentation
+[12.016s] Invoked command in '/autoware/build/compare_map_segmentation' returned '0': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/perception/compare_map_segmentation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/compare_map_segmentation
+[12.018s] Invoking command in '/autoware/build/compare_map_segmentation': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/compare_map_segmentation -- -j64 -l64
+[12.073s] [  6%] Building CXX object CMakeFiles/distance_based_compare_map_filter_node.dir/rclcpp_components/node_main_distance_based_compare_map_filter_node.cpp.o
+[12.074s] [ 12%] Building CXX object CMakeFiles/voxel_distance_based_compare_map_filter_node.dir/rclcpp_components/node_main_voxel_distance_based_compare_map_filter_node.cpp.o
+[12.077s] [ 25%] Building CXX object CMakeFiles/voxel_based_compare_map_filter_node.dir/rclcpp_components/node_main_voxel_based_compare_map_filter_node.cpp.o
+[12.077s] [ 25%] Building CXX object CMakeFiles/compare_elevation_map_filter_node.dir/rclcpp_components/node_main_compare_elevation_map_filter_node.cpp.o
+[12.077s] [ 31%] Building CXX object CMakeFiles/voxel_based_approximate_compare_map_filter_node.dir/rclcpp_components/node_main_voxel_based_approximate_compare_map_filter_node.cpp.o
+[12.079s] [ 37%] Building CXX object CMakeFiles/compare_map_segmentation.dir/src/voxel_based_approximate_compare_map_filter_nodelet.cpp.o
+[12.080s] [ 43%] Building CXX object CMakeFiles/compare_map_segmentation.dir/src/distance_based_compare_map_filter_nodelet.cpp.o
+[12.081s] [ 50%] Building CXX object CMakeFiles/compare_map_segmentation.dir/src/voxel_based_compare_map_filter_nodelet.cpp.o
+[12.082s] [ 56%] Building CXX object CMakeFiles/compare_map_segmentation.dir/src/compare_elevation_map_filter_node.cpp.o
+[12.083s] [ 62%] Building CXX object CMakeFiles/compare_map_segmentation.dir/src/voxel_distance_based_compare_map_filter_nodelet.cpp.o
+[15.094s] [ 68%] Linking CXX executable distance_based_compare_map_filter_node
+[15.112s] [ 75%] Linking CXX executable voxel_based_approximate_compare_map_filter_node
+[15.180s] [ 75%] Built target distance_based_compare_map_filter_node
+[15.196s] [ 75%] Built target voxel_based_approximate_compare_map_filter_node
+[15.232s] [ 81%] Linking CXX executable compare_elevation_map_filter_node
+[15.249s] [ 87%] Linking CXX executable voxel_distance_based_compare_map_filter_node
+[15.294s] [ 93%] Linking CXX executable voxel_based_compare_map_filter_node
+[15.319s] [ 93%] Built target compare_elevation_map_filter_node
+[15.334s] [ 93%] Built target voxel_distance_based_compare_map_filter_node
+[15.379s] [ 93%] Built target voxel_based_compare_map_filter_node
+[36.826s] [100%] Linking CXX shared library libcompare_map_segmentation.so
+[38.272s] [100%] Built target compare_map_segmentation
+[38.286s] Invoked command in '/autoware/build/compare_map_segmentation' returned '0': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/compare_map_segmentation -- -j64 -l64
+[38.344s] Invoking command in '/autoware/build/compare_map_segmentation': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/compare_map_segmentation
+[38.357s] -- Install configuration: "Release"
+[38.357s] -- Execute custom install script
+[38.358s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/compare_map_segmentation/distance_based_compare_map_filter_node
+[38.373s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/compare_map_segmentation/voxel_based_approximate_compare_map_filter_node
+[38.386s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/compare_map_segmentation/voxel_based_compare_map_filter_node
+[38.398s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/compare_map_segmentation/voxel_distance_based_compare_map_filter_node
+[38.410s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/compare_map_segmentation/compare_elevation_map_filter_node
+[38.421s] -- Symlinking: /autoware/install/compare_map_segmentation/lib/libcompare_map_segmentation.so
+[38.432s] -- Symlinking: /autoware/install/compare_map_segmentation/include/compare_map_segmentation/compare_elevation_map_filter_node.hpp
+[38.443s] -- Symlinking: /autoware/install/compare_map_segmentation/include/compare_map_segmentation/distance_based_compare_map_filter_nodelet.hpp
+[38.454s] -- Symlinking: /autoware/install/compare_map_segmentation/include/compare_map_segmentation/voxel_based_approximate_compare_map_filter_nodelet.hpp
+[38.469s] -- Symlinking: /autoware/install/compare_map_segmentation/include/compare_map_segmentation/voxel_based_compare_map_filter_nodelet.hpp
+[38.482s] -- Symlinking: /autoware/install/compare_map_segmentation/include/compare_map_segmentation/voxel_distance_based_compare_map_filter_nodelet.hpp
+[38.496s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/launch/compare_elevation_map_filter.launch.xml
+[38.510s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/launch/distance_based_compare_map_filter.launch.xml
+[38.523s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/launch/voxel_based_approximate_compare_map_filter.launch.xml
+[38.536s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/launch/voxel_based_compare_map_filter.launch.xml
+[38.549s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/launch/voxel_distance_based_compare_map_filter.launch.xml
+[38.563s] -- Symlinking: /autoware/install/compare_map_segmentation/share/ament_index/resource_index/package_run_dependencies/compare_map_segmentation
+[38.577s] -- Symlinking: /autoware/install/compare_map_segmentation/share/ament_index/resource_index/parent_prefix_path/compare_map_segmentation
+[38.590s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/environment/ament_prefix_path.sh
+[38.603s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/environment/ament_prefix_path.dsv
+[38.617s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/environment/path.sh
+[38.630s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/environment/path.dsv
+[38.641s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/local_setup.bash
+[38.651s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/local_setup.sh
+[38.663s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/local_setup.zsh
+[38.675s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/local_setup.dsv
+[38.687s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/package.dsv
+[38.701s] -- Symlinking: /autoware/install/compare_map_segmentation/share/ament_index/resource_index/packages/compare_map_segmentation
+[38.715s] -- Symlinking: /autoware/install/compare_map_segmentation/share/ament_index/resource_index/rclcpp_components/compare_map_segmentation
+[38.728s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.742s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.756s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/cmake/compare_map_segmentationConfig.cmake
+[38.770s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/cmake/compare_map_segmentationConfig-version.cmake
+[38.783s] -- Symlinking: /autoware/install/compare_map_segmentation/share/compare_map_segmentation/package.xml
+[38.798s] Invoked command in '/autoware/build/compare_map_segmentation' returned '0': AMENT_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/pointcloud_preprocessor:/autoware/install/tier4_autoware_utils:/autoware/install/lanelet2_extension:/autoware/install/tier4_pcl_extensions:/autoware/install/autoware_utils:/autoware/install/autoware_point_types:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_planning_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_common_msgs:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/pointcloud_preprocessor/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/lanelet2_extension/lib:/autoware/install/tier4_pcl_extensions/lib:/autoware/install/autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_planning_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_common_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/compare_map_segmentation

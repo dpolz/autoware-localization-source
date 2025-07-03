@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning at CMakeLists.txt:4 (find_package):
+  By not providing "Findtensorrt_common.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "tensorrt_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "tensorrt_common"
+  with any of the following names:
+
+    tensorrt_commonConfig.cmake
+    tensorrt_common-config.cmake
+
+  Add the installation prefix of "tensorrt_common" to CMAKE_PREFIX_PATH or
+  set "tensorrt_common_DIR" to a directory containing one of the above files.
+  If "tensorrt_common" provides a separate development package or SDK, be
+  sure it has been installed.
+
+
+CMake Warning at CMakeLists.txt:6 (message):
+  The tensorrt_common package is not found.  Please check its dependencies.
+
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    AMENT_CMAKE_SYMLINK_INSTALL
+
+
+-- Build files have been written to: /autoware/build/tensorrt_yolox

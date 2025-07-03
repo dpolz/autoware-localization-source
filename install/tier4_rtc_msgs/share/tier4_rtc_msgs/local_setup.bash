@@ -1,0 +1,1 @@
+/autoware/build/tier4_rtc_msgs/ament_cmake_environment_hooks/local_setup.bash

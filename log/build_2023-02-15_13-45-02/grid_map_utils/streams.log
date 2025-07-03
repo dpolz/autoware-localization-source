@@ -1,0 +1,90 @@
+[0.025s] Invoking command in '/autoware/build/grid_map_utils': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/grid_map_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/grid_map_utils
+[0.071s] -- The C compiler identification is GNU 11.3.0
+[0.117s] -- The CXX compiler identification is GNU 11.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.704s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.710s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.105s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.108s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.242s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.455s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.456s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.456s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.907s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.590s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.593s] -- Looking for pthread.h
+[3.651s] -- Looking for pthread.h - found
+[3.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.711s] -- Found Threads: TRUE  
+[3.715s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.721s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.723s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.723s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/grid_map_utils/include
+[3.723s] -- Configured cppcheck exclude dirs and/or files: 
+[3.724s] -- Added test 'lint_cmake' to check CMake code style
+[3.724s] -- Added test 'xmllint' to check XML markup files
+[3.727s] -- Configuring done
+[3.852s] -- Generating done
+[3.854s] -- Build files have been written to: /autoware/build/grid_map_utils
+[3.867s] Invoked command in '/autoware/build/grid_map_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/grid_map_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/grid_map_utils
+[3.869s] Invoking command in '/autoware/build/grid_map_utils': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/grid_map_utils -- -j64 -l64
+[3.915s] [ 10%] Building CXX object CMakeFiles/grid_map_utils.dir/src/polygon_iterator.cpp.o
+[3.915s] [ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[3.917s] [ 30%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[4.772s] [ 40%] Linking CXX static library libgtest_main.a
+[4.799s] [ 40%] Built target gtest_main
+[5.455s] [ 50%] Linking CXX shared library libgrid_map_utils.so
+[5.591s] [ 50%] Built target grid_map_utils
+[5.608s] [ 60%] Building CXX object CMakeFiles/benchmark.dir/test/benchmark.cpp.o
+[9.828s] [ 70%] Linking CXX executable benchmark
+[10.378s] [ 70%] Built target benchmark
+[11.139s] [ 80%] Linking CXX static library libgtest.a
+[11.191s] [ 80%] Built target gtest
+[11.221s] [ 90%] Building CXX object CMakeFiles/test_grid_map_utils.dir/test/test_polygon_iterator.cpp.o
+[14.627s] [100%] Linking CXX executable test_grid_map_utils
+[14.828s] [100%] Built target test_grid_map_utils
+[14.839s] Invoked command in '/autoware/build/grid_map_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/grid_map_utils -- -j64 -l64
+[14.865s] Invoking command in '/autoware/build/grid_map_utils': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/grid_map_utils
+[14.873s] -- Install configuration: "Release"
+[14.874s] -- Execute custom install script
+[14.874s] -- Symlinking: /autoware/install/grid_map_utils/include/grid_map_utils/polygon_iterator.hpp
+[14.883s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/library_path.sh
+[14.895s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/library_path.dsv
+[14.903s] -- Symlinking: /autoware/install/grid_map_utils/lib/libgrid_map_utils.so
+[14.911s] -- Symlinking: /autoware/install/grid_map_utils/share/ament_index/resource_index/package_run_dependencies/grid_map_utils
+[14.919s] -- Symlinking: /autoware/install/grid_map_utils/share/ament_index/resource_index/parent_prefix_path/grid_map_utils
+[14.926s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/ament_prefix_path.sh
+[14.935s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/ament_prefix_path.dsv
+[14.943s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/path.sh
+[14.951s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/environment/path.dsv
+[14.959s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/local_setup.bash
+[14.967s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/local_setup.sh
+[14.974s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/local_setup.zsh
+[14.982s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/local_setup.dsv
+[14.989s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/package.dsv
+[14.997s] -- Symlinking: /autoware/install/grid_map_utils/share/ament_index/resource_index/packages/grid_map_utils
+[15.005s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.012s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.022s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[15.030s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/cmake/grid_map_utilsConfig.cmake
+[15.038s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/cmake/grid_map_utilsConfig-version.cmake
+[15.048s] -- Symlinking: /autoware/install/grid_map_utils/share/grid_map_utils/package.xml
+[15.065s] Invoked command in '/autoware/build/grid_map_utils' returned '0': AMENT_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/tier4_autoware_utils:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_autoware_utils/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/grid_map_utils

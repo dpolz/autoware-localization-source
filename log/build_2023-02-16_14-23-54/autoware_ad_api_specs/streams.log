@@ -1,0 +1,42 @@
+[0.300s] Invoking command in '/autoware/build/autoware_ad_api_specs': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_ad_api_specs -- -j64 -l64
+[0.484s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.485s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.564s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.565s] -- Configured cppcheck include dirs: 
+[0.565s] -- Configured cppcheck exclude dirs and/or files: 
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.565s] -- Added test 'xmllint' to check XML markup files
+[0.567s] -- Configuring done
+[0.567s] -- Generating done
+[0.567s] -- Build files have been written to: /autoware/build/autoware_ad_api_specs
+[0.654s] Invoked command in '/autoware/build/autoware_ad_api_specs' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_ad_api_specs -- -j64 -l64
+[0.806s] Invoking command in '/autoware/build/autoware_ad_api_specs': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_ad_api_specs
+[0.821s] -- Install configuration: "Release"
+[0.821s] -- Execute custom install script
+[0.821s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/fail_safe.hpp
+[0.821s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/interface.hpp
+[0.822s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/localization.hpp
+[0.822s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/motion.hpp
+[0.822s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/operation_mode.hpp
+[0.822s] -- Symlinking: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/planning.hpp
+[0.822s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/include/autoware_ad_api_specs/routing.hpp
+[0.822s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/package_run_dependencies/autoware_ad_api_specs
+[0.826s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/parent_prefix_path/autoware_ad_api_specs
+[0.826s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/ament_prefix_path.sh
+[0.826s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/ament_prefix_path.dsv
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/path.sh
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/environment/path.dsv
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.bash
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.sh
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.zsh
+[0.827s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/local_setup.dsv
+[0.827s] -- Symlinking: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/package.dsv
+[0.845s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/ament_index/resource_index/packages/autoware_ad_api_specs
+[0.846s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.850s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/autoware_ad_api_specsConfig.cmake
+[0.850s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/cmake/autoware_ad_api_specsConfig-version.cmake
+[0.850s] -- Up-to-date symlink: /autoware/install/autoware_ad_api_specs/share/autoware_ad_api_specs/package.xml
+[0.867s] Invoked command in '/autoware/build/autoware_ad_api_specs' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/ament_cmake_auto:/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_ad_api_specs

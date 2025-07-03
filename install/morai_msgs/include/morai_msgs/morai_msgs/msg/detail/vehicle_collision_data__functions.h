@@ -1,0 +1,1 @@
+/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/msg/detail/vehicle_collision_data__functions.h

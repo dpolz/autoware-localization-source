@@ -1,0 +1,4 @@
+Invoking command in '/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_lint_common -- -j64 -l64
+Invoked command in '/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/autoware_lint_common -- -j64 -l64
+Invoking command in '/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_lint_common
+Invoked command in '/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/autoware_lint_common

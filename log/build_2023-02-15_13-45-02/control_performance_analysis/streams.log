@@ -1,0 +1,309 @@
+[0.029s] Invoking command in '/autoware/build/control_performance_analysis': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/control/control_performance_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/control_performance_analysis
+[0.074s] -- The C compiler identification is GNU 11.3.0
+[0.118s] -- The CXX compiler identification is GNU 11.3.0
+[0.124s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.259s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.671s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.171s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.175s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.286s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.325s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.579s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.580s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.580s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.796s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.822s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[5.144s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.742s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[5.746s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.776s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[5.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.776s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.776s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.799s] -- Found PythonExtra: .so  
+[14.617s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.626s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.628s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/control/control_performance_analysis/include
+[14.628s] -- Configured cppcheck exclude dirs and/or files: 
+[14.631s] -- Added test 'lint_cmake' to check CMake code style
+[14.634s] -- Added test 'xmllint' to check XML markup files
+[14.649s] -- Configuring done
+[15.015s] -- Generating done
+[15.022s] -- Build files have been written to: /autoware/build/control_performance_analysis
+[15.047s] Invoked command in '/autoware/build/control_performance_analysis' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/control/control_performance_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/control_performance_analysis
+[15.049s] Invoking command in '/autoware/build/control_performance_analysis': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/control_performance_analysis -- -j64 -l64
+[15.147s] [  1%] Generating C code for ROS interfaces
+[15.168s] [  3%] Generating C++ code for ROS interfaces
+[15.174s] [  4%] Building CXX object CMakeFiles/control_performance_analysis_exe.dir/rclcpp_components/node_main_control_performance_analysis_exe.cpp.o
+[15.187s] [  4%] Built target ament_cmake_python_symlink_control_performance_analysis
+[15.724s] running egg_info
+[15.725s] creating control_performance_analysis.egg-info
+[15.726s] writing control_performance_analysis.egg-info/PKG-INFO
+[15.726s] writing dependency_links to control_performance_analysis.egg-info/dependency_links.txt
+[15.726s] writing top-level names to control_performance_analysis.egg-info/top_level.txt
+[15.727s] writing manifest file 'control_performance_analysis.egg-info/SOURCES.txt'
+[15.730s] reading manifest file 'control_performance_analysis.egg-info/SOURCES.txt'
+[15.731s] writing manifest file 'control_performance_analysis.egg-info/SOURCES.txt'
+[15.768s] [  4%] Built target ament_cmake_python_build_control_performance_analysis_egg
+[15.873s] [  4%] Built target control_performance_analysis__cpp
+[15.894s] [  6%] Generating C++ type support dispatch for ROS interfaces
+[15.898s] [  8%] Generating C++ introspection for ROS interfaces
+[15.907s] [  9%] Generating C++ type support for eProsima Fast-RTPS
+[15.937s] [ 11%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_c.dir/rosidl_generator_c/control_performance_analysis/msg/detail/error__functions.c.o
+[15.946s] [ 12%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_c.dir/rosidl_generator_c/control_performance_analysis/msg/detail/error_stamped__functions.c.o
+[15.950s] [ 14%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_c.dir/rosidl_generator_c/control_performance_analysis/msg/detail/driving_monitor_stamped__functions.c.o
+[15.986s] [ 16%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_c.dir/rosidl_generator_c/control_performance_analysis/msg/detail/float_stamped__functions.c.o
+[16.168s] [ 17%] Linking C shared library libcontrol_performance_analysis__rosidl_generator_c.so
+[16.234s] [ 17%] Built target control_performance_analysis__rosidl_generator_c
+[16.252s] [ 19%] Generating C introspection for ROS interfaces
+[16.264s] [ 20%] Generating C type support for eProsima Fast-RTPS
+[16.266s] [ 22%] Generating C type support dispatch for ROS interfaces
+[16.490s] [ 24%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_performance_analysis/msg/error__type_support.cpp.o
+[16.501s] [ 25%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_performance_analysis/msg/error_stamped__type_support.cpp.o
+[16.526s] [ 27%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_performance_analysis/msg/driving_monitor_stamped__type_support.cpp.o
+[16.549s] [ 29%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_performance_analysis/msg/float_stamped__type_support.cpp.o
+[16.618s] [ 30%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_performance_analysis/msg/detail/error__type_support.cpp.o
+[16.636s] [ 32%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_performance_analysis/msg/detail/error_stamped__type_support.cpp.o
+[16.655s] [ 33%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_performance_analysis/msg/detail/driving_monitor_stamped__type_support.cpp.o
+[16.732s] [ 35%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_performance_analysis/msg/detail/float_stamped__type_support.cpp.o
+[16.760s] [ 37%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_performance_analysis/msg/detail/dds_fastrtps/error__type_support.cpp.o
+[16.763s] [ 38%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_performance_analysis/msg/detail/dds_fastrtps/error_stamped__type_support.cpp.o
+[16.778s] [ 40%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_performance_analysis/msg/detail/dds_fastrtps/driving_monitor_stamped__type_support.cpp.o
+[16.812s] [ 41%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_performance_analysis/msg/detail/dds_fastrtps/float_stamped__type_support.cpp.o
+[16.981s] [ 43%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_performance_analysis/msg/detail/error__type_support_c.cpp.o
+[17.008s] [ 45%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_performance_analysis/msg/detail/error_stamped__type_support.c.o
+[17.020s] [ 46%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_performance_analysis/msg/detail/error_stamped__type_support_c.cpp.o
+[17.031s] [ 48%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_performance_analysis/msg/detail/error__type_support.c.o
+[17.031s] [ 50%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_performance_analysis/msg/error__type_support.cpp.o
+[17.046s] [ 51%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_performance_analysis/msg/driving_monitor_stamped__type_support.cpp.o
+[17.046s] [ 53%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_performance_analysis/msg/error_stamped__type_support.cpp.o
+[17.048s] [ 54%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_performance_analysis/msg/detail/driving_monitor_stamped__type_support_c.cpp.o
+[17.064s] [ 56%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_performance_analysis/msg/detail/float_stamped__type_support_c.cpp.o
+[17.064s] [ 58%] Building CXX object CMakeFiles/control_performance_analysis__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_performance_analysis/msg/float_stamped__type_support.cpp.o
+[17.065s] [ 59%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_performance_analysis/msg/detail/driving_monitor_stamped__type_support.c.o
+[17.071s] [ 61%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_performance_analysis/msg/detail/float_stamped__type_support.c.o
+[17.156s] [ 62%] Linking CXX shared library libcontrol_performance_analysis__rosidl_typesupport_cpp.so
+[17.207s] [ 64%] Linking CXX shared library libcontrol_performance_analysis__rosidl_typesupport_c.so
+[17.241s] [ 66%] Linking C shared library libcontrol_performance_analysis__rosidl_typesupport_introspection_c.so
+[17.361s] [ 66%] Built target control_performance_analysis__rosidl_typesupport_cpp
+[17.388s] [ 66%] Built target control_performance_analysis__rosidl_typesupport_introspection_c
+[17.391s] [ 66%] Built target control_performance_analysis__rosidl_typesupport_c
+[17.437s] [ 67%] Building CXX object CMakeFiles/control_performance_analysis_core.dir/src/control_performance_analysis_core.cpp.o
+[17.439s] [ 69%] Building CXX object CMakeFiles/control_performance_analysis_core.dir/src/control_performance_analysis_utils.cpp.o
+[17.533s] [ 70%] Linking CXX shared library libcontrol_performance_analysis__rosidl_typesupport_introspection_cpp.so
+[17.623s] [ 70%] Built target control_performance_analysis__rosidl_typesupport_introspection_cpp
+[17.684s] [ 72%] Linking CXX shared library libcontrol_performance_analysis__rosidl_typesupport_fastrtps_cpp.so
+[17.711s] [ 74%] Linking CXX shared library libcontrol_performance_analysis__rosidl_typesupport_fastrtps_c.so
+[17.790s] [ 74%] Built target control_performance_analysis__rosidl_typesupport_fastrtps_cpp
+[17.804s] [ 74%] Built target control_performance_analysis__rosidl_typesupport_fastrtps_c
+[17.824s] [ 74%] Built target control_performance_analysis
+[17.855s] [ 75%] Generating Python code for ROS interfaces
+[19.212s] [ 75%] Built target control_performance_analysis__py
+[19.239s] [ 77%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_py.dir/rosidl_generator_py/control_performance_analysis/msg/_error_s.c.o
+[19.240s] [ 79%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_py.dir/rosidl_generator_py/control_performance_analysis/msg/_float_stamped_s.c.o
+[19.240s] [ 80%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_py.dir/rosidl_generator_py/control_performance_analysis/msg/_error_stamped_s.c.o
+[19.241s] [ 82%] Building C object CMakeFiles/control_performance_analysis__rosidl_generator_py.dir/rosidl_generator_py/control_performance_analysis/msg/_driving_monitor_stamped_s.c.o
+[19.432s] [ 83%] Linking C shared library rosidl_generator_py/control_performance_analysis/libcontrol_performance_analysis__rosidl_generator_py.so
+[19.492s] [ 83%] Built target control_performance_analysis__rosidl_generator_py
+[19.523s] [ 85%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_introspection_c.c.o
+[19.525s] [ 88%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[19.525s] [ 88%] Building C object CMakeFiles/control_performance_analysis__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_c.c.o
+[19.704s] [ 90%] Linking C shared library rosidl_generator_py/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.745s] [ 91%] Linking C shared library rosidl_generator_py/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.747s] [ 93%] Linking C shared library rosidl_generator_py/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.758s] [ 93%] Built target control_performance_analysis__rosidl_typesupport_fastrtps_c__pyext
+[19.788s] [ 93%] Built target control_performance_analysis__rosidl_typesupport_c__pyext
+[19.801s] [ 93%] Built target control_performance_analysis__rosidl_typesupport_introspection_c__pyext
+[20.065s] [ 95%] Linking CXX executable control_performance_analysis_exe
+[20.166s] [ 95%] Built target control_performance_analysis_exe
+[31.019s] [ 96%] Linking CXX shared library libcontrol_performance_analysis_core.so
+[31.281s] [ 96%] Built target control_performance_analysis_core
+[31.316s] [ 98%] Building CXX object CMakeFiles/control_performance_analysis_node.dir/src/control_performance_analysis_node.cpp.o
+[72.611s] [100%] Linking CXX shared library libcontrol_performance_analysis_node.so
+[72.986s] [100%] Built target control_performance_analysis_node
+[72.997s] Invoked command in '/autoware/build/control_performance_analysis' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/control_performance_analysis -- -j64 -l64
+[73.069s] Invoking command in '/autoware/build/control_performance_analysis': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/control_performance_analysis
+[73.076s] -- Install configuration: "Release"
+[73.077s] -- Execute custom install script
+[73.077s] -- Symlinking: /autoware/install/control_performance_analysis/share/ament_index/resource_index/rosidl_interfaces/control_performance_analysis
+[73.086s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__functions.h
+[73.092s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__struct.h
+[73.099s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__type_support.h
+[73.105s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__functions.h
+[73.111s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__struct.h
+[73.117s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__type_support.h
+[73.124s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__functions.h
+[73.131s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__struct.h
+[73.137s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__type_support.h
+[73.144s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__functions.h
+[73.151s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__struct.h
+[73.158s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__type_support.h
+[73.164s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/driving_monitor_stamped.h
+[73.170s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/error.h
+[73.177s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/error_stamped.h
+[73.183s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/float_stamped.h
+[73.190s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/rosidl_generator_c__visibility_control.h
+[73.196s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/library_path.sh
+[73.203s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/library_path.dsv
+[73.210s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__rosidl_typesupport_fastrtps_c.h
+[73.216s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[73.223s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__rosidl_typesupport_fastrtps_c.h
+[73.229s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__rosidl_typesupport_fastrtps_c.h
+[73.236s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[73.242s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__builder.hpp
+[73.248s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__struct.hpp
+[73.254s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__traits.hpp
+[73.260s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__builder.hpp
+[73.266s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__struct.hpp
+[73.272s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__traits.hpp
+[73.278s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__builder.hpp
+[73.284s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__struct.hpp
+[73.290s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__traits.hpp
+[73.296s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__builder.hpp
+[73.302s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__struct.hpp
+[73.308s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__traits.hpp
+[73.314s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/driving_monitor_stamped.hpp
+[73.321s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/error.hpp
+[73.326s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/error_stamped.hpp
+[73.332s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/float_stamped.hpp
+[73.339s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[73.345s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[73.351s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[73.358s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[73.364s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[73.372s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__rosidl_typesupport_introspection_c.h
+[73.379s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__rosidl_typesupport_introspection_c.h
+[73.386s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__rosidl_typesupport_introspection_c.h
+[73.392s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__rosidl_typesupport_introspection_c.h
+[73.399s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[73.406s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/driving_monitor_stamped__rosidl_typesupport_introspection_cpp.hpp
+[73.413s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[73.420s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/error_stamped__rosidl_typesupport_introspection_cpp.hpp
+[73.427s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis/msg/detail/float_stamped__rosidl_typesupport_introspection_cpp.hpp
+[73.434s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/pythonpath.sh
+[73.441s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/pythonpath.dsv
+[73.448s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis-0.1.0-py3.10.egg-info/PKG-INFO
+[73.455s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis-0.1.0-py3.10.egg-info/SOURCES.txt
+[73.461s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis-0.1.0-py3.10.egg-info/dependency_links.txt
+[73.469s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis-0.1.0-py3.10.egg-info/top_level.txt
+[73.477s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/__init__.py
+[73.484s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_c.c
+[73.490s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_fastrtps_c.c
+[73.497s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/_control_performance_analysis_s.ep.rosidl_typesupport_introspection_c.c
+[73.503s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[73.510s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[73.516s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[73.523s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/libcontrol_performance_analysis__rosidl_generator_py.so
+[73.531s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/__init__.py
+[73.537s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_driving_monitor_stamped.py
+[73.544s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_driving_monitor_stamped_s.c
+[73.550s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error.py
+[73.557s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error_s.c
+[73.563s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error_stamped.py
+[73.569s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error_stamped_s.c
+[73.577s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_float_stamped.py
+[73.584s] -- Symlinking: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_float_stamped_s.c
+[73.591s] -- Up-to-date symlink: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[73.591s] -- Up-to-date symlink: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[73.591s] -- Up-to-date symlink: /autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/control_performance_analysis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[73.591s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/Error.idl
+[73.598s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/ErrorStamped.idl
+[73.604s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/DrivingMonitorStamped.idl
+[73.612s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/FloatStamped.idl
+[73.619s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/Error.msg
+[73.627s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/ErrorStamped.msg
+[73.634s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/DrivingMonitorStamped.msg
+[73.641s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/msg/FloatStamped.msg
+[73.648s] -- Symlinking: /autoware/install/control_performance_analysis/lib/control_performance_analysis/control_performance_analysis_exe
+[73.655s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis_core.hpp
+[73.661s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis_node.hpp
+[73.668s] -- Symlinking: /autoware/install/control_performance_analysis/include/control_performance_analysis/control_performance_analysis_utils.hpp
+[73.675s] -- Symlinking: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis_core.so
+[73.681s] -- Symlinking: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis_node.so
+[73.688s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/launch/controller_performance_analysis.launch.xml
+[73.695s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/config/control_performance_analysis.param.yaml
+[73.702s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/config/controller_monitor.xml
+[73.708s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/config/error_rqt_multiplot.xml
+[73.715s] -- Symlinking: /autoware/install/control_performance_analysis/share/ament_index/resource_index/package_run_dependencies/control_performance_analysis
+[73.722s] -- Symlinking: /autoware/install/control_performance_analysis/share/ament_index/resource_index/parent_prefix_path/control_performance_analysis
+[73.729s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/ament_prefix_path.sh
+[73.736s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/ament_prefix_path.dsv
+[73.742s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/path.sh
+[73.749s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/environment/path.dsv
+[73.756s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/local_setup.bash
+[73.764s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/local_setup.sh
+[73.771s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/local_setup.zsh
+[73.777s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/local_setup.dsv
+[73.785s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/package.dsv
+[73.791s] -- Symlinking: /autoware/install/control_performance_analysis/share/ament_index/resource_index/packages/control_performance_analysis
+[73.798s] -- Symlinking: /autoware/install/control_performance_analysis/share/ament_index/resource_index/rclcpp_components/control_performance_analysis
+[73.805s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/rosidl_cmake-extras.cmake
+[73.812s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.819s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.825s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/ament_cmake_export_libraries-extras.cmake
+[73.833s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/ament_cmake_export_targets-extras.cmake
+[73.840s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[73.847s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[73.853s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysisConfig.cmake
+[73.861s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysisConfig-version.cmake
+[73.867s] -- Symlinking: /autoware/install/control_performance_analysis/share/control_performance_analysis/package.xml
+[73.875s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_generator_c.so
+[73.875s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_generator_c.so" to ""
+[73.875s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_fastrtps_c.so
+[73.876s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_fastrtps_c.so" to ""
+[73.876s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_fastrtps_cpp.so
+[73.876s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_fastrtps_cpp.so" to ""
+[73.876s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_introspection_c.so
+[73.876s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_introspection_c.so" to ""
+[73.876s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_c.so
+[73.877s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_c.so" to ""
+[73.877s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_introspection_cpp.so
+[73.877s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_introspection_cpp.so" to ""
+[73.877s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_cpp.so
+[73.877s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_typesupport_cpp.so" to ""
+[73.917s] Listing '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis'...
+[73.917s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/__init__.py'...
+[73.917s] Listing '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg'...
+[73.917s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/__init__.py'...
+[73.917s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_driving_monitor_stamped.py'...
+[73.917s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error.py'...
+[73.917s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_error_stamped.py'...
+[73.918s] Compiling '/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages/control_performance_analysis/msg/_float_stamped.py'...
+[73.921s] -- Installing: /autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_generator_py.so
+[73.922s] -- Set runtime path of "/autoware/install/control_performance_analysis/lib/libcontrol_performance_analysis__rosidl_generator_py.so" to ""
+[73.922s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_generator_cExport.cmake
+[73.922s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_generator_cExport-release.cmake
+[73.922s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_typesupport_fastrtps_cExport.cmake
+[73.922s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_typesupport_fastrtps_cExport-release.cmake
+[73.922s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_generator_cppExport.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_typesupport_fastrtps_cppExport.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_introspection_cExport.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_introspection_cExport-release.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_cExport.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_cExport-release.cmake
+[73.923s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_introspection_cppExport.cmake
+[73.924s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_introspection_cppExport-release.cmake
+[73.924s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_cppExport.cmake
+[73.924s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/control_performance_analysis__rosidl_typesupport_cppExport-release.cmake
+[73.924s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_generator_pyExport.cmake
+[73.924s] -- Installing: /autoware/install/control_performance_analysis/share/control_performance_analysis/cmake/export_control_performance_analysis__rosidl_generator_pyExport-release.cmake
+[73.931s] Invoked command in '/autoware/build/control_performance_analysis' returned '0': AMENT_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/motion_utils:/autoware/install/global_parameter_loader:/autoware/install/vehicle_info_util:/autoware/install/interpolation:/autoware/install/tier4_autoware_utils:/autoware/install/signal_processing:/autoware/install/autoware_auto_vehicle_msgs:/autoware/install/autoware_cmake:/autoware/install/autoware_auto_planning_msgs:/autoware/install/autoware_auto_perception_msgs:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/autoware/install/autoware_auto_mapping_msgs:/autoware/install/autoware_auto_geometry_msgs:/autoware/install/autoware_auto_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/motion_utils/lib:/autoware/install/vehicle_info_util/lib:/autoware/install/interpolation/lib:/autoware/install/tier4_autoware_utils/lib:/autoware/install/signal_processing/lib:/autoware/install/autoware_auto_vehicle_msgs/lib:/autoware/install/autoware_auto_planning_msgs/lib:/autoware/install/autoware_auto_perception_msgs/lib:/autoware/install/tier4_debug_msgs/lib:/autoware/install/autoware_auto_mapping_msgs/lib:/autoware/install/autoware_auto_geometry_msgs/lib:/autoware/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/control_performance_analysis

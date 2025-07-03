@@ -1,0 +1,59 @@
+[0.012s] Invoking command in '/autoware/build/component_interface_specs': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/component_interface_specs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/component_interface_specs
+[0.057s] -- The C compiler identification is GNU 11.3.0
+[0.115s] -- The CXX compiler identification is GNU 11.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.266s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.978s] -- Configured cppcheck include dirs: 
+[0.978s] -- Configured cppcheck exclude dirs and/or files: 
+[0.979s] -- Added test 'lint_cmake' to check CMake code style
+[0.979s] -- Added test 'xmllint' to check XML markup files
+[0.985s] -- Configuring done
+[0.995s] -- Generating done
+[0.997s] -- Build files have been written to: /autoware/build/component_interface_specs
+[1.007s] Invoked command in '/autoware/build/component_interface_specs' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/component_interface_specs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/component_interface_specs
+[1.008s] Invoking command in '/autoware/build/component_interface_specs': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/component_interface_specs -- -j64 -l64
+[1.044s] Invoked command in '/autoware/build/component_interface_specs' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/component_interface_specs -- -j64 -l64
+[1.063s] Invoking command in '/autoware/build/component_interface_specs': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/component_interface_specs
+[1.074s] -- Install configuration: "Release"
+[1.075s] -- Execute custom install script
+[1.076s] -- Symlinking: /autoware/install/component_interface_specs/include/component_interface_specs/control.hpp
+[1.084s] -- Symlinking: /autoware/install/component_interface_specs/include/component_interface_specs/localization.hpp
+[1.093s] -- Symlinking: /autoware/install/component_interface_specs/include/component_interface_specs/planning.hpp
+[1.103s] -- Symlinking: /autoware/install/component_interface_specs/include/component_interface_specs/system.hpp
+[1.113s] -- Symlinking: /autoware/install/component_interface_specs/share/ament_index/resource_index/package_run_dependencies/component_interface_specs
+[1.124s] -- Symlinking: /autoware/install/component_interface_specs/share/ament_index/resource_index/parent_prefix_path/component_interface_specs
+[1.136s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/environment/ament_prefix_path.sh
+[1.149s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/environment/ament_prefix_path.dsv
+[1.160s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/environment/path.sh
+[1.171s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/environment/path.dsv
+[1.182s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/local_setup.bash
+[1.193s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/local_setup.sh
+[1.204s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/local_setup.zsh
+[1.214s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/local_setup.dsv
+[1.226s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/package.dsv
+[1.237s] -- Symlinking: /autoware/install/component_interface_specs/share/ament_index/resource_index/packages/component_interface_specs
+[1.246s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.256s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.269s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/cmake/component_interface_specsConfig.cmake
+[1.281s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/cmake/component_interface_specsConfig-version.cmake
+[1.293s] -- Symlinking: /autoware/install/component_interface_specs/share/component_interface_specs/package.xml
+[1.315s] Invoked command in '/autoware/build/component_interface_specs' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/autoware_lint_common:/autoware/install/autoware_adapi_v1_msgs:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/component_interface_specs

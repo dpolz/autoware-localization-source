@@ -1,0 +1,1 @@
+/autoware/build/tier4_v2x_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

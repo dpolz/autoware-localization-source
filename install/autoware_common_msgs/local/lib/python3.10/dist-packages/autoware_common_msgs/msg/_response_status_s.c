@@ -1,0 +1,1 @@
+/autoware/build/autoware_common_msgs/rosidl_generator_py/autoware_common_msgs/msg/_response_status_s.c

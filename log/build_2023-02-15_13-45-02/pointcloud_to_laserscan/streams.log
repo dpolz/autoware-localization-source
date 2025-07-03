@@ -1,0 +1,99 @@
+[0.152s] Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pointcloud_to_laserscan
+[0.157s] -- The C compiler identification is GNU 11.3.0
+[0.188s] -- The CXX compiler identification is GNU 11.3.0
+[0.194s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.485s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.706s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.711s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.818s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.937s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.039s] -- Checking for module 'eigen3'
+[2.053s] --   Found eigen3, version 3.4.0
+[2.088s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.088s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.118s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.835s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.880s] -- Configured cppcheck include dirs: /autoware/src/universe/external/pointcloud_to_laserscan/include
+[2.881s] -- Configured cppcheck exclude dirs and/or files: 
+[2.891s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.891s] -- Configured cpplint exclude dirs and/or files: 
+[2.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.897s] -- Added test 'lint_cmake' to check CMake code style
+[2.899s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.910s] -- Added test 'uncrustify' to check C / C++ code style
+[2.910s] -- Configured uncrustify additional arguments: 
+[2.912s] -- Added test 'xmllint' to check XML markup files
+[2.919s] -- Configuring done
+[3.028s] -- Generating done
+[3.031s] -- Build files have been written to: /autoware/build/pointcloud_to_laserscan
+[3.069s] Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/pointcloud_to_laserscan
+[3.069s] Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/pointcloud_to_laserscan -- -j64 -l64
+[3.191s] [ 10%] Building CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o
+[3.202s] [ 20%] Building CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o
+[3.221s] [ 30%] Building CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o
+[8.826s] [ 40%] Linking CXX executable laserscan_to_pointcloud_node
+[8.914s] [ 40%] Built target laserscan_to_pointcloud_node
+[9.096s] [ 50%] Linking CXX executable pointcloud_to_laserscan_node
+[9.192s] [ 50%] Built target pointcloud_to_laserscan_node
+[24.550s] [ 60%] Linking CXX shared library liblaserscan_to_pointcloud.so
+[24.699s] [ 60%] Built target laserscan_to_pointcloud
+[24.714s] [ 70%] Building CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o
+[47.441s] [ 80%] Linking CXX shared library libpointcloud_to_laserscan.so
+[47.729s] [ 80%] Built target pointcloud_to_laserscan
+[47.757s] [ 90%] Building CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o
+[53.292s] [100%] Linking CXX executable dummy_pointcloud_publisher
+[53.436s] [100%] Built target dummy_pointcloud_publisher
+[53.446s] Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/pointcloud_to_laserscan -- -j64 -l64
+[53.472s] Invoking command in '/autoware/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/pointcloud_to_laserscan
+[53.478s] -- Install configuration: "Release"
+[53.479s] -- Execute custom install script
+[53.480s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[53.486s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[53.494s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[53.501s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[53.507s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[53.513s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[53.519s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[53.526s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[53.533s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[53.541s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[53.548s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[53.555s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[53.562s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[53.569s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[53.576s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[53.583s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[53.590s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[53.596s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[53.603s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[53.610s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[53.617s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[53.623s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[53.630s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[53.636s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[53.643s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[53.651s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.656s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.662s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[53.668s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[53.674s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[53.681s] -- Symlinking: /autoware/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[53.700s] Invoked command in '/autoware/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/pointcloud_to_laserscan

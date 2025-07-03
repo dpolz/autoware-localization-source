@@ -1,0 +1,458 @@
+[0.154s] Invoking command in '/autoware/build/tier4_rtc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_rtc_msgs
+[0.213s] -- The C compiler identification is GNU 11.3.0
+[0.236s] -- The CXX compiler identification is GNU 11.3.0
+[0.242s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.305s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.541s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.069s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.512s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.514s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.536s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.537s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.537s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.537s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.557s] -- Found PythonExtra: .so  
+[1.599s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.623s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.628s] -- Added test 'lint_cmake' to check CMake code style
+[1.631s] -- Added test 'xmllint' to check XML markup files
+[1.636s] -- Configuring done
+[1.712s] -- Generating done
+[1.716s] -- Build files have been written to: /autoware/build/tier4_rtc_msgs
+[1.725s] Invoked command in '/autoware/build/tier4_rtc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_rtc_msgs
+[1.726s] Invoking command in '/autoware/build/tier4_rtc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_rtc_msgs -- -j64 -l64
+[1.769s] [  1%] Generating C code for ROS interfaces
+[1.781s] [  1%] Generating C++ code for ROS interfaces
+[1.785s] [  1%] Built target ament_cmake_python_symlink_tier4_rtc_msgs
+[2.098s] running egg_info
+[2.098s] creating tier4_rtc_msgs.egg-info
+[2.098s] writing tier4_rtc_msgs.egg-info/PKG-INFO
+[2.099s] writing dependency_links to tier4_rtc_msgs.egg-info/dependency_links.txt
+[2.099s] writing top-level names to tier4_rtc_msgs.egg-info/top_level.txt
+[2.099s] writing manifest file 'tier4_rtc_msgs.egg-info/SOURCES.txt'
+[2.101s] reading manifest file 'tier4_rtc_msgs.egg-info/SOURCES.txt'
+[2.102s] writing manifest file 'tier4_rtc_msgs.egg-info/SOURCES.txt'
+[2.129s] [  1%] Built target ament_cmake_python_build_tier4_rtc_msgs_egg
+[3.863s] [  1%] Built target tier4_rtc_msgs__cpp
+[3.928s] [  1%] Generating C++ type support for eProsima Fast-RTPS
+[3.929s] [  2%] Generating C++ type support dispatch for ROS interfaces
+[3.939s] [  3%] Generating C++ introspection for ROS interfaces
+[4.239s] [  4%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/command__functions.c.o
+[4.241s] [  5%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_command__functions.c.o
+[4.259s] [  6%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_response__functions.c.o
+[4.263s] [  7%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_status__functions.c.o
+[4.293s] [  8%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/cooperate_status_array__functions.c.o
+[4.293s] [  9%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/auto_mode_status__functions.c.o
+[4.311s] [ 10%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/auto_mode_status_array__functions.c.o
+[4.413s] [ 10%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/msg/detail/module__functions.c.o
+[4.422s] [ 11%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/srv/detail/auto_mode__functions.c.o
+[4.438s] [ 12%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/srv/detail/auto_mode_with_module__functions.c.o
+[4.458s] [ 13%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_rtc_msgs/srv/detail/cooperate_commands__functions.c.o
+[4.688s] [ 14%] Linking C shared library libtier4_rtc_msgs__rosidl_generator_c.so
+[4.811s] [ 14%] Built target tier4_rtc_msgs__rosidl_generator_c
+[4.830s] [ 15%] Generating C introspection for ROS interfaces
+[4.832s] [ 16%] Generating C type support for eProsima Fast-RTPS
+[4.832s] [ 17%] Generating C type support dispatch for ROS interfaces
+[5.261s] [ 18%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/command__type_support.cpp.o
+[5.273s] [ 19%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_response__type_support.cpp.o
+[5.276s] [ 20%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_command__type_support.cpp.o
+[5.288s] [ 21%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_status_array__type_support.cpp.o
+[5.301s] [ 22%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/cooperate_status__type_support.cpp.o
+[5.318s] [ 23%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/auto_mode_status_array__type_support.cpp.o
+[5.341s] [ 24%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/auto_mode_status__type_support.cpp.o
+[5.358s] [ 24%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/msg/module__type_support.cpp.o
+[5.367s] [ 25%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/srv/auto_mode__type_support.cpp.o
+[5.412s] [ 26%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/srv/auto_mode_with_module__type_support.cpp.o
+[5.459s] [ 27%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_rtc_msgs/srv/cooperate_commands__type_support.cpp.o
+[5.873s] [ 27%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_command__type_support.cpp.o
+[5.882s] [ 28%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/command__type_support.cpp.o
+[5.887s] [ 29%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_response__type_support.cpp.o
+[5.898s] [ 30%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_status__type_support.cpp.o
+[5.914s] [ 31%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/cooperate_status_array__type_support.cpp.o
+[5.938s] [ 32%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/auto_mode_status__type_support.cpp.o
+[5.949s] [ 33%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/auto_mode_status_array__type_support.cpp.o
+[5.998s] [ 34%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/msg/detail/module__type_support.cpp.o
+[6.004s] [ 35%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/srv/detail/auto_mode__type_support.cpp.o
+[6.017s] [ 36%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/srv/detail/auto_mode_with_module__type_support.cpp.o
+[6.048s] [ 37%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_rtc_msgs/srv/detail/cooperate_commands__type_support.cpp.o
+[6.055s] [ 38%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/command__type_support.cpp.o
+[6.078s] [ 39%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_command__type_support.cpp.o
+[6.094s] [ 40%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_response__type_support.cpp.o
+[6.178s] [ 41%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_status_array__type_support.cpp.o
+[6.197s] [ 42%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/cooperate_status__type_support.cpp.o
+[6.226s] [ 43%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/auto_mode_status__type_support.cpp.o
+[6.238s] [ 44%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/auto_mode_status_array__type_support.cpp.o
+[6.249s] [ 45%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/msg/detail/dds_fastrtps/module__type_support.cpp.o
+[6.266s] [ 46%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/srv/detail/dds_fastrtps/auto_mode__type_support.cpp.o
+[6.326s] [ 46%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/srv/detail/dds_fastrtps/auto_mode_with_module__type_support.cpp.o
+[6.330s] [ 47%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_rtc_msgs/srv/detail/dds_fastrtps/cooperate_commands__type_support.cpp.o
+[6.366s] [ 48%] Linking CXX shared library libtier4_rtc_msgs__rosidl_typesupport_cpp.so
+[6.497s] [ 49%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/command__type_support.cpp.o
+[6.527s] [ 50%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/cooperate_command__type_support.cpp.o
+[6.567s] [ 50%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/cooperate_response__type_support.cpp.o
+[6.584s] [ 51%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/cooperate_status__type_support.cpp.o
+[6.594s] [ 52%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/cooperate_status_array__type_support.cpp.o
+[6.617s] [ 52%] Built target tier4_rtc_msgs__rosidl_typesupport_cpp
+[6.633s] [ 53%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/auto_mode_status__type_support.cpp.o
+[6.700s] [ 54%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/auto_mode_status_array__type_support.cpp.o
+[6.710s] [ 55%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/srv/auto_mode__type_support.cpp.o
+[6.712s] [ 56%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/msg/module__type_support.cpp.o
+[6.726s] [ 57%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/srv/auto_mode_with_module__type_support.cpp.o
+[6.770s] [ 58%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_rtc_msgs/srv/cooperate_commands__type_support.cpp.o
+[6.839s] [ 59%] Linking CXX shared library libtier4_rtc_msgs__rosidl_typesupport_c.so
+[6.901s] [ 60%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/command__type_support.c.o
+[6.918s] [ 61%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/cooperate_command__type_support.c.o
+[6.919s] [ 61%] Built target tier4_rtc_msgs__rosidl_typesupport_c
+[6.928s] [ 62%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/cooperate_response__type_support.c.o
+[6.936s] [ 63%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/command__type_support_c.cpp.o
+[6.937s] [ 64%] Linking CXX shared library libtier4_rtc_msgs__rosidl_typesupport_introspection_cpp.so
+[6.946s] [ 65%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/cooperate_command__type_support_c.cpp.o
+[6.951s] [ 66%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/cooperate_response__type_support_c.cpp.o
+[6.954s] [ 67%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/cooperate_status__type_support.c.o
+[6.967s] [ 68%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/module__type_support.c.o
+[6.968s] [ 69%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/auto_mode_status__type_support.c.o
+[6.972s] [ 70%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/cooperate_status_array__type_support.c.o
+[6.974s] [ 71%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/cooperate_status__type_support_c.cpp.o
+[6.977s] [ 71%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/msg/detail/auto_mode_status_array__type_support.c.o
+[6.978s] [ 72%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/srv/detail/auto_mode__type_support.c.o
+[6.989s] [ 73%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/srv/detail/auto_mode_with_module__type_support.c.o
+[7.035s] [ 74%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_rtc_msgs/srv/detail/cooperate_commands__type_support.c.o
+[7.048s] [ 75%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/module__type_support_c.cpp.o
+[7.049s] [ 76%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/auto_mode_status_array__type_support_c.cpp.o
+[7.050s] [ 76%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/cooperate_status_array__type_support_c.cpp.o
+[7.055s] [ 77%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/srv/detail/auto_mode__type_support_c.cpp.o
+[7.058s] [ 78%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/srv/detail/auto_mode_with_module__type_support_c.cpp.o
+[7.059s] [ 79%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/srv/detail/cooperate_commands__type_support_c.cpp.o
+[7.069s] [ 79%] Built target tier4_rtc_msgs__rosidl_typesupport_introspection_cpp
+[7.070s] [ 80%] Building CXX object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_rtc_msgs/msg/detail/auto_mode_status__type_support_c.cpp.o
+[7.146s] [ 81%] Linking C shared library libtier4_rtc_msgs__rosidl_typesupport_introspection_c.so
+[7.179s] [ 82%] Linking CXX shared library libtier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.220s] [ 82%] Built target tier4_rtc_msgs__rosidl_typesupport_introspection_c
+[7.280s] [ 82%] Built target tier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp
+[7.691s] [ 83%] Linking CXX shared library libtier4_rtc_msgs__rosidl_typesupport_fastrtps_c.so
+[7.785s] [ 83%] Built target tier4_rtc_msgs__rosidl_typesupport_fastrtps_c
+[7.787s] [ 83%] Built target tier4_rtc_msgs
+[7.847s] [ 84%] Generating Python code for ROS interfaces
+[10.940s] [ 84%] Built target tier4_rtc_msgs__py
+[11.026s] [ 85%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_command_s.c.o
+[11.047s] [ 86%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_cooperate_command_s.c.o
+[11.062s] [ 87%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_cooperate_response_s.c.o
+[11.118s] [ 88%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_cooperate_status_s.c.o
+[11.143s] [ 89%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_cooperate_status_array_s.c.o
+[11.154s] [ 89%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_auto_mode_status_s.c.o
+[11.190s] [ 90%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_auto_mode_status_array_s.c.o
+[11.262s] [ 91%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/msg/_module_s.c.o
+[11.270s] [ 92%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/srv/_auto_mode_s.c.o
+[11.296s] [ 93%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/srv/_auto_mode_with_module_s.c.o
+[11.342s] [ 94%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_rtc_msgs/srv/_cooperate_commands_s.c.o
+[11.633s] [ 95%] Linking C shared library rosidl_generator_py/tier4_rtc_msgs/libtier4_rtc_msgs__rosidl_generator_py.so
+[11.706s] [ 95%] Built target tier4_rtc_msgs__rosidl_generator_py
+[11.731s] [ 96%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[11.733s] [ 96%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_c.c.o
+[11.734s] [ 97%] Building C object CMakeFiles/tier4_rtc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[12.112s] [ 98%] Linking C shared library rosidl_generator_py/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.124s] [ 99%] Linking C shared library rosidl_generator_py/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.158s] [ 99%] Built target tier4_rtc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.162s] [100%] Linking C shared library rosidl_generator_py/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.172s] [100%] Built target tier4_rtc_msgs__rosidl_typesupport_c__pyext
+[12.200s] [100%] Built target tier4_rtc_msgs__rosidl_typesupport_introspection_c__pyext
+[12.213s] Invoked command in '/autoware/build/tier4_rtc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /autoware/build/tier4_rtc_msgs -- -j64 -l64
+[12.492s] Invoking command in '/autoware/build/tier4_rtc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_rtc_msgs
+[12.498s] -- Install configuration: "Release"
+[12.499s] -- Execute custom install script
+[12.499s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_rtc_msgs
+[12.507s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/auto_mode_status.h
+[12.514s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/auto_mode_status_array.h
+[12.521s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/command.h
+[12.528s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_command.h
+[12.537s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_response.h
+[12.544s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_status.h
+[12.551s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_status_array.h
+[12.561s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__functions.h
+[12.612s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__struct.h
+[12.613s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__type_support.h
+[12.613s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__functions.h
+[12.613s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__struct.h
+[12.632s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__type_support.h
+[12.646s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__functions.h
+[12.707s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__struct.h
+[12.707s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__type_support.h
+[12.707s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__functions.h
+[12.707s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__struct.h
+[12.708s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__type_support.h
+[12.711s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__functions.h
+[12.711s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__struct.h
+[12.711s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__type_support.h
+[12.717s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__functions.h
+[12.728s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__struct.h
+[12.736s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__type_support.h
+[12.743s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__functions.h
+[12.754s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__struct.h
+[12.764s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__type_support.h
+[12.775s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__functions.h
+[12.782s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__struct.h
+[12.789s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__type_support.h
+[12.795s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/module.h
+[12.805s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.813s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/auto_mode.h
+[12.819s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/auto_mode_with_module.h
+[12.825s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/cooperate_commands.h
+[12.832s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__functions.h
+[12.842s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__struct.h
+[12.850s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__type_support.h
+[12.858s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__functions.h
+[12.866s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__struct.h
+[12.873s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__type_support.h
+[12.881s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__functions.h
+[12.889s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__struct.h
+[12.897s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__type_support.h
+[12.904s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/library_path.sh
+[12.911s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/library_path.dsv
+[12.919s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__rosidl_typesupport_fastrtps_c.h
+[12.929s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__rosidl_typesupport_fastrtps_c.h
+[12.937s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[12.945s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__rosidl_typesupport_fastrtps_c.h
+[12.956s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__rosidl_typesupport_fastrtps_c.h
+[12.965s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__rosidl_typesupport_fastrtps_c.h
+[12.975s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__rosidl_typesupport_fastrtps_c.h
+[12.985s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__rosidl_typesupport_fastrtps_c.h
+[12.995s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.006s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__rosidl_typesupport_fastrtps_c.h
+[13.015s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__rosidl_typesupport_fastrtps_c.h
+[13.025s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__rosidl_typesupport_fastrtps_c.h
+[13.037s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__rosidl_typesupport_introspection_c.h
+[13.047s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__rosidl_typesupport_introspection_c.h
+[13.057s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__rosidl_typesupport_introspection_c.h
+[13.070s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__rosidl_typesupport_introspection_c.h
+[13.082s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__rosidl_typesupport_introspection_c.h
+[13.092s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__rosidl_typesupport_introspection_c.h
+[13.103s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__rosidl_typesupport_introspection_c.h
+[13.115s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__rosidl_typesupport_introspection_c.h
+[13.127s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.156s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__rosidl_typesupport_introspection_c.h
+[13.156s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__rosidl_typesupport_introspection_c.h
+[13.157s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__rosidl_typesupport_introspection_c.h
+[13.162s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/auto_mode_status.hpp
+[13.172s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/auto_mode_status_array.hpp
+[13.182s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/command.hpp
+[13.193s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_command.hpp
+[13.203s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_response.hpp
+[13.213s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_status.hpp
+[13.224s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/cooperate_status_array.hpp
+[13.231s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__builder.hpp
+[13.240s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__struct.hpp
+[13.251s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__traits.hpp
+[13.261s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__builder.hpp
+[13.270s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__struct.hpp
+[13.280s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__traits.hpp
+[13.289s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__builder.hpp
+[13.299s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__struct.hpp
+[13.310s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__traits.hpp
+[13.320s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__builder.hpp
+[13.392s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__struct.hpp
+[13.392s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__traits.hpp
+[13.392s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__builder.hpp
+[13.392s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__struct.hpp
+[13.395s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__traits.hpp
+[13.395s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__builder.hpp
+[13.397s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__struct.hpp
+[13.410s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__traits.hpp
+[13.434s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__builder.hpp
+[13.453s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__struct.hpp
+[13.476s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__traits.hpp
+[13.486s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__builder.hpp
+[13.506s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__struct.hpp
+[13.523s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__traits.hpp
+[13.531s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/module.hpp
+[13.540s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/auto_mode.hpp
+[13.552s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/auto_mode_with_module.hpp
+[13.563s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/cooperate_commands.hpp
+[13.592s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__builder.hpp
+[13.603s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__struct.hpp
+[13.618s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__traits.hpp
+[13.632s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__builder.hpp
+[13.669s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__struct.hpp
+[13.689s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__traits.hpp
+[13.698s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__builder.hpp
+[13.708s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__struct.hpp
+[13.717s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__traits.hpp
+[13.729s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.738s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[13.747s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[13.757s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__rosidl_typesupport_fastrtps_cpp.hpp
+[13.767s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__rosidl_typesupport_fastrtps_cpp.hpp
+[13.777s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.788s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[13.833s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__rosidl_typesupport_fastrtps_cpp.hpp
+[13.834s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.834s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[13.834s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__rosidl_typesupport_fastrtps_cpp.hpp
+[13.835s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[13.845s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status__rosidl_typesupport_introspection_cpp.hpp
+[13.855s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/auto_mode_status_array__rosidl_typesupport_introspection_cpp.hpp
+[13.865s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[13.877s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_command__rosidl_typesupport_introspection_cpp.hpp
+[13.888s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_response__rosidl_typesupport_introspection_cpp.hpp
+[13.898s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status__rosidl_typesupport_introspection_cpp.hpp
+[13.908s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/cooperate_status_array__rosidl_typesupport_introspection_cpp.hpp
+[13.919s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/msg/detail/module__rosidl_typesupport_introspection_cpp.hpp
+[13.930s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode__rosidl_typesupport_introspection_cpp.hpp
+[13.939s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/auto_mode_with_module__rosidl_typesupport_introspection_cpp.hpp
+[13.945s] -- Symlinking: /autoware/install/tier4_rtc_msgs/include/tier4_rtc_msgs/tier4_rtc_msgs/srv/detail/cooperate_commands__rosidl_typesupport_introspection_cpp.hpp
+[13.953s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/pythonpath.sh
+[13.961s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/pythonpath.dsv
+[13.973s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[13.981s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/__init__.py
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_c.c
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.050s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/_tier4_rtc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.052s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/libtier4_rtc_msgs__rosidl_generator_py.so
+[14.052s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/__init__.py
+[14.053s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status.py
+[14.056s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status_array.py
+[14.063s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status_array_s.c
+[14.069s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status_s.c
+[14.075s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_command.py
+[14.082s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_command_s.c
+[14.090s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_command.py
+[14.098s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_command_s.c
+[14.107s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_response.py
+[14.117s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_response_s.c
+[14.126s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status.py
+[14.134s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status_array.py
+[14.140s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status_array_s.c
+[14.150s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status_s.c
+[14.161s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_module.py
+[14.170s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_module_s.c
+[14.177s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/__init__.py
+[14.184s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode.py
+[14.193s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode_s.c
+[14.200s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode_with_module.py
+[14.211s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode_with_module_s.c
+[14.221s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_cooperate_commands.py
+[14.229s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_cooperate_commands_s.c
+[14.236s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.242s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.249s] -- Symlinking: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.260s] -- Up-to-date symlink: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.260s] -- Up-to-date symlink: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.261s] -- Up-to-date symlink: /autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/tier4_rtc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.261s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/Command.idl
+[14.269s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateCommand.idl
+[14.280s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateResponse.idl
+[14.289s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateStatus.idl
+[14.299s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateStatusArray.idl
+[14.306s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/AutoModeStatus.idl
+[14.314s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/AutoModeStatusArray.idl
+[14.353s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/Module.idl
+[14.369s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoMode.idl
+[14.389s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoModeWithModule.idl
+[14.395s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/CooperateCommands.idl
+[14.405s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/Command.msg
+[14.414s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateCommand.msg
+[14.422s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateResponse.msg
+[14.434s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateStatus.msg
+[14.444s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/CooperateStatusArray.msg
+[14.453s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/AutoModeStatus.msg
+[14.463s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/AutoModeStatusArray.msg
+[14.473s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/msg/Module.msg
+[14.485s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoMode.srv
+[14.495s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoMode_Request.msg
+[14.506s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoMode_Response.msg
+[14.518s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoModeWithModule.srv
+[14.526s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoModeWithModule_Request.msg
+[14.534s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/AutoModeWithModule_Response.msg
+[14.544s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/CooperateCommands.srv
+[14.555s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/CooperateCommands_Request.msg
+[14.566s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/srv/CooperateCommands_Response.msg
+[14.581s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_rtc_msgs
+[14.589s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_rtc_msgs
+[14.600s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/ament_prefix_path.sh
+[14.611s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/ament_prefix_path.dsv
+[14.621s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/path.sh
+[14.635s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/environment/path.dsv
+[14.645s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/local_setup.bash
+[14.656s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/local_setup.sh
+[14.668s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/local_setup.zsh
+[14.679s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/local_setup.dsv
+[14.689s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/package.dsv
+[14.699s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/ament_index/resource_index/packages/tier4_rtc_msgs
+[14.710s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/rosidl_cmake-extras.cmake
+[14.721s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.735s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.747s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.758s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.772s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.783s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.793s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgsConfig.cmake
+[14.803s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgsConfig-version.cmake
+[14.815s] -- Symlinking: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/package.xml
+[14.828s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_generator_c.so
+[14.828s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_generator_c.so" to ""
+[14.828s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_fastrtps_c.so
+[14.828s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.829s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_introspection_c.so
+[14.829s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.829s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_c.so
+[14.829s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_c.so" to ""
+[14.830s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.830s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.830s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_introspection_cpp.so
+[14.831s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.831s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_cpp.so
+[14.831s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_typesupport_cpp.so" to ""
+[14.907s] Listing '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs'...
+[14.907s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/__init__.py'...
+[14.908s] Listing '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/__init__.py'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status.py'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_auto_mode_status_array.py'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_command.py'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_command.py'...
+[14.908s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_response.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_cooperate_status_array.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/msg/_module.py'...
+[14.909s] Listing '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/__init__.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_auto_mode_with_module.py'...
+[14.909s] Compiling '/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages/tier4_rtc_msgs/srv/_cooperate_commands.py'...
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_generator_py.so
+[14.926s] -- Set runtime path of "/autoware/install/tier4_rtc_msgs/lib/libtier4_rtc_msgs__rosidl_generator_py.so" to ""
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_generator_cExport.cmake
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_generator_cExport-release.cmake
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[14.926s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_cExport.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_cExport-release.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_generator_cppExport.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.927s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[14.928s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_cppExport.cmake
+[14.928s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/tier4_rtc_msgs__rosidl_typesupport_cppExport-release.cmake
+[14.928s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_generator_pyExport.cmake
+[14.928s] -- Installing: /autoware/install/tier4_rtc_msgs/share/tier4_rtc_msgs/cmake/export_tier4_rtc_msgs__rosidl_generator_pyExport-release.cmake
+[14.939s] Invoked command in '/autoware/build/tier4_rtc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /autoware/build/tier4_rtc_msgs

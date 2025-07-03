@@ -1,0 +1,76 @@
+[0.012s] Invoking command in '/autoware/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/external_velocity_limit_selector
+[0.079s] -- The C compiler identification is GNU 11.3.0
+[0.143s] -- The CXX compiler identification is GNU 11.3.0
+[0.152s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.341s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.512s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.742s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.742s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.742s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.823s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.825s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.013s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.560s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.577s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.579s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.579s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector/include
+[1.579s] -- Configured cppcheck exclude dirs and/or files: 
+[1.580s] -- Added test 'lint_cmake' to check CMake code style
+[1.580s] -- Added test 'xmllint' to check XML markup files
+[1.583s] -- Configuring done
+[1.597s] -- Generating done
+[1.599s] -- Build files have been written to: /autoware/build/external_velocity_limit_selector
+[1.607s] Invoked command in '/autoware/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/planning/external_velocity_limit_selector -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/external_velocity_limit_selector
+[1.608s] Invoking command in '/autoware/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/external_velocity_limit_selector -- -j64 -l64
+[1.645s] [ 25%] Building CXX object CMakeFiles/external_velocity_limit_selector_node.dir/src/external_velocity_limit_selector_node.cpp.o
+[1.645s] [ 50%] Building CXX object CMakeFiles/external_velocity_limit_selector.dir/rclcpp_components/node_main_external_velocity_limit_selector.cpp.o
+[5.398s] [ 75%] Linking CXX executable external_velocity_limit_selector
+[5.513s] [ 75%] Built target external_velocity_limit_selector
+[18.745s] [100%] Linking CXX shared library libexternal_velocity_limit_selector_node.so
+[18.923s] [100%] Built target external_velocity_limit_selector_node
+[18.923s] Invoked command in '/autoware/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/external_velocity_limit_selector -- -j64 -l64
+[18.944s] Invoking command in '/autoware/build/external_velocity_limit_selector': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/external_velocity_limit_selector
+[18.954s] -- Install configuration: "Release"
+[18.956s] -- Execute custom install script
+[18.956s] -- Symlinking: /autoware/install/external_velocity_limit_selector/lib/external_velocity_limit_selector/external_velocity_limit_selector
+[18.972s] -- Symlinking: /autoware/install/external_velocity_limit_selector/include/external_velocity_limit_selector/external_velocity_limit_selector_node.hpp
+[18.984s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/library_path.sh
+[18.997s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/library_path.dsv
+[19.007s] -- Symlinking: /autoware/install/external_velocity_limit_selector/lib/libexternal_velocity_limit_selector_node.so
+[19.015s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/launch/external_velocity_limit_selector.launch.xml
+[19.026s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/config/default.param.yaml
+[19.034s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/config/default_common.param.yaml
+[19.045s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/ament_index/resource_index/package_run_dependencies/external_velocity_limit_selector
+[19.052s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/ament_index/resource_index/parent_prefix_path/external_velocity_limit_selector
+[19.059s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/ament_prefix_path.sh
+[19.066s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/ament_prefix_path.dsv
+[19.074s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/path.sh
+[19.081s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/environment/path.dsv
+[19.088s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.bash
+[19.095s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.sh
+[19.102s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.zsh
+[19.109s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/local_setup.dsv
+[19.160s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/package.dsv
+[19.161s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/ament_index/resource_index/packages/external_velocity_limit_selector
+[19.161s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/ament_index/resource_index/rclcpp_components/external_velocity_limit_selector
+[19.161s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.161s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.163s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/ament_cmake_export_libraries-extras.cmake
+[19.163s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/external_velocity_limit_selectorConfig.cmake
+[19.163s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/cmake/external_velocity_limit_selectorConfig-version.cmake
+[19.171s] -- Symlinking: /autoware/install/external_velocity_limit_selector/share/external_velocity_limit_selector/package.xml
+[19.185s] Invoked command in '/autoware/build/external_velocity_limit_selector' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_planning_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/external_velocity_limit_selector

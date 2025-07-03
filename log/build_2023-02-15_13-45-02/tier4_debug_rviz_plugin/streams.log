@@ -1,0 +1,112 @@
+[0.013s] Invoking command in '/autoware/build/tier4_debug_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_debug_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_debug_rviz_plugin
+[0.060s] -- The C compiler identification is GNU 11.3.0
+[0.104s] -- The CXX compiler identification is GNU 11.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.272s] -- Found autoware_cmake: 0.1.0 (/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.700s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.700s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.702s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.802s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.940s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.212s] -- Found OGRE
+[1.212s] --   static     : OFF
+[1.212s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.212s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.213s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.213s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.213s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.213s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.213s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.213s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.213s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.213s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.213s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.213s] -- Could not find freeimage library
+[1.229s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.232s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.298s] -- Found X11: /usr/include   
+[1.298s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.355s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.355s] -- Looking for gethostbyname
+[1.414s] -- Looking for gethostbyname - found
+[1.414s] -- Looking for connect
+[1.468s] -- Looking for connect - found
+[1.468s] -- Looking for remove
+[1.522s] -- Looking for remove - found
+[1.522s] -- Looking for shmat
+[1.577s] -- Looking for shmat - found
+[1.577s] -- Looking for IceConnectionNumber in ICE
+[1.655s] -- Looking for IceConnectionNumber in ICE - found
+[1.655s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[1.655s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[1.733s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.922s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.923s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.896s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.914s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.915s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.916s] -- Configured cppcheck include dirs: /autoware/src/universe/autoware.universe/common/tier4_debug_rviz_plugin/include
+[2.916s] -- Configured cppcheck exclude dirs and/or files: 
+[2.916s] -- Added test 'lint_cmake' to check CMake code style
+[2.917s] -- Added test 'xmllint' to check XML markup files
+[2.920s] -- Configuring done
+[2.977s] -- Generating done
+[2.980s] -- Build files have been written to: /autoware/build/tier4_debug_rviz_plugin
+[2.993s] Invoked command in '/autoware/build/tier4_debug_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /autoware/src/universe/autoware.universe/common/tier4_debug_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/autoware/install/tier4_debug_rviz_plugin
+[2.994s] Invoking command in '/autoware/build/tier4_debug_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_debug_rviz_plugin -- -j64 -l64
+[3.033s] [ 20%] Automatic MOC for target tier4_debug_rviz_plugin
+[3.410s] [ 20%] Built target tier4_debug_rviz_plugin_autogen
+[3.425s] [ 40%] Building CXX object CMakeFiles/tier4_debug_rviz_plugin.dir/src/float32_multi_array_stamped_pie_chart.cpp.o
+[3.426s] [ 60%] Building CXX object CMakeFiles/tier4_debug_rviz_plugin.dir/src/jsk_overlay_utils.cpp.o
+[3.426s] [ 80%] Building CXX object CMakeFiles/tier4_debug_rviz_plugin.dir/tier4_debug_rviz_plugin_autogen/mocs_compilation.cpp.o
+[19.326s] [100%] Linking CXX shared library libtier4_debug_rviz_plugin.so
+[20.715s] [100%] Built target tier4_debug_rviz_plugin
+[20.728s] Invoked command in '/autoware/build/tier4_debug_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /autoware/build/tier4_debug_rviz_plugin -- -j64 -l64
+[20.752s] Invoking command in '/autoware/build/tier4_debug_rviz_plugin': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_debug_rviz_plugin
+[20.759s] -- Install configuration: "Release"
+[20.759s] -- Execute custom install script
+[20.760s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/plugins/plugin_description.xml
+[20.766s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/include/tier4_debug_rviz_plugin/float32_multi_array_stamped_pie_chart.hpp
+[20.772s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/include/tier4_debug_rviz_plugin/jsk_overlay_utils.hpp
+[20.778s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/library_path.sh
+[20.784s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/library_path.dsv
+[20.791s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/lib/libtier4_debug_rviz_plugin.so
+[20.797s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/icons/classes/Float32MultiArrayStampedPieChart.png
+[20.803s] -- Up-to-date symlink: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/plugins/plugin_description.xml
+[20.804s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/tier4_debug_rviz_plugin
+[20.810s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/tier4_debug_rviz_plugin
+[20.816s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/ament_prefix_path.sh
+[20.822s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/ament_prefix_path.dsv
+[20.832s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/path.sh
+[20.844s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/environment/path.dsv
+[20.855s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/local_setup.bash
+[20.866s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/local_setup.sh
+[20.877s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/local_setup.zsh
+[20.888s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/local_setup.dsv
+[20.899s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/package.dsv
+[20.908s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/ament_index/resource_index/packages/tier4_debug_rviz_plugin
+[20.916s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/tier4_debug_rviz_plugin
+[20.923s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.930s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.938s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[20.945s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/cmake/tier4_debug_rviz_pluginConfig.cmake
+[20.951s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/cmake/tier4_debug_rviz_pluginConfig-version.cmake
+[20.960s] -- Symlinking: /autoware/install/tier4_debug_rviz_plugin/share/tier4_debug_rviz_plugin/package.xml
+[20.981s] Invoked command in '/autoware/build/tier4_debug_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/autoware/install/autoware_cmake:/autoware/install/tier4_debug_msgs:/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/autoware/install/tier4_debug_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /autoware/build/tier4_debug_rviz_plugin
